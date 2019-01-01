@@ -19,7 +19,7 @@
 			<align>center</align>
 			<aligny>center</aligny>
 			<font>Light28</font>
-			<label>-</label>
+			<label></label>
 			<textcolor>-</textcolor>
 			<focusedcolor>-</focusedcolor>
 			<disabledcolor>-</disabledcolor>
@@ -35,7 +35,7 @@
 			<posy>-16</posy>
 			<width>4</width>
 			<height>4</height>
-			<label>-</label>
+			<label></label>
 			<font>-</font>
 			<onfocus>down</onfocus>
 			<texturefocus>-</texturefocus>

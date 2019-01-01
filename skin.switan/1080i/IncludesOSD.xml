@@ -1564,7 +1564,7 @@
 				<include>animation_fade_visible_hidden</include>
 				<width>60</width>
 				<height>60</height>
-				<label>-</label>
+				<label></label>
 				<font/>
 				<texturefocus>osd/classic/ChannelFO.png</texturefocus>
 				<texturenofocus>osd/classic/ChannelNF.png</texturenofocus>
@@ -1577,7 +1577,7 @@
 				<include>animation_fade_visible_hidden</include>
 				<width>60</width>
 				<height>60</height>
-				<label>-</label>
+				<label></label>
 				<font/>
 				<texturefocus>osd/classic/RecordOffFO.png</texturefocus>
 				<texturenofocus>osd/classic/RecordOffNF.png</texturenofocus>
@@ -1593,7 +1593,7 @@
 				<include>animation_fade_visible_hidden</include>
 				<width>60</width>
 				<height>60</height>
-				<label>-</label>
+				<label></label>
 				<font/>
 				<texturefocus>osd/classic/ChannelFO.png</texturefocus>
 				<texturenofocus>osd/classic/ChannelNF.png</texturenofocus>
@@ -1605,7 +1605,7 @@
 				<include>animation_fade_visible_hidden</include>
 				<width>60</width>
 				<height>60</height>
-				<label>-</label>
+				<label></label>
 				<font/>
 				<texturefocus>osd/classic/epgFO.png</texturefocus>
 				<texturenofocus>osd/classic/epgNF.png</texturenofocus>
@@ -1617,7 +1617,7 @@
 				<include>animation_fade_visible_hidden</include>
 				<width>60</width>
 				<height>60</height>
-				<label>-</label>
+				<label></label>
 				<font/>
 				<texturefocus>osd/classic/InfoFO.png</texturefocus>
 				<texturenofocus>osd/classic/InfoNF.png</texturenofocus>
@@ -1629,7 +1629,7 @@
 				<include>animation_fade_visible_hidden</include>
 				<width>60</width>
 				<height>60</height>
-				<label>-</label>
+				<label></label>
 				<font/>
 				<texturefocus>osd/classic/StereoscopicFO.png</texturefocus>
 				<texturenofocus>osd/classic/StereoscopicNF.png</texturenofocus>
@@ -1641,7 +1641,7 @@
 				<include>animation_fade_visible_hidden</include>
 				<width>60</width>
 				<height>60</height>
-				<label>-</label>
+				<label></label>
 				<font/>
 				<texturefocus>osd/classic/InfoFO.png</texturefocus>
 				<texturenofocus>osd/classic/InfoNF.png</texturenofocus>

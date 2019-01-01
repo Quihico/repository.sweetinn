@@ -1,7 +1,7 @@
 # Kodi Media Center language file
-# Addon Name: Switan
-# Addon id: skin.switan
-# Addon Provider: InnKeeper
+# Addon Name: Titan
+# Addon id: skin.titan
+# Addon Provider: marcelveldt,mgonzales
 msgid ""
 msgstr ""
 "Project-Id-Version: KODI Skins\n"
@@ -85,8 +85,8 @@ msgid "Use default skin background"
 msgstr "Использовать тему фона по умолчанию"
 
 msgctxt "#31024"
-msgid "Use original Mediaportal's Switan skin background"
-msgstr "Использовать оригинальную тему фона Switan"
+msgid "Use original Mediaportal's Titan skin background"
+msgstr "Использовать оригинальную тему фона Titan"
 
 msgctxt "#31025"
 msgid "Use dynamic weather background"
@@ -109,16 +109,16 @@ msgid "Do not show footer bar"
 msgstr "Не отображать нижнюю панель"
 
 msgctxt "#31031"
-msgid "Switan tiles (2 rows of large tiles)"
-msgstr "Switan - Плитки (2 строки больших плиток)"
+msgid "Titan tiles (2 rows of large tiles)"
+msgstr "Titan - Плитки (2 строки больших плиток)"
 
 msgctxt "#31032"
-msgid "Switan tiles (3 rows of large tiles)"
-msgstr "Switan - Плитки (3 строки больших плиток)"
+msgid "Titan tiles (3 rows of large tiles)"
+msgstr "Titan - Плитки (3 строки больших плиток)"
 
 msgctxt "#31033"
-msgid "Switan tiles (1 row of large tiles)"
-msgstr "Switan - Плитки (1 строка больших плиток)"
+msgid "Titan tiles (1 row of large tiles)"
+msgstr "Titan - Плитки (1 строка больших плиток)"
 
 msgctxt "#31034"
 msgid "items total"
@@ -1037,8 +1037,8 @@ msgid "An error has occured while restoring the backup"
 msgstr "Произошла ошибка во время восстановления!"
 
 msgctxt "#31282"
-msgid "Select Switan skin backup file"
-msgstr "Выбор файла резервной копии обложки Switan"
+msgid "Select Titan skin backup file"
+msgstr "Выбор файла резервной копии обложки Titan"
 
 msgctxt "#31283"
 msgid "Select a folder to create the backupfile"
@@ -1137,8 +1137,8 @@ msgid "Close"
 msgstr "Закрыть"
 
 msgctxt "#31309"
-msgid "Switan tiles"
-msgstr "Плитки Switan"
+msgid "Titan tiles"
+msgstr "Плитки Titan"
 
 msgctxt "#31310"
 msgid "Number of rows with tiles"
@@ -1313,8 +1313,8 @@ msgid "[B]CONFIGURE SYSTEM SETTINGS[/B][CR][CR]Setup and calibrate displays · C
 msgstr "[B]НАСТРОЙКА СИСТЕМЫ[/B][CR][CR]Настройка и калибровка дисплеев · Конфигурация вывода аудио · Настройка удаленного контроля · Выбор настроек сохранения энергии · Включение отладки"
 
 msgctxt "#31407"
-msgid "[B]CONFIGURE SKIN SETTINGS[/B][CR][CR]Setup the Switan skin · Add and remove home menu items · Change skin backgrounds"
-msgstr "[B]НАСТРОЙКА ОБЛОЖКИ[/B][CR][CR]Установки обложки Switan · Добавление и удаление элементов главного меню · Изменение фона обложки"
+msgid "[B]CONFIGURE SKIN SETTINGS[/B][CR][CR]Setup the Titan skin · Add and remove home menu items · Change skin backgrounds"
+msgstr "[B]НАСТРОЙКА ОБЛОЖКИ[/B][CR][CR]Установки обложки Titan · Добавление и удаление элементов главного меню · Изменение фона обложки"
 
 msgctxt "#31408"
 msgid "[B]CONFIGURE ADD-ONS[/B][CR][CR]Manage your installed Add-ons · Browse for and install Add-ons from kodi.tv · Modify Add-on settings"

@@ -1,7 +1,7 @@
 # Kodi Media Center language file
-# Addon Name: Switan
-# Addon id: skin.switan
-# Addon Provider: InnKeeper
+# Addon Name: Titan
+# Addon id: skin.titan
+# Addon Provider: marcelveldt,mgonzales
 msgid ""
 msgstr ""
 "Project-Id-Version: KODI Skins\n"
@@ -77,8 +77,8 @@ msgid "Use default skin background"
 msgstr "Usar o fundo padrão da skin"
 
 msgctxt "#31024"
-msgid "Use original Mediaportal's Switan skin background"
-msgstr "Usar o fundo padrão da skin Switan do Mediaportal"
+msgid "Use original Mediaportal's Titan skin background"
+msgstr "Usar o fundo padrão da skin Titan do Mediaportal"
 
 msgctxt "#31025"
 msgid "Use dynamic weather background"
@@ -101,16 +101,16 @@ msgid "Do not show footer bar"
 msgstr "Não mostrar barra inferior"
 
 msgctxt "#31031"
-msgid "Switan tiles (2 rows of large tiles)"
-msgstr "Blocos Switan (2 linhas de blocos grandes)"
+msgid "Titan tiles (2 rows of large tiles)"
+msgstr "Blocos Titan (2 linhas de blocos grandes)"
 
 msgctxt "#31032"
-msgid "Switan tiles (3 rows of large tiles)"
-msgstr "Blocos Switan (3 linhas de blocos grandes)"
+msgid "Titan tiles (3 rows of large tiles)"
+msgstr "Blocos Titan (3 linhas de blocos grandes)"
 
 msgctxt "#31033"
-msgid "Switan tiles (1 row of large tiles)"
-msgstr "Blocos Switan (1 linha de blocos grandes)"
+msgid "Titan tiles (1 row of large tiles)"
+msgstr "Blocos Titan (1 linha de blocos grandes)"
 
 msgctxt "#31034"
 msgid "items total"
@@ -985,8 +985,8 @@ msgid "An error has occured while restoring the backup"
 msgstr "Ocorreu um erro durante a restauração do backup"
 
 msgctxt "#31282"
-msgid "Select Switan skin backup file"
-msgstr "Selecione o arquivo de backup da skin Switan"
+msgid "Select Titan skin backup file"
+msgstr "Selecione o arquivo de backup da skin Titan"
 
 msgctxt "#31283"
 msgid "Select a folder to create the backupfile"

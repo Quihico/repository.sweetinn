@@ -7,9 +7,9 @@
 			<height>390</height>
 			<centertop>50%</centertop>
 			<centerleft>50%</centerleft>
-			<width>915</width>
+			<width>1200</width>
 			<include content="DialogBackgroundCommons">
-				<param name="width" value="915" />
+				<param name="width" value="1200" />
 				<param name="height" value="380" />
 				<param name="header_label" value="" />
 				<param name="header_id" value="1" />
@@ -17,23 +17,23 @@
 			<control type="textbox" id="9">
 				<left>30</left>
 				<top>82</top>
-				<width>855</width>
+				<right>30</right>
 				<height>165</height>
-				<label></label>
+				<label/>
 				<autoscroll time="3000" delay="4000" repeat="5000">true</autoscroll>
 			</control>
 			<control type="progress" id="20">
-				<left>45</left>
-				<top>252</top>
-				<width>825</width>
-				<height>24</height>
+				<left>30</left>
+				<top>260</top>
+				<right>30</right>
+				<height>22</height>
 				<info>System.Progressbar</info>
 			</control>
 			<control type="grouplist" id="9000">
 				<orientation>horizontal</orientation>
 				<left>0</left>
 				<top>280</top>
-				<width>915</width>
+				<width>1200</width>
 				<align>center</align>
 				<include content="DefaultDialogButton">
 					<param name="id" value="11" />

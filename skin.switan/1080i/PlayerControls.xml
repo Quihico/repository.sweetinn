@@ -52,7 +52,7 @@
 					<top>0</top>
 					<width>60</width>
 					<height>60</height>
-					<label>-</label>
+					<label></label>
 					<texturefocus>player-controls/OSDPrevTrackFO.png</texturefocus>
 					<texturenofocus>player-controls/OSDPrevTrackNF.png</texturenofocus>
 					<onleft>609</onleft>
@@ -67,7 +67,7 @@
 					<top>0</top>
 					<width>60</width>
 					<height>60</height>
-					<label>-</label>
+					<label></label>
 					<texturefocus>player-controls/OSDRewindFO.png</texturefocus>
 					<texturenofocus>player-controls/OSDRewindNF.png</texturenofocus>
 					<onleft>600</onleft>
@@ -82,7 +82,7 @@
 					<top>0</top>
 					<width>60</width>
 					<height>60</height>
-					<label>-</label>
+					<label></label>
 					<texturefocus>player-controls/OSDPauseFO.png</texturefocus>
 					<texturenofocus>player-controls/OSDPauseNF.png</texturenofocus>
 					<usealttexture>Player.Paused | Player.Forwarding | Player.Rewinding</usealttexture>
@@ -100,7 +100,7 @@
 					<top>0</top>
 					<width>60</width>
 					<height>60</height>
-					<label>-</label>
+					<label></label>
 					<texturefocus>player-controls/OSDStopFO.png</texturefocus>
 					<texturenofocus>player-controls/OSDStopNF.png</texturenofocus>
 					<onleft>603</onleft>
@@ -116,7 +116,7 @@
 					<top>0</top>
 					<width>60</width>
 					<height>60</height>
-					<label>-</label>
+					<label></label>
 					<texturefocus>player-controls/OSDForwardFO.png</texturefocus>
 					<texturenofocus>player-controls/OSDForwardNF.png</texturenofocus>
 					<onleft>602</onleft>
@@ -131,7 +131,7 @@
 					<top>0</top>
 					<width>60</width>
 					<height>60</height>
-					<label>-</label>
+					<label></label>
 					<texturefocus>player-controls/OSDNextTrackFO.png</texturefocus>
 					<texturenofocus>player-controls/OSDNextTrackNF.png</texturenofocus>
 					<onleft>604</onleft>
@@ -146,7 +146,7 @@
 					<top>0</top>
 					<width>60</width>
 					<height>60</height>
-					<label>-</label>
+					<label></label>
 					<texturefocus>player-controls/OSDRecordOffFO.png</texturefocus>
 					<texturenofocus>player-controls/OSDRecordOffNF.png</texturenofocus>
 					<onleft>605</onleft>
@@ -165,7 +165,7 @@
 						<top>0</top>
 						<width>60</width>
 						<height>60</height>
-						<label>-</label>
+						<label></label>
 						<texturefocus>player-controls/-</texturefocus>
 						<texturenofocus>player-controls/-</texturenofocus>
 						<onclick>PlayerControl(Repeat)</onclick>
@@ -240,7 +240,7 @@
 						<top>0</top>
 						<width>60</width>
 						<height>60</height>
-						<label>-</label>
+						<label></label>
 						<texturefocus>player-controls/OSDRandomOffFO.png</texturefocus>
 						<texturenofocus>player-controls/OSDRandomOffNF.png</texturenofocus>
 						<usealttexture>Playlist.IsRandom</usealttexture>
@@ -290,7 +290,7 @@
 					<top>0</top>
 					<width>60</width>
 					<height>60</height>
-					<label>-</label>
+					<label></label>
 					<texturefocus>player-controls/OSDRewindFO.png</texturefocus>
 					<texturenofocus>player-controls/OSDRewindNF.png</texturenofocus>
 					<onleft>706</onleft>
@@ -307,7 +307,7 @@
 					<top>0</top>
 					<width>60</width>
 					<height>60</height>
-					<label>-</label>
+					<label></label>
 					<texturefocus>player-controls/OSDStopFO.png</texturefocus>
 					<texturenofocus>player-controls/OSDStopNF.png</texturenofocus>
 					<onleft>701</onleft>
@@ -323,7 +323,7 @@
 					<top>0</top>
 					<width>60</width>
 					<height>60</height>
-					<label>-</label>
+					<label></label>
 					<texturefocus>player-controls/OSDPauseFO.png</texturefocus>
 					<texturenofocus>player-controls/OSDPauseNF.png</texturenofocus>
 					<usealttexture>Player.Paused | Player.Forwarding | Player.Rewinding</usealttexture>
@@ -344,7 +344,7 @@
 					<top>0</top>
 					<width>60</width>
 					<height>60</height>
-					<label>-</label>
+					<label></label>
 					<texturefocus>player-controls/OSDForwardFO.png</texturefocus>
 					<texturenofocus>player-controls/OSDForwardNF.png</texturenofocus>
 					<onleft>703</onleft>
@@ -361,7 +361,7 @@
 					<top>0</top>
 					<width>60</width>
 					<height>60</height>
-					<label>-</label>
+					<label></label>
 					<texturefocus>player-controls/OSDChannelUPFO.png</texturefocus>
 					<texturenofocus>player-controls/OSDChannelUPNF.png</texturenofocus>
 					<onleft>704</onleft>
@@ -376,7 +376,7 @@
 					<top>0</top>
 					<width>60</width>
 					<height>60</height>
-					<label>-</label>
+					<label></label>
 					<texturefocus>player-controls/OSDChannelDownFO.png</texturefocus>
 					<texturenofocus>player-controls/OSDChannelDownNF.png</texturenofocus>
 					<onleft>700</onleft>
@@ -391,7 +391,7 @@
 					<top>0</top>
 					<width>60</width>
 					<height>60</height>
-					<label>-</label>
+					<label></label>
 					<texturefocus>player-controls/OSDRecordOffFO.png</texturefocus>
 					<texturenofocus>player-controls/OSDRecordOffNF.png</texturenofocus>
 					<onleft>705</onleft>
@@ -510,7 +510,7 @@
 				<top>12</top>
 				<width>96</width>
 				<height>48</height>
-				<label>-</label>
+				<label></label>
 				<font>-</font>
 				<onclick>back</onclick>
 				<texturefocus>player-controls/DialogCloseButton-focus.png</texturefocus>

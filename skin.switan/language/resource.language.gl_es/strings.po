@@ -1,7 +1,7 @@
 # Kodi Media Center language file
-# Addon Name: Switan
-# Addon id: skin.switan
-# Addon Provider: InnKeeper
+# Addon Name: Titan
+# Addon id: skin.titan
+# Addon Provider: marcelveldt,mgonzales
 msgid ""
 msgstr ""
 "Project-Id-Version: KODI Skins\n"
@@ -317,8 +317,8 @@ msgid "An error has occured while restoring the backup"
 msgstr "Produciuse un erro ao restaurar a copia de seguranza"
 
 msgctxt "#31282"
-msgid "Select Switan skin backup file"
-msgstr "Seleccionar o ficheiro da copia de seguranza do tema Switan"
+msgid "Select Titan skin backup file"
+msgstr "Seleccionar o ficheiro da copia de seguranza do tema Titan"
 
 msgctxt "#31283"
 msgid "Select a folder to create the backupfile"

@@ -326,7 +326,7 @@
                         <scroll>true</scroll>
                     </control>
                     <control type="button">
-                        <label>-</label>
+                        <label></label>
                         <visible>false</visible>
                         <onfocus>SetProperty(submenu,show,home)</onfocus>
                     </control>

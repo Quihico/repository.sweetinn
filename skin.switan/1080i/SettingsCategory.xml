@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!--Switan-->
+<!--Titan-->
 <window>
     <defaultcontrol always="true">3</defaultcontrol>
     <allowoverlay>no</allowoverlay>
@@ -152,8 +152,8 @@
 		 </control>
 		<!--Footer-->
         <include condition="!skin.hassetting(nofooterbar)">Footer</include>
-		<!--Switan Version-->
-        <include>SwitanVersion</include>
+		<!--Titan Version-->
+        <include>TitanVersion</include>
 		<include condition="Skin.HasSetting(DebugGrid) | Skin.HasSetting(DebugInfo)">DebugInfo</include>
     </controls>
 </window>

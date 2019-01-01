@@ -2,212 +2,259 @@
 <window>
 	<depth>DepthOSD</depth>
 	<defaultcontrol always="true">5550</defaultcontrol>
-	<animation effect="fade" start="0" end="100" time="300">WindowOpen</animation>
-	<animation effect="fade" start="100" end="0" time="200">WindowClose</animation>
+	<include>OpenClose_FadeSlide_Right</include>
 	<controls>
 		<control type="group">
 			<bottom>0</bottom>
-			<height>250</height>
-			<animation effect="slide" end="0,-20" time="150" condition="VideoPlayer.Content(LiveTV)">conditional</animation>
-			<control type="image">
-				<left>10</left>
-				<top>-240</top>
-				<right>10</right>
-				<height>370</height>
-				<texture border="40">buttons/dialogbutton-nofo.png</texture>
-			</control>
+			<height>400</height>
+			<animation effect="slide" end="0,-140" time="0" condition="Skin.HasSetting(ScopeMode) + String.IsEqual(Skin.String(scope_mode),$LOCALIZE[40276])">Conditional</animation>
+			<animation effect="slide" end="0,-135" time="0" condition="Skin.HasSetting(ScopeMode) + String.IsEqual(Skin.String(scope_mode),$LOCALIZE[40279])">Conditional</animation>
+			<animation effect="slide" end="0,-131.5" time="0" condition="Skin.HasSetting(ScopeMode) + String.IsEqual(Skin.String(scope_mode),$LOCALIZE[40275])">Conditional</animation>
+			<animation effect="slide" end="0,-21" time="0" condition="Skin.HasSetting(ScopeMode) + String.IsEqual(Skin.String(scope_mode),$LOCALIZE[40278])">Conditional</animation>
 			<control type="grouplist">
-				<left>52</left>
-				<top>-204</top>
+				<include content="ItemLeft" condition="![Skin.HasSetting(SmallOSDVideo) + Window.IsVisible(fullscreenvideo) + !Window.IsActive(fullscreeninfo)]">
+					<param name="left" value="460"/>
+				</include>
+				<include content="ItemLeft" condition="[Skin.HasSetting(SmallOSDVideo) + Window.IsVisible(fullscreenvideo) + !Window.IsActive(fullscreeninfo)]">
+					<param name="left" value="30"/>
+				</include>
+				<right>30</right>
+				<bottom>138</bottom>
+				<height>240</height>
 				<visible>Control.HasFocus(5551)</visible>
+				<animation effect="slide" end="0,-45" time="50" tween="sine" easing="out" condition="PVR.IsTimeShift + !Player.ChannelPreviewActive + ![Skin.HasSetting(SmallOSDVideo) + Window.IsVisible(fullscreenvideo) + !Window.IsActive(fullscreeninfo)]">Conditional</animation>
+				<animation effect="slide" end="0,-50" time="50" tween="sine" easing="out" condition="PVR.IsTimeShift + !Player.ChannelPreviewActive + [Skin.HasSetting(SmallOSDVideo) + Window.IsVisible(fullscreenvideo) + !Window.IsActive(fullscreeninfo)]">Conditional</animation>
 				<control type="label">
-					<width>1200</width>
+					<width>700</width>
 					<height>50</height>
 					<aligny>bottom</aligny>
-					<label>$INFO[PVR.ActStreamServiceName,[COLOR button_focus]$LOCALIZE[19099]:[/COLOR] ]</label>
-					<font>font14</font>
+					<label>$INFO[PVR.ActStreamServiceName,$LOCALIZE[19099] : [COLOR white],[/COLOR]]</label>
+					<font>font12</font>
 					<shadowcolor>black</shadowcolor>
+					<textcolor>$VAR[SkinColorVar]</textcolor>
 				</control>
 				<control type="label">
-					<width>1200</width>
+					<width>700</width>
 					<height>50</height>
 					<aligny>bottom</aligny>
-					<label>$INFO[PVR.ActStreamProviderName,[COLOR button_focus]$LOCALIZE[19101]:[/COLOR] ]</label>
-					<font>font14</font>
+					<label>$INFO[PVR.ActStreamProviderName,$LOCALIZE[19101] : [COLOR white],[/COLOR]]</label>
+					<font>font12</font>
 					<shadowcolor>black</shadowcolor>
+					<textcolor>$VAR[SkinColorVar]</textcolor>
 				</control>
 				<control type="label">
-					<width>1200</width>
+					<width>700</width>
 					<height>50</height>
 					<aligny>bottom</aligny>
-					<label>$INFO[PVR.ActStreamClient,[COLOR button_focus]$LOCALIZE[19012]:[/COLOR] ]</label>
-					<font>font14</font>
+					<label>$INFO[PVR.ActStreamClient,$LOCALIZE[19012] : [COLOR white],[/COLOR]]</label>
+					<font>font12</font>
 					<shadowcolor>black</shadowcolor>
+					<textcolor>$VAR[SkinColorVar]</textcolor>
 				</control>
 				<control type="label">
-					<width>1200</width>
+					<width>700</width>
 					<height>50</height>
 					<aligny>bottom</aligny>
-					<label>$INFO[PVR.ActStreamDevice,[COLOR button_focus]$LOCALIZE[19006]:[/COLOR] ]</label>
-					<font>font14</font>
+					<label>$INFO[PVR.ActStreamDevice,$LOCALIZE[19006] : [COLOR white],[/COLOR]]</label>
+					<font>font12</font>
 					<shadowcolor>black</shadowcolor>
+					<textcolor>$VAR[SkinColorVar]</textcolor>
 				</control>
 				<control type="label">
-					<width>1200</width>
+					<width>700</width>
 					<height>50</height>
 					<aligny>bottom</aligny>
-					<label>$INFO[PVR.ActStreamStatus,[COLOR button_focus]$LOCALIZE[19007]:[/COLOR] ]</label>
-					<font>font14</font>
+					<label>$INFO[PVR.ActStreamStatus,$LOCALIZE[19007] : [COLOR white],[/COLOR]]</label>
+					<font>font12</font>
 					<shadowcolor>black</shadowcolor>
+					<textcolor>$VAR[SkinColorVar]</textcolor>
 				</control>
 				<control type="label">
-					<width>1200</width>
+					<width>700</width>
 					<height>50</height>
 					<aligny>bottom</aligny>
-					<label>$INFO[PVR.ActStreamEncryptionName,[COLOR button_focus]$LOCALIZE[19015]:[/COLOR] ]</label>
-					<font>font14</font>
+					<label>$INFO[PVR.ActStreamEncryptionName,$LOCALIZE[19015] : [COLOR white],[/COLOR]]</label>
+					<font>font12</font>
 					<shadowcolor>black</shadowcolor>
+					<textcolor>$VAR[SkinColorVar]</textcolor>
 				</control>
 			</control>
 			<control type="grouplist">
-				<left>1250</left>
-				<top>-204</top>
+				<include content="ItemLeft" condition="![Skin.HasSetting(SmallOSDVideo) + Window.IsVisible(fullscreenvideo) + !Window.IsActive(fullscreeninfo)]">
+					<param name="left" value="1190"/>
+				</include>
+				<include content="ItemLeft" condition="[Skin.HasSetting(SmallOSDVideo) + Window.IsVisible(fullscreenvideo) + !Window.IsActive(fullscreeninfo)]">
+					<param name="left" value="760"/>
+				</include>
+				<left>1190</left>
+				<right>30</right>
+				<bottom>138</bottom>
+				<height>240</height>
 				<visible>Control.HasFocus(5551)</visible>
 				<usecontrolcoords>true</usecontrolcoords>
+				<animation effect="slide" end="0,-45" time="50" tween="sine" easing="out" condition="PVR.IsTimeShift + !Player.ChannelPreviewActive + ![Skin.HasSetting(SmallOSDVideo) + Window.IsVisible(fullscreenvideo) + !Window.IsActive(fullscreeninfo)]">Conditional</animation>
+				<animation effect="slide" end="0,-50" time="50" tween="sine" easing="out" condition="PVR.IsTimeShift + !Player.ChannelPreviewActive + [Skin.HasSetting(SmallOSDVideo) + Window.IsVisible(fullscreenvideo) + !Window.IsActive(fullscreeninfo)]">Conditional</animation>
 				<control type="label">
-					<width>600</width>
-					<height>50</height>
+					<width>700</width>
+					<height>40</height>
 					<aligny>bottom</aligny>
-					<label>$INFO[PVR.ActStreamBer,[COLOR button_focus]$LOCALIZE[19010]:[/COLOR] ]</label>
-					<font>font14</font>
+					<label>$INFO[PVR.ActStreamBer,$LOCALIZE[19010] : [COLOR white],[/COLOR]]</label>
+					<font>font12</font>
 					<shadowcolor>black</shadowcolor>
+					<textcolor>$VAR[SkinColorVar]</textcolor>
 				</control>
 				<control type="label">
-					<width>600</width>
-					<height>50</height>
+					<width>700</width>
+					<height>40</height>
 					<aligny>bottom</aligny>
-					<label>$INFO[PVR.ActStreamUnc,[COLOR button_focus]$LOCALIZE[19011]:[/COLOR] ]</label>
-					<font>font14</font>
+					<label>$INFO[PVR.ActStreamUnc,$LOCALIZE[19011] : [COLOR white],[/COLOR]]</label>
+					<font>font12</font>
 					<shadowcolor>black</shadowcolor>
+					<textcolor>$VAR[SkinColorVar]</textcolor>
 				</control>
 				<control type="label">
-					<width>600</width>
-					<height>50</height>
+					<width>700</width>
+					<height>40</height>
 					<aligny>bottom</aligny>
-					<label>$INFO[PVR.ActStreamMux,[COLOR button_focus]$LOCALIZE[19100]:[/COLOR] ]</label>
-					<font>font14</font>
+					<label>$INFO[PVR.ActStreamMux,$LOCALIZE[19100] : [COLOR white],[/COLOR]]</label>
+					<font>font12</font>
 					<shadowcolor>black</shadowcolor>
+					<textcolor>$VAR[SkinColorVar]</textcolor>
 				</control>
 				<control type="label">
-					<width>600</width>
-					<height>50</height>
+					<width>700</width>
+					<height>40</height>
 					<aligny>bottom</aligny>
-					<label>$INFO[PVR.ActStreamSignal,[COLOR button_focus]$LOCALIZE[19008]:[/COLOR] ]</label>
-					<font>font14</font>
+					<label>$INFO[PVR.ActStreamSignal,$LOCALIZE[19008] : [COLOR white],[/COLOR]]</label>
+					<font>font12</font>
 					<shadowcolor>black</shadowcolor>
+					<textcolor>$VAR[SkinColorVar]</textcolor>
 				</control>
 				<control type="progress">
 					<top>5</top>
-					<width>600</width>
-					<height>18</height>
+					<width>700</width>
+					<height>10</height>
 					<info>PVR.ActStreamProgrSignal</info>
 				</control>
 				<control type="label">
 					<top>5</top>
-					<width>1600</width>
-					<height>50</height>
+					<width>700</width>
+					<height>40</height>
 					<aligny>bottom</aligny>
-					<label>$INFO[PVR.ActStreamSNR,[COLOR button_focus]$LOCALIZE[19009]:[/COLOR] ]</label>
-					<font>font14</font>
+					<label>$INFO[PVR.ActStreamSNR,$LOCALIZE[19009] : [COLOR white],[/COLOR]]</label>
+					<font>font12</font>
 					<shadowcolor>black</shadowcolor>
+					<textcolor>$VAR[SkinColorVar]</textcolor>
 				</control>
 				<control type="progress">
 					<top>0</top>
-					<width>600</width>
-					<height>18</height>
+					<width>700</width>
+					<height>10</height>
 					<info>PVR.ActStreamProgrSNR</info>
 				</control>
 			</control>
 			<control type="grouplist">
-				<left>52</left>
-				<top>-204</top>
+				<include content="ItemLeft" condition="![Skin.HasSetting(SmallOSDVideo) + Window.IsVisible(fullscreenvideo) + !Window.IsActive(fullscreeninfo)]">
+					<param name="left" value="460"/>
+				</include>
+				<include content="ItemLeft" condition="[Skin.HasSetting(SmallOSDVideo) + Window.IsVisible(fullscreenvideo) + !Window.IsActive(fullscreeninfo)]">
+					<param name="left" value="30"/>
+				</include>
+				<right>30</right>
+				<bottom>138</bottom>
+				<height>240</height>
 				<visible>Control.HasFocus(5552)</visible>
+				<animation effect="slide" end="0,-45" time="50" tween="sine" easing="out" condition="PVR.IsTimeShift + !Player.ChannelPreviewActive + ![Skin.HasSetting(SmallOSDVideo) + Window.IsVisible(fullscreenvideo) + !Window.IsActive(fullscreeninfo)]">Conditional</animation>
+				<animation effect="slide" end="0,-50" time="50" tween="sine" easing="out" condition="PVR.IsTimeShift + !Player.ChannelPreviewActive + [Skin.HasSetting(SmallOSDVideo) + Window.IsVisible(fullscreenvideo) + !Window.IsActive(fullscreeninfo)]">Conditional</animation>
 				<control type="label">
-					<width>1600</width>
-					<height>50</height>
+					<height>40</height>
 					<aligny>bottom</aligny>
-					<label>$INFO[Player.Process(videodecoder),[COLOR button_focus]$LOCALIZE[31139]:[/COLOR] ]$VAR[VideoHWDecoder, (,)]</label>
-					<font>font14</font>
-					<shadowcolor>black</shadowcolor>
+					<label>$INFO[Player.Process(videodecoder),$LOCALIZE[31139] : [COLOR white],]$VAR[VideoHWDecoder, (,)[/COLOR]]</label>
+					<font>font12</font>
 					<visible>Player.HasVideo</visible>
+					<textcolor>$VAR[SkinColorVar]</textcolor>
 				</control>
 				<control type="label">
-					<width>1600</width>
-					<height>50</height>
+					<height>40</height>
 					<aligny>bottom</aligny>
-					<label>$INFO[Player.Process(pixformat),[COLOR button_focus]$LOCALIZE[31140]:[/COLOR] ]</label>
-					<font>font14</font>
-					<shadowcolor>black</shadowcolor>
+					<label>$INFO[Player.Process(pixformat),$LOCALIZE[31140] : [COLOR white],[/COLOR]]</label>
+					<font>font12</font>
 					<visible>Player.HasVideo</visible>
+					<textcolor>$VAR[SkinColorVar]</textcolor>
 				</control>
 				<control type="label">
-					<width>1600</width>
-					<height>50</height>
+					<height>40</height>
 					<aligny>bottom</aligny>
-					<label>$INFO[Player.Process(deintmethod),[COLOR button_focus]$LOCALIZE[16038]:[/COLOR] ]</label>
-					<font>font14</font>
-					<shadowcolor>black</shadowcolor>
+					<label>$INFO[Player.Process(deintmethod),$LOCALIZE[16038] : [COLOR white],[/COLOR]]</label>
+					<font>font12</font>
 					<visible>Player.HasVideo</visible>
+					<textcolor>$VAR[SkinColorVar]</textcolor>
 				</control>
 				<control type="label">
-					<width>1600</width>
-					<height>50</height>
+					<height>40</height>
 					<aligny>bottom</aligny>
-					<label>$INFO[Player.Process(videowidth),[COLOR button_focus]$LOCALIZE[38031]:[/COLOR] ,x]$INFO[Player.Process(videoheight),, px]$INFO[Player.Process(videodar),$COMMA , AR]$INFO[Player.Process(videofps),$COMMA , FPS]</label>
-					<font>font14</font>
-					<shadowcolor>black</shadowcolor>
+					<label>$INFO[Player.Process(videowidth),$LOCALIZE[38031] : [COLOR white],x]$INFO[Player.Process(videoheight),, px]$INFO[Player.Process(videodar),$COMMA , AR]$INFO[Player.Process(videofps),$COMMA , FPS][/COLOR]</label>
+					<font>font12</font>
 					<visible>Player.HasVideo</visible>
+					<textcolor>$VAR[SkinColorVar]</textcolor>
 				</control>
 				<control type="label">
-					<width>1600</width>
-					<height>50</height>
+					<height>40</height>
 					<aligny>bottom</aligny>
-					<label>[COLOR button_focus]$LOCALIZE[460]:[/COLOR] $INFO[Player.Process(audiochannels),,$COMMA ]$INFO[Player.Process(audiodecoder)]$INFO[Player.Process(audiobitspersample),$COMMA , bits]$INFO[Player.Process(audiosamplerate),$COMMA , Hz]</label>
-					<font>font14</font>
-					<shadowcolor>black</shadowcolor>
+					<label>$LOCALIZE[460] : [COLOR white]$INFO[Player.Process(audiochannels),,$COMMA ]$INFO[Player.Process(audiodecoder)]$INFO[Player.Process(audiobitspersample),$COMMA , bits]$INFO[Player.Process(audiosamplerate),$COMMA , Hz]$INFO[VideoPlayer.AudioBitrate,$COMMA , kb/s][/COLOR]</label>
+					<font>font12</font>
+					<textcolor>$VAR[SkinColorVar]</textcolor>
 				</control>
 				<control type="label">
-					<width>1600</width>
-					<height>50</height>
+					<height>40</height>
 					<aligny>bottom</aligny>
-					<label>$INFO[System.Memory(used.percent),[COLOR button_focus]$LOCALIZE[31030]:[/COLOR] ,       ]$INFO[System.CpuUsage,[COLOR button_focus]$LOCALIZE[13271][/COLOR] ]</label>
-					<font>font14</font>
-					<shadowcolor>black</shadowcolor>
+					<label>$INFO[System.Memory(used.percent),$LOCALIZE[31030]: [COLOR white],       [/COLOR]]$INFO[System.CpuUsage,$LOCALIZE[13271] [COLOR white],[/COLOR]]</label>
+					<font>font12</font>
+					<textcolor>$VAR[SkinColorVar]</textcolor>
 				</control>
 			</control>
+			<control type="button" id="800">
+				<left>-10000</left>
+				<width>10</width>
+				<height>1</height>
+				<onfocus>Action(Close)</onfocus>
+				<onfocus>ActivateWindow(videoosd)</onfocus>
+				<onfocus>SetFocus(70011)</onfocus>
+			</control>
 			<control type="grouplist" id="5550">
-				<right>15</right>
-				<top>-310</top>
+				<left>440</left>
+				<bottom>380</bottom>
 				<width>1000</width>
 				<height>100</height>
-				<align>right</align>
+				<align>left</align>
 				<orientation>horizontal</orientation>
-				<itemgap>-10</itemgap>
-				<onup>Close</onup>
-				<ondown>Close</ondown>
+				<itemgap>-20</itemgap>
+				<onup>SetFocus(800)</onup>
+				<ondown>SetFocus(800)</ondown>
 				<usecontrolcoords>true</usecontrolcoords>
-				<control type="button" id="5551">
-					<width>auto</width>
-					<height>100</height>
-					<textoffsetx>40</textoffsetx>
-					<label>$LOCALIZE[31137]</label>
-					<visible>VideoPlayer.Content(livetv)</visible>
-				</control>
+				<animation effect="slide" end="-430,0" time="0" condition="[Skin.HasSetting(SmallOSDVideo) + Window.IsVisible(fullscreenvideo) + !Window.IsActive(fullscreeninfo)]">Conditional</animation>
+				<animation effect="slide" end="0,-45" time="50" tween="sine" easing="out" condition="PVR.IsTimeShift + !Player.ChannelPreviewActive + ![Skin.HasSetting(SmallOSDVideo) + Window.IsVisible(fullscreenvideo) + !Window.IsActive(fullscreeninfo)]">Conditional</animation>
+				<animation effect="slide" end="0,-50" time="50" tween="sine" easing="out" condition="PVR.IsTimeShift + !Player.ChannelPreviewActive + [Skin.HasSetting(SmallOSDVideo) + Window.IsVisible(fullscreenvideo) + !Window.IsActive(fullscreeninfo)]">Conditional</animation>
 				<control type="button" id="5552">
 					<width>auto</width>
 					<height>100</height>
-					<textoffsetx>40</textoffsetx>
+					<textoffsetx>30</textoffsetx>
 					<label>$LOCALIZE[31138]</label>
+					<font>font25_title</font>
+					<onclick>SetFocus(800)</onclick>
+					<texturefocus border="40" colordiffuse="$VAR[SkinColorVar]">buttons/dialogbutton-fo.png</texturefocus>
+					<texturenofocus border="40">buttons/dialogbutton-nofo.png</texturenofocus>
+				</control>
+				<control type="button" id="5551">
+					<width>auto</width>
+					<height>100</height>
+					<textoffsetx>30</textoffsetx>
+					<label>$LOCALIZE[31137]</label>
+					<font>font25_title</font>
+					<onclick>SetFocus(800)</onclick>
+					<texturefocus border="40" colordiffuse="$VAR[SkinColorVar]">buttons/dialogbutton-fo.png</texturefocus>
+					<texturenofocus border="40">buttons/dialogbutton-nofo.png</texturenofocus>
+					<visible>VideoPlayer.Content(livetv)</visible>
 				</control>
 			</control>
 		</control>

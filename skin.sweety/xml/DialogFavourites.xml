@@ -1,58 +1,44 @@
 <?xml version="1.0" encoding="utf-8"?>
 <window>
 	<defaultcontrol always="true">450</defaultcontrol>
-	<include>Animation_DialogPopupOpenClose</include>
+	<backgroundcolor>background</backgroundcolor>
 	<controls>
+		<include>DefaultBackground</include>
 		<control type="group">
-			<centertop>50%</centertop>
-			<centerleft>50%</centerleft>
-			<width>1540</width>
-			<height>858</height>
-			<include content="DialogBackgroundCommons">
-				<param name="width" value="1540" />
-				<param name="height" value="858" />
-				<param name="header_label" value="$LOCALIZE[1036]" />
-				<param name="header_id" value="2" />
-			</include>
-			<include content="UpDownArrows">
-				<param name="container_id" value="450" />
-				<param name="posx" value="746" />
-				<param name="up_posy" value="-40" />
-				<param name="down_posy" value="876" />
-			</include>
-			<control type="scrollbar" id="60">
-				<right>0</right>
-				<top>70</top>
-				<width>12</width>
-				<bottom>0</bottom>
-				<onleft>450</onleft>
-				<onright>450</onright>
-				<orientation>vertical</orientation>
-			</control>
+			<include>OpenClose_Right</include>
+			<left>50</left>
+			<top>0</top>
+			<include>Visible_Right</include>
 			<control type="panel" id="450">
-				<left>10</left>
-				<top>70</top>
-				<width>1600</width>
-				<bottom>0</bottom>
-				<onleft>60</onleft>
-				<onright>60</onright>
+				<left>0</left>
+				<top>0</top>
+				<width>98%</width>
+				<height>100%</height>
+				<onright>531</onright>
 				<onup>450</onup>
 				<ondown>450</ondown>
+				<viewtype label="31102">icon</viewtype>
 				<preloaditems>2</preloaditems>
-				<pagecontrol>60</pagecontrol>
-				<scrolltime tween="sine">200</scrolltime>
-				<orientation>vertical</orientation>
-				<itemlayout width="300" height="380">
+				<pagecontrol>531</pagecontrol>
+				<scrolltime tween="cubic" easing="out">500</scrolltime>
+				<animation effect="slide" end="22,0" time="0" condition="String.IsEqual(Skin.AspectRatio,21:9)">Conditional</animation>
+				<itemlayout height="400" width="300">
 					<control type="group">
-						<top>10</top>
+						<top>150</top>
 						<include content="InfoWallMusicLayout">
 							<param name="fallback_image" value="DefaultFavourites.png" />
+							<param name="focused" value="false" />
 						</include>
 					</control>
 				</itemlayout>
-				<focusedlayout width="300">
+				<focusedlayout height="400" width="300">
 					<control type="group">
-						<top>10</top>
+						<depth>DepthContentPopout</depth>
+						<top>150</top>
+						<animation type="Focus" condition="!Skin.HasSetting(no_animations)" reversible="false">
+							<effect type="zoom" end="110" time="75" tween="sine" easing="out" center="auto" />
+							<effect type="zoom" end="91" time="225" tween="sine" delay="100" easing="out" center="auto" />
+						</animation>
 						<include content="InfoWallMusicLayout">
 							<param name="fallback_image" value="DefaultFavourites.png" />
 							<param name="focused" value="true" />
@@ -60,16 +46,45 @@
 					</control>
 				</focusedlayout>
 			</control>
-			<control type="textbox">
-				<left>300</left>
-				<top>90</top>
-				<width>900</width>
+		</control>
+		<control type="textbox">
+			<left>50</left>
+			<top>50</top>
+			<right>50</right>
+			<bottom>50</bottom>
+			<aligny>center</aligny>
+			<align>center</align>
+			<label>$LOCALIZE[31025]</label>
+			<font>font45_title</font>
+			<visible>Integer.IsEqual(Container(450).NumItems,0)</visible>
+		</control>
+		<include content="TopBar">
+			<param name="breadcrumbs_label" value="$LOCALIZE[1036]" />
+		</include>
+		<include content="BottomBar">
+			<param name="info_visible" value="true" />
+		</include>
+		<control type="group">
+			<animation effect="fade" start="100" end="0" time="150">WindowClose</animation>
+			<animation effect="fade" start="0" end="100" delay="300" time="320">WindowOpen</animation>
+			<control type="group">
+				<right>0</right>
+				<top>0</top>
+				<width>60</width>
 				<bottom>0</bottom>
-				<aligny>center</aligny>
-				<align>center</align>
-				<label>$LOCALIZE[31025]</label>
-				<font>font45_title</font>
-				<visible>Integer.IsEqual(Container(450).NumItems,0)</visible>
+				<control type="scrollbar" id="531">
+					<right>0</right>
+					<top>0</top>
+					<bottom>0</bottom>
+					<width>13</width>
+					<onleft>450</onleft>
+					<orientation>vertical</orientation>
+					<texturesliderbackground />
+					<animation effect="fade" start="0" end="100" time="200" delay="300">Visible</animation>
+					<animation effect="fade" start="100" end="0" time="200">Hidden</animation>
+					<animation effect="slide" end="6,0" time="300" tween="sine" easing="inout" condition="!Control.HasFocus(531)">conditional</animation>
+					<hitrect x="-20" y="0" w="80" bottom="0r" />
+				</control>
 			</control>
 		</control>
 	</controls>

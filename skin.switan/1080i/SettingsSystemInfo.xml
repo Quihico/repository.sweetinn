@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!--Switan-->
+<!--Titan-->
 <window>
     <defaultcontrol always="true">9000</defaultcontrol>
     <allowoverlay>no</allowoverlay>
@@ -234,7 +234,7 @@
     
 		<!--Footer-->
         <include condition="!skin.hassetting(nofooterbar)">Footer</include>
-		<!--Switan Version-->
-        <include>SwitanVersion</include>
+		<!--Titan Version-->
+        <include>TitanVersion</include>
 	</controls>
 </window>

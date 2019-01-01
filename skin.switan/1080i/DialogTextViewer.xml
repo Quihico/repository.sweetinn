@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!--Switan-->
+<!--Titan-->
 <window>
     <defaultcontrol>7</defaultcontrol>
     <controls>
@@ -39,7 +39,7 @@
                 <posx>473</posx>
                 <posy>170</posy>
                 <width>974</width>
-                <label>-</label>
+                <label></label>
                 <include>DialogHeader</include>
                 <align>center</align>
             </control>
@@ -60,7 +60,7 @@
                 <posy>275</posy>
                 <width>930</width>
                 <height>530</height>
-                <label>-</label>
+                <label></label>
                 <include condition="!Skin.HasTheme(classic)">DialogLabel</include>
                 <include condition="Skin.HasTheme(classic)">DialogLabel</include>
                 <align>left</align>

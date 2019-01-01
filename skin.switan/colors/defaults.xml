@@ -1,4 +1,4 @@
-<!--Switan-->
+<!--Titan-->
 <colors>
 
 	<!-- All others -->
@@ -25,7 +25,7 @@
 	<color name="invalid">FFFF0000</color>
 	
 	<!--Global-->
-	<!--Switan 00b8ff-->
+	<!--Titan 00b8ff-->
 	<!--Avalon 6aa5cb-->
 	<color name="mainblue">FF00b8ff</color>			<!--Main Blue-->	
 	<color name="ccmainblue">cc00b8ff</color>		<!--Main Blue-->		

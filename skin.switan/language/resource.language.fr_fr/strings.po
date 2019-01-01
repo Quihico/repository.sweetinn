@@ -1,7 +1,7 @@
 # Kodi Media Center language file
-# Addon Name: Switan
-# Addon id: skin.switan
-# Addon Provider: InnKeeper
+# Addon Name: Titan
+# Addon id: skin.titan
+# Addon Provider: marcelveldt,mgonzales
 msgid ""
 msgstr ""
 "Project-Id-Version: KODI Skins\n"
@@ -85,8 +85,8 @@ msgid "Use default skin background"
 msgstr "Utiliser l'arrière-plan d'habillage prédéfini"
 
 msgctxt "#31024"
-msgid "Use original Mediaportal's Switan skin background"
-msgstr "Utiliser l'arrière-plan d'habillage Switan de Mediaportal"
+msgid "Use original Mediaportal's Titan skin background"
+msgstr "Utiliser l'arrière-plan d'habillage Titan de Mediaportal"
 
 msgctxt "#31025"
 msgid "Use dynamic weather background"
@@ -113,16 +113,16 @@ msgid "Display weather"
 msgstr "Afficher la météo"
 
 msgctxt "#31031"
-msgid "Switan tiles (2 rows of large tiles)"
-msgstr "Tuiles Switan (2 rangées de grandes tuiles)"
+msgid "Titan tiles (2 rows of large tiles)"
+msgstr "Tuiles Titan (2 rangées de grandes tuiles)"
 
 msgctxt "#31032"
-msgid "Switan tiles (3 rows of large tiles)"
-msgstr "Tuiles Switan (3 rangées de grandes tuiles)"
+msgid "Titan tiles (3 rows of large tiles)"
+msgstr "Tuiles Titan (3 rangées de grandes tuiles)"
 
 msgctxt "#31033"
-msgid "Switan tiles (1 row of large tiles)"
-msgstr "Tuiles Switan (1 rangée de grandes tuiles)"
+msgid "Titan tiles (1 row of large tiles)"
+msgstr "Tuiles Titan (1 rangée de grandes tuiles)"
 
 msgctxt "#31034"
 msgid "items total"
@@ -1085,8 +1085,8 @@ msgid "An error has occured while restoring the backup"
 msgstr "Une erreur est survenue lors de la restauration de la sauvegarde"
 
 msgctxt "#31282"
-msgid "Select Switan skin backup file"
-msgstr "Sélectionner le fichier de sauvegarde de l'habillage Switan"
+msgid "Select Titan skin backup file"
+msgstr "Sélectionner le fichier de sauvegarde de l'habillage Titan"
 
 msgctxt "#31283"
 msgid "Select a folder to create the backupfile"
@@ -1329,8 +1329,8 @@ msgid "[B]CONFIGURE WEATHER SETTINGS[/B][CR][CR]Set three cities to collect weat
 msgstr "[B]CONFIGURATION DES PARAMÈTRES MÉTÉO[/B][CR][CR]Choisir trois villes pour lesquelles recueillir les informations météorologiques"
 
 msgctxt "#31407"
-msgid "[B]CONFIGURE SKIN SETTINGS[/B][CR][CR]Setup the Switan skin · Add and remove home menu items · Change skin backgrounds"
-msgstr "[B]CONFIGURATION DES PARAMÈTRES D'HABILLAGE[/B][CR][CR]Configurer l'habillage Switan · Ajouter et supprimer des éléments du menu d'accueil · Modifier les arrière-plans de l'habillage"
+msgid "[B]CONFIGURE SKIN SETTINGS[/B][CR][CR]Setup the Titan skin · Add and remove home menu items · Change skin backgrounds"
+msgstr "[B]CONFIGURATION DES PARAMÈTRES D'HABILLAGE[/B][CR][CR]Configurer l'habillage Titan · Ajouter et supprimer des éléments du menu d'accueil · Modifier les arrière-plans de l'habillage"
 
 msgctxt "#31422"
 msgid "Panel details"

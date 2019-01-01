@@ -4,32 +4,20 @@
 	<backgroundcolor>background</backgroundcolor>
 	<controls>
 		<include>DefaultBackground</include>
-		<control type="multiimage">
-			<depth>DepthBackground</depth>
-			<include>FullScreenDimensions</include>
-			<aspectratio>scale</aspectratio>
-			<fadetime>600</fadetime>
-			<animation effect="zoom" center="auto" end="102,102" time="0" condition="Integer.IsGreater(System.StereoscopicMode,0)">conditional</animation>
-			<animation effect="fade" start="0" end="100" time="400">WindowOpen</animation>
-			<animation effect="fade" start="100" end="0" time="300">WindowClose</animation>
-			<animation effect="fade" time="400">VisibleChange</animation>
-			<imagepath background="true" colordiffuse="bg_overlay">$INFO[Skin.String(HomeFanart.path)]settings$INFO[Skin.String(HomeFanart.ext)]</imagepath>
-			<visible>!Player.HasMedia + !String.IsEmpty(Skin.String(HomeFanart.path))</visible>
-		</control>
 		<control type="group" id="9100">
 			<include>OpenClose_Right</include>
-			<left>472</left>
+			<left>470</left>
 			<control type="image">
 				<top>160</top>
 				<right>0</right>
-				<height>3</height>
-				<texture colordiffuse="button_focus" border="2">dialogs/separator-grey.png</texture>
+				<height>2</height>
+				<texture colordiffuse="$VAR[SkinColorVar]" border="2">dialogs/separator-grey.png</texture>
 			</control>
 			<control type="image">
 				<bottom>134</bottom>
 				<right>0</right>
-				<height>3</height>
-				<texture colordiffuse="button_focus" border="2">dialogs/separator-grey.png</texture>
+				<height>2</height>
+				<texture colordiffuse="$VAR[SkinColorVar]" border="2">dialogs/separator-grey.png</texture>
 			</control>
 			<control type="panel" id="2">
 				<top>163</top>
@@ -38,9 +26,10 @@
 				<right>0</right>
 				<bottom>137</bottom>
 				<onleft>9000</onleft>
-				<onright>9000</onright>
+				<onright>60</onright>
 				<onup>2</onup>
 				<ondown>2</ondown>
+				<pagecontrol>60</pagecontrol>
 				<scrolltime>200</scrolltime>
 				<itemlayout height="390" width="354">
 					<control type="image">
@@ -76,7 +65,7 @@
 						<font>font10</font>
 						<align>center</align>
 						<aligny>top</aligny>
-						<label>$LOCALIZE[31029]:</label>
+						<label>$LOCALIZE[31029] :</label>
 						<visible>!String.IsEqual(Listitem.Label,$LOCALIZE[20058])</visible>
 					</control>
 					<control type="label">
@@ -93,8 +82,10 @@
 				</itemlayout>
 				<focusedlayout height="390" width="354">
 					<control type="group">
-						<animation effect="zoom" start="100" end="105" time="200" tween="sine" easing="inout" center="160,190">Focus</animation>
-						<animation effect="zoom" start="105" end="100" time="200" tween="sine" easing="inout" center="160,190">UnFocus</animation>
+						<animation type="Focus" condition="!Skin.HasSetting(no_animations)" reversible="false">
+            				<effect type="zoom" end="110" time="75" tween="sine" easing="out" center="auto" />
+            				<effect type="zoom" end="91" time="225" tween="sine" delay="100" easing="out" center="auto" />
+       					 </animation>
 						<control type="image">
 							<top>5</top>
 							<width>320</width>
@@ -104,12 +95,13 @@
 							<bordersize>20</bordersize>
 						</control>
 						<control type="image">
-							<top>5</top>
-							<width>320</width>
-							<height>380</height>
-							<texture colordiffuse="button_focus">colors/grey.png</texture>
+							<top>-1</top>
+							<left>-6</left>
+							<width>332</width>
+							<height>392</height>
+							<texture colordiffuse="$VAR[SkinColorVar]">colors/grey.png</texture>
+							<bordertexture border="21">overlays/shadow.png</bordertexture>
 							<bordersize>20</bordersize>
-							<include>Animation_FocusTextureFade</include>
 						</control>
 						<control type="image">
 							<left>51</left>
@@ -136,7 +128,7 @@
 							<font>font10</font>
 							<align>center</align>
 							<aligny>top</aligny>
-							<label>$LOCALIZE[31029]:</label>
+							<label>$LOCALIZE[31029] :</label>
 							<visible>!String.Contains(Listitem.Label,$LOCALIZE[20058])</visible>
 						</control>
 						<control type="label">
@@ -156,8 +148,8 @@
 			<control type="grouplist" id="9001">
 				<visible>Container(9000).Hasfocus(1)</visible>
 				<right>0</right>
-				<height>735</height>
-				<top>163</top>
+				<top>168</top>
+				<bottom>142</bottom>
 				<onleft>9000</onleft>
 				<onright>9000</onright>
 				<onup>9001</onup>
@@ -182,29 +174,29 @@
 			</include>
 			<control type="list" id="9000">
 				<left>0</left>
-				<top>160</top>
+				<top>168</top>
 				<width>470</width>
-				<height>567</height>
+				<height>700</height>
 				<onleft>9100</onleft>
 				<onright>9100</onright>
 				<onup>9000</onup>
 				<ondown>9000</ondown>
 				<scrolltime>300</scrolltime>
-				<itemlayout height="90" width="470">
+				<itemlayout height="70" width="470">
 					<control type="label">
 						<left>30</left>
 						<right>30</right>
 						<bottom>0</bottom>
 						<label>$INFO[ListItem.Label]</label>
-						<font>font37</font>
+						<font>font30_title</font>
 						<aligny>center</aligny>
 					</control>
 				</itemlayout>
-				<focusedlayout height="90" width="470">
+				<focusedlayout height="70" width="470">
 					<control type="image">
 						<right>0</right>
 						<bottom>0</bottom>
-						<texture colordiffuse="button_focus">lists/focus.png</texture>
+						<texture colordiffuse="$VAR[SkinColorVar]">lists/focus.png</texture>
 						<animation effect="fade" start="100" end="50" time="40" condition="!Control.HasFocus(9000)">Conditional</animation>
 					</control>
 					<control type="label">
@@ -212,22 +204,42 @@
 						<right>30</right>
 						<bottom>0</bottom>
 						<label>$INFO[ListItem.Label]</label>
-						<font>font37</font>
+						<font>font30_title</font>
 						<aligny>center</aligny>
 					</control>
 				</focusedlayout>
 				<content>
 					<item id="1">
 						<label>$LOCALIZE[128]</label>
-						<onclick>noop</onclick>
 						<icon></icon>
 					</item>
 					<item id="2">
 						<label>$LOCALIZE[13200]</label>
-						<onclick>noop</onclick>
 						<icon></icon>
 					</item>
 				</content>
+			</control>
+		</control>
+		<control type="group">
+			<right>0</right>
+			<top>163</top>
+			<bottom>137</bottom>
+			<width>60</width>
+			<control type="scrollbar" id="60">
+				<right>0</right>
+				<top>0</top>
+				<bottom>0</bottom>
+				<width>12</width>
+				<orientation>vertical</orientation>
+				<texturesliderbackground />
+				<animation effect="slide" end="6,0" time="300" tween="sine" easing="inout" condition="!Control.HasFocus(60)">Conditional</animation>
+				<onleft condition="Container(9000).HasFocus(2)">2</onleft>
+				<animation effect="fade" start="0" end="100" time="200" delay="300">Visible</animation>
+				<animation effect="fade" start="100" end="0" time="200">Hidden</animation>
+				<animation effect="fade" start="0" end="100" delay="300" time="320">WindowOpen</animation>
+				<animation effect="fade" start="100" end="0" time="150">WindowClose</animation>
+				<hitrect x="0" y="0" w="60" h="100%" />
+				<visible>Container(9000).Hasfocus(2)</visible>
 			</control>
 		</control>
 		<include content="TopBar">

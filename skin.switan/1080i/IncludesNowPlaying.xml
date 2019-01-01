@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!--Switan-->
+<!--Titan-->
 <includes>
     <!--NowPlayingMusic-->
     <include name="NowPlayingMusicClassic">
@@ -297,7 +297,7 @@
 				<align>center</align>
 				<aligny>center</aligny>
 				<font>Light28</font>
-				<label>-</label>
+				<label></label>
 				<textcolor>-</textcolor>
 				<focusedcolor>-</focusedcolor>
 				<disabledcolor>-</disabledcolor>

@@ -58,7 +58,7 @@
 			<control type="label" id="1">
 				<posx>15</posx>
 				<description>Heading</description>
-				<label>-</label>
+				<label></label>
 				<width>1000</width>
 				<font>Bold55</font>
 			</control>
@@ -69,7 +69,7 @@
 				<posy>80</posy>
 				<width>1000</width>
 				<height>120</height>
-				<label>-</label>
+				<label></label>
 				<font>Reg30</font>
 			</control>
 			

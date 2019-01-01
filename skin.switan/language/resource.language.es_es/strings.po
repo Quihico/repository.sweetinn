@@ -1,7 +1,7 @@
 # Kodi Media Center language file
-# Addon Name: Switan
-# Addon id: skin.switan
-# Addon Provider: InnKeeper
+# Addon Name: Titan
+# Addon id: skin.titan
+# Addon Provider: marcelveldt,mgonzales
 msgid ""
 msgstr ""
 "Project-Id-Version: KODI Skins\n"
@@ -85,8 +85,8 @@ msgid "Use default skin background"
 msgstr "Usar fondo de defecto de la Skin"
 
 msgctxt "#31024"
-msgid "Use original Mediaportal's Switan skin background"
-msgstr "Utilizar el fondo del skin original Switan de MediaPortal"
+msgid "Use original Mediaportal's Titan skin background"
+msgstr "Utilizar el fondo del skin original Titan de MediaPortal"
 
 msgctxt "#31025"
 msgid "Use dynamic weather background"
@@ -113,16 +113,16 @@ msgid "Display weather"
 msgstr "Mostrar clima"
 
 msgctxt "#31031"
-msgid "Switan tiles (2 rows of large tiles)"
-msgstr "Mosaicos Switan (2 filas de mosaicos grandes)"
+msgid "Titan tiles (2 rows of large tiles)"
+msgstr "Mosaicos Titan (2 filas de mosaicos grandes)"
 
 msgctxt "#31032"
-msgid "Switan tiles (3 rows of large tiles)"
-msgstr "Mosaicos Switan (3 filas de mosaicos grandes)"
+msgid "Titan tiles (3 rows of large tiles)"
+msgstr "Mosaicos Titan (3 filas de mosaicos grandes)"
 
 msgctxt "#31033"
-msgid "Switan tiles (1 row of large tiles)"
-msgstr "Mosaicos Switan (1 fila de mosaicos grandes)"
+msgid "Titan tiles (1 row of large tiles)"
+msgstr "Mosaicos Titan (1 fila de mosaicos grandes)"
 
 msgctxt "#31034"
 msgid "items total"
@@ -1109,8 +1109,8 @@ msgid "An error has occured while restoring the backup"
 msgstr "Ha ocurrido un error al restaurar el respaldo"
 
 msgctxt "#31282"
-msgid "Select Switan skin backup file"
-msgstr "Seleccione el archivo de respaldo de skin Switan"
+msgid "Select Titan skin backup file"
+msgstr "Seleccione el archivo de respaldo de skin Titan"
 
 msgctxt "#31283"
 msgid "Select a folder to create the backupfile"
@@ -1217,8 +1217,8 @@ msgid "Close"
 msgstr "Cerrar"
 
 msgctxt "#31309"
-msgid "Switan tiles"
-msgstr "Mosaicos Switan"
+msgid "Titan tiles"
+msgstr "Mosaicos Titan"
 
 msgctxt "#31310"
 msgid "Number of rows with tiles"
@@ -1397,8 +1397,8 @@ msgid "[B]CONFIGURE SYSTEM SETTINGS[/B][CR][CR]Setup and calibrate displays · C
 msgstr "[B]CONFIGURAR AJUSTES DE SISTEMA[/B][CR][CR]Configurar y calibrar pantallas · Configurar salida de audio · Configurar controles remoto · Establecer opciones de conservar energía · Activar debugging · Configurar candado maestro"
 
 msgctxt "#31407"
-msgid "[B]CONFIGURE SKIN SETTINGS[/B][CR][CR]Setup the Switan skin · Add and remove home menu items · Change skin backgrounds"
-msgstr "[B]CONFIGURAR AJUSTES DE SKIN[/B][CR][CR]Configurar el skin Switan · Añadir y remover ítems de menú inicial · Cambiar fondos del skin"
+msgid "[B]CONFIGURE SKIN SETTINGS[/B][CR][CR]Setup the Titan skin · Add and remove home menu items · Change skin backgrounds"
+msgstr "[B]CONFIGURAR AJUSTES DE SKIN[/B][CR][CR]Configurar el skin Titan · Añadir y remover ítems de menú inicial · Cambiar fondos del skin"
 
 msgctxt "#31408"
 msgid "[B]CONFIGURE ADD-ONS[/B][CR][CR]Manage your installed Add-ons · Browse for and install Add-ons from kodi.tv · Modify Add-on settings"
@@ -2253,16 +2253,16 @@ msgid "Display tags/labels for episodes on posters"
 msgstr "Mostrar etiquetas para los carteles de episodios"
 
 msgctxt "#31649"
-msgid "Switan tiles (1 row of small tiles)"
-msgstr "Mosiacos Switan (fila única de mosaicos pequeños)"
+msgid "Titan tiles (1 row of small tiles)"
+msgstr "Mosiacos Titan (fila única de mosaicos pequeños)"
 
 msgctxt "#31650"
-msgid "Switan tiles (2 rows of small tiles)"
-msgstr "Mosaicos Switan (2 filas de mosaicos pequeños)"
+msgid "Titan tiles (2 rows of small tiles)"
+msgstr "Mosaicos Titan (2 filas de mosaicos pequeños)"
 
 msgctxt "#31651"
-msgid "Switan tiles (3 rows of small tiles)"
-msgstr "Mosaicos Switan (3 filas de mosaicos pequeños)"
+msgid "Titan tiles (3 rows of small tiles)"
+msgstr "Mosaicos Titan (3 filas de mosaicos pequeños)"
 
 msgctxt "#31652"
 msgid "Prefer ClearArt images over landscape images"

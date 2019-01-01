@@ -1,7 +1,7 @@
 # Kodi Media Center language file
-# Addon Name: Switan
-# Addon id: skin.switan
-# Addon Provider: InnKeeper
+# Addon Name: Titan
+# Addon id: skin.titan
+# Addon Provider: marcelveldt,mgonzales
 msgid ""
 msgstr ""
 "Project-Id-Version: KODI Skins\n"
@@ -85,8 +85,8 @@ msgid "Use default skin background"
 msgstr "Käytä ulkoasun oletustaustaa"
 
 msgctxt "#31024"
-msgid "Use original Mediaportal's Switan skin background"
-msgstr "Käytä MediaPortalin Switan-ulkoasun alkuperäistä taustaa"
+msgid "Use original Mediaportal's Titan skin background"
+msgstr "Käytä MediaPortalin Titan-ulkoasun alkuperäistä taustaa"
 
 msgctxt "#31025"
 msgid "Use dynamic weather background"
@@ -113,16 +113,16 @@ msgid "Display weather"
 msgstr "Näytä säätila"
 
 msgctxt "#31031"
-msgid "Switan tiles (2 rows of large tiles)"
-msgstr "Switanin tiilet (isot tiilet, 2 riviä)"
+msgid "Titan tiles (2 rows of large tiles)"
+msgstr "Titanin tiilet (isot tiilet, 2 riviä)"
 
 msgctxt "#31032"
-msgid "Switan tiles (3 rows of large tiles)"
-msgstr "Switanin tiilet (isot tiilet, 3 riviä)"
+msgid "Titan tiles (3 rows of large tiles)"
+msgstr "Titanin tiilet (isot tiilet, 3 riviä)"
 
 msgctxt "#31033"
-msgid "Switan tiles (1 row of large tiles)"
-msgstr "Switanin tiilet (isot tiilet, 1 rivi)"
+msgid "Titan tiles (1 row of large tiles)"
+msgstr "Titanin tiilet (isot tiilet, 1 rivi)"
 
 msgctxt "#31034"
 msgid "items total"
@@ -1109,7 +1109,7 @@ msgid "An error has occured while restoring the backup"
 msgstr "Varmuuskopion palautuksessa tapahtui virhe"
 
 msgctxt "#31282"
-msgid "Select Switan skin backup file"
+msgid "Select Titan skin backup file"
 msgstr "Valitse varmuuskopion tiedosto"
 
 msgctxt "#31283"
@@ -1217,8 +1217,8 @@ msgid "Close"
 msgstr "Sulje"
 
 msgctxt "#31309"
-msgid "Switan tiles"
-msgstr "Switanin tiilet"
+msgid "Titan tiles"
+msgstr "Titanin tiilet"
 
 msgctxt "#31310"
 msgid "Number of rows with tiles"
@@ -1397,8 +1397,8 @@ msgid "[B]CONFIGURE SYSTEM SETTINGS[/B][CR][CR]Setup and calibrate displays · C
 msgstr "[B]MUOKKAA JÄRJESTELMÄASETUKSIA[/B][CR][CR]Aseta ja kalibroi näyttö · Määritä äänilähtö · Aseta kauko-ohjaus · Aseta virransäästöasetukset · Ota virhelokin kirjoitus käyttöön · Aseta pääkäyttäjän lukitus"
 
 msgctxt "#31407"
-msgid "[B]CONFIGURE SKIN SETTINGS[/B][CR][CR]Setup the Switan skin · Add and remove home menu items · Change skin backgrounds"
-msgstr "[B]MUOKKAA ULKOASUN ASETUKSIA[/B][CR][CR]Muokkaa Switan-ulkoasun asetuksia · Lisää ja poista päävalikon kohteita · Vaihda ulkoasun taustakuvia"
+msgid "[B]CONFIGURE SKIN SETTINGS[/B][CR][CR]Setup the Titan skin · Add and remove home menu items · Change skin backgrounds"
+msgstr "[B]MUOKKAA ULKOASUN ASETUKSIA[/B][CR][CR]Muokkaa Titan-ulkoasun asetuksia · Lisää ja poista päävalikon kohteita · Vaihda ulkoasun taustakuvia"
 
 msgctxt "#31408"
 msgid "[B]CONFIGURE ADD-ONS[/B][CR][CR]Manage your installed Add-ons · Browse for and install Add-ons from kodi.tv · Modify Add-on settings"
@@ -2245,16 +2245,16 @@ msgid "Allow override of global background on per-shortcut base"
 msgstr "Korvaa globaali taustakuva valikkokohtaisesti"
 
 msgctxt "#31649"
-msgid "Switan tiles (1 row of small tiles)"
-msgstr "Switanin tiilet (pienet tiilet, 1 rivi)"
+msgid "Titan tiles (1 row of small tiles)"
+msgstr "Titanin tiilet (pienet tiilet, 1 rivi)"
 
 msgctxt "#31650"
-msgid "Switan tiles (2 rows of small tiles)"
-msgstr "Switanin tiilet (pienet tiilet, 2 riviä)"
+msgid "Titan tiles (2 rows of small tiles)"
+msgstr "Titanin tiilet (pienet tiilet, 2 riviä)"
 
 msgctxt "#31651"
-msgid "Switan tiles (3 rows of small tiles)"
-msgstr "Switanin tiilet (pienet tiilet, 3 riviä)"
+msgid "Titan tiles (3 rows of small tiles)"
+msgstr "Titanin tiilet (pienet tiilet, 3 riviä)"
 
 msgctxt "#31652"
 msgid "Prefer ClearArt images over landscape images"

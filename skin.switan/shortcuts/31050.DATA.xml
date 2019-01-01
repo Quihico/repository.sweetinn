@@ -34,7 +34,7 @@
 		<defaultID>135</defaultID>
 		<icon>$INFO[Window(Home).Property(SkinHelper.InProgressMoviesBackground)]</icon>
 		<thumb />
-		<visible>Skin.HasSetting(IsSwitanSkin)</visible>
+		<visible>Skin.HasSetting(IsTitanSkin)</visible>
 		<action>ActivateWindow(10025,special://skin/extras/widgetplaylists/inprogressmovies.xsp)</action>
 	</shortcut>
 	<!-- unwatched movies -->
@@ -44,7 +44,7 @@
 		<defaultID>135</defaultID>
 		<icon>$INFO[Window(Home).Property(SkinHelper.UnwatchedMoviesBackground)]</icon>
 		<thumb />
-		<visible>Skin.HasSetting(IsSwitanSkin)</visible>
+		<visible>Skin.HasSetting(IsTitanSkin)</visible>
 		<action>ActivateWindow(10025,special://skin/extras/widgetplaylists/unwatchedmovies.xsp)</action>
 	</shortcut>
 </shortcuts>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<addon id="skin.switan" version="0.0.1" name="Switan" provider-name="InnKeeper">
+<addon id="skin.switan" version="0.0.2" name="Switan" provider-name="InnKeeper">
 	<requires>
-		<import version="5.13.0" addon="xbmc.gui"/>
+		<import version="5.14.0" addon="xbmc.gui"/>
 		<import addon="script.skinshortcuts" version="0.6.5"/>
 		<import addon="script.skin.helper.service" version="1.0.0"/>
 		<import addon="script.skin.helper.widgets" version="1.0.0"/>

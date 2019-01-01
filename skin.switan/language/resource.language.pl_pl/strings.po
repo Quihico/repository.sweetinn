@@ -1,7 +1,7 @@
 # Kodi Media Center language file
-# Addon Name: Switan
-# Addon id: skin.switan
-# Addon Provider: InnKeeper
+# Addon Name: Titan
+# Addon id: skin.titan
+# Addon Provider: marcelveldt,mgonzales
 msgid ""
 msgstr ""
 "Project-Id-Version: KODI Skins\n"
@@ -85,8 +85,8 @@ msgid "Use default skin background"
 msgstr "Używaj domyślnego tła"
 
 msgctxt "#31024"
-msgid "Use original Mediaportal's Switan skin background"
-msgstr "Używaj oryginalnego tła skóry Switan"
+msgid "Use original Mediaportal's Titan skin background"
+msgstr "Używaj oryginalnego tła skóry Titan"
 
 msgctxt "#31025"
 msgid "Use dynamic weather background"
@@ -113,15 +113,15 @@ msgid "Display weather"
 msgstr "Wyświetlaj pogodę"
 
 msgctxt "#31031"
-msgid "Switan tiles (2 rows of large tiles)"
+msgid "Titan tiles (2 rows of large tiles)"
 msgstr "Kafelki (2 wiersze dużych kafelków)"
 
 msgctxt "#31032"
-msgid "Switan tiles (3 rows of large tiles)"
+msgid "Titan tiles (3 rows of large tiles)"
 msgstr "Kafelki (3 wiersze dużych kafelków)"
 
 msgctxt "#31033"
-msgid "Switan tiles (1 row of large tiles)"
+msgid "Titan tiles (1 row of large tiles)"
 msgstr "Kafelki (1 wiersz dużych kafelków)"
 
 msgctxt "#31034"
@@ -1101,7 +1101,7 @@ msgid "An error has occured while restoring the backup"
 msgstr "Wystąpił nieoczekiwany błąd podczas przywracania kopii zapasowej"
 
 msgctxt "#31282"
-msgid "Select Switan skin backup file"
+msgid "Select Titan skin backup file"
 msgstr "Wybierz plik kopii zapasowej"
 
 msgctxt "#31283"
@@ -1209,7 +1209,7 @@ msgid "Close"
 msgstr "Zamknij"
 
 msgctxt "#31309"
-msgid "Switan tiles"
+msgid "Titan tiles"
 msgstr "Kafelki"
 
 msgctxt "#31310"
@@ -1385,7 +1385,7 @@ msgid "[B]CONFIGURE SYSTEM SETTINGS[/B][CR][CR]Setup and calibrate displays · C
 msgstr "[B]KONFIGURACJA SYSTEMU[/B][CR][CR]Wyświetlanie obrazu · Odtwarzanie dźwięku · Urządzenia wejściowe · Oszczędzanie energii · Dodatki · Diagnostyka"
 
 msgctxt "#31407"
-msgid "[B]CONFIGURE SKIN SETTINGS[/B][CR][CR]Setup the Switan skin · Add and remove home menu items · Change skin backgrounds"
+msgid "[B]CONFIGURE SKIN SETTINGS[/B][CR][CR]Setup the Titan skin · Add and remove home menu items · Change skin backgrounds"
 msgstr "[B]KONFIGURACJA SKÓRY[/B][CR][CR]Ustawienia skóry · Personalizacja menu startowego · Wybór obrazów tła skóry"
 
 msgctxt "#31408"
@@ -1574,7 +1574,7 @@ msgstr "Wybierz motyw koloru"
 
 msgctxt "#31464"
 msgid "This skin allows you to customize almost every color in the skin manually. You can also choose to save your customizations to a color theme or use one of the predefined color themes."
-msgstr "Skóra Switan umożliwia dostosowanie koloru niemal każdego elementu interfejsu użytkownika. Możliwe jest także zapisanie tych dostosowań jako motywu kolorów oraz wybór jednego z predefiniowanych motywów."
+msgstr "Skóra Titan umożliwia dostosowanie koloru niemal każdego elementu interfejsu użytkownika. Możliwe jest także zapisanie tych dostosowań jako motywu kolorów oraz wybór jednego z predefiniowanych motywów."
 
 msgctxt "#31465"
 msgid "Save my color customizations to a color theme preset."
@@ -2221,15 +2221,15 @@ msgid "Allow override of global background on per-shortcut base"
 msgstr "Zezwalaj na zmianę globalnego tła dla każdego skrótu z osobna"
 
 msgctxt "#31649"
-msgid "Switan tiles (1 row of small tiles)"
+msgid "Titan tiles (1 row of small tiles)"
 msgstr "Kafelki (1 wiersz małych kafelków)"
 
 msgctxt "#31650"
-msgid "Switan tiles (2 rows of small tiles)"
+msgid "Titan tiles (2 rows of small tiles)"
 msgstr "Kafelki (2 wiersze małych kafelków)"
 
 msgctxt "#31651"
-msgid "Switan tiles (3 rows of small tiles)"
+msgid "Titan tiles (3 rows of small tiles)"
 msgstr "Kafelki (3 wiersze małych kafelków)"
 
 msgctxt "#31652"

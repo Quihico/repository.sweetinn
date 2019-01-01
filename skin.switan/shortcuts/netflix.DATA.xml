@@ -2,7 +2,7 @@
 <shortcuts>
 	<item>
 		<defaultID>31018</defaultID>
-		<label>$SKIN[31018|skin.switan|Netflix]</label>
+		<label>$SKIN[31018|skin.titan|Netflix]</label>
 		<label2>netflix</label2>
 		<icon>resource://resource.images.skinicons.wide/netflix.png</icon>
 		<thumb />

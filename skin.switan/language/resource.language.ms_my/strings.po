@@ -1,7 +1,7 @@
 # Kodi Media Center language file
-# Addon Name: Switan
-# Addon id: skin.switan
-# Addon Provider: InnKeeper
+# Addon Name: Titan
+# Addon id: skin.titan
+# Addon Provider: marcelveldt,mgonzales
 msgid ""
 msgstr ""
 "Project-Id-Version: KODI Skins\n"
@@ -85,8 +85,8 @@ msgid "Use default skin background"
 msgstr "Guna latar belakang kulit lalai"
 
 msgctxt "#31024"
-msgid "Use original Mediaportal's Switan skin background"
-msgstr "Guna latar belakang kulit Switan Mediaprotal yang asal"
+msgid "Use original Mediaportal's Titan skin background"
+msgstr "Guna latar belakang kulit Titan Mediaprotal yang asal"
 
 msgctxt "#31025"
 msgid "Use dynamic weather background"
@@ -113,16 +113,16 @@ msgid "Display weather"
 msgstr "Papar cuaca"
 
 msgctxt "#31031"
-msgid "Switan tiles (2 rows of large tiles)"
-msgstr "Jubin Switan (2 baris jubin besar)"
+msgid "Titan tiles (2 rows of large tiles)"
+msgstr "Jubin Titan (2 baris jubin besar)"
 
 msgctxt "#31032"
-msgid "Switan tiles (3 rows of large tiles)"
-msgstr "Jubin Switan (3 baris jubin besar)"
+msgid "Titan tiles (3 rows of large tiles)"
+msgstr "Jubin Titan (3 baris jubin besar)"
 
 msgctxt "#31033"
-msgid "Switan tiles (1 row of large tiles)"
-msgstr "Jubin Switan (1 baris jubin besar)"
+msgid "Titan tiles (1 row of large tiles)"
+msgstr "Jubin Titan (1 baris jubin besar)"
 
 msgctxt "#31034"
 msgid "items total"
@@ -1109,8 +1109,8 @@ msgid "An error has occured while restoring the backup"
 msgstr "Satu ralat berlaku ketika memulihkan sandar"
 
 msgctxt "#31282"
-msgid "Select Switan skin backup file"
-msgstr "Pilih fail sandar kulit Switan"
+msgid "Select Titan skin backup file"
+msgstr "Pilih fail sandar kulit Titan"
 
 msgctxt "#31283"
 msgid "Select a folder to create the backupfile"
@@ -1217,7 +1217,7 @@ msgid "Close"
 msgstr "Tutup"
 
 msgctxt "#31309"
-msgid "Switan tiles"
+msgid "Titan tiles"
 msgstr "Jubin titan"
 
 msgctxt "#31310"
@@ -1397,8 +1397,8 @@ msgid "[B]CONFIGURE SYSTEM SETTINGS[/B][CR][CR]Setup and calibrate displays · C
 msgstr "[B]KONFIGUR TETAPAN SISTEM[/B][CR][CR]Sedia dan tentukur paparan · Konfigur output audio · Persediaan kawalan jauh · Tetapkan pilihan penjimatan kuasa · Benarkan penyahpepijatan · Persediaan kunci master"
 
 msgctxt "#31407"
-msgid "[B]CONFIGURE SKIN SETTINGS[/B][CR][CR]Setup the Switan skin · Add and remove home menu items · Change skin backgrounds"
-msgstr "[B]KONFIGUR TETAPAN KULIT[/B][CR][CR]Pasang kulit Switan · Tambah dan buang item menu rumah ·  Ubah latar belakang kulit"
+msgid "[B]CONFIGURE SKIN SETTINGS[/B][CR][CR]Setup the Titan skin · Add and remove home menu items · Change skin backgrounds"
+msgstr "[B]KONFIGUR TETAPAN KULIT[/B][CR][CR]Pasang kulit Titan · Tambah dan buang item menu rumah ·  Ubah latar belakang kulit"
 
 msgctxt "#31408"
 msgid "[B]CONFIGURE ADD-ONS[/B][CR][CR]Manage your installed Add-ons · Browse for and install Add-ons from kodi.tv · Modify Add-on settings"
@@ -2253,16 +2253,16 @@ msgid "Display tags/labels for episodes on posters"
 msgstr "Papar tag/label untuk episod pada poster"
 
 msgctxt "#31649"
-msgid "Switan tiles (1 row of small tiles)"
-msgstr "Jubin Switan (1 baris jubin kecil)"
+msgid "Titan tiles (1 row of small tiles)"
+msgstr "Jubin Titan (1 baris jubin kecil)"
 
 msgctxt "#31650"
-msgid "Switan tiles (2 rows of small tiles)"
-msgstr "Jubin Switan (2 baris jubin kecil)"
+msgid "Titan tiles (2 rows of small tiles)"
+msgstr "Jubin Titan (2 baris jubin kecil)"
 
 msgctxt "#31651"
-msgid "Switan tiles (3 rows of small tiles)"
-msgstr "Jubin Switan (3 baris jubin kecil)"
+msgid "Titan tiles (3 rows of small tiles)"
+msgstr "Jubin Titan (3 baris jubin kecil)"
 
 msgctxt "#31652"
 msgid "Prefer ClearArt images over landscape images"

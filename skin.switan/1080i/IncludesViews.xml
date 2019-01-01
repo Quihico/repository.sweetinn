@@ -39,9 +39,10 @@
             <animation effect="slide" end="0,100" time="0" condition="skin.hassetting(nofooterbar) + ![Control.IsVisible(519) | Control.IsVisible(520) | Control.IsVisible(507) | Control.IsVisible(523)]">Conditional</animation>
             <animation effect="slide" end="0,-80" time="0" condition="Skin.String(general_header,disable) + String.IsEqual(Skin.AspectRatio,16:10) + ![Control.IsVisible(519) | Control.IsVisible(520) | Control.IsVisible(507) | Control.IsVisible(515) | Control.IsVisible(521) | Control.IsVisible(508) | Control.IsVisible(58) | Control.IsVisible(523)]">Conditional</animation>
             
+            <include condition="!Skin.HasSetting(SkinHelper.View.Disabled.51)">View_51_BigList</include>
             <include condition="!Skin.HasSetting(SkinHelper.View.Disabled.50)">View_50_List</include>
             <include condition="!Skin.HasSetting(SkinHelper.View.Disabled.10) + [Window.IsActive(MyPVRChannels.xml) | Window.IsActive(MyPVRRecordings.xml) | Window.IsActive(MyPVRSearch.xml) | Window.IsActive(MyPVRTimers.xml)]">View_10_SimplePVR</include>
-            <include condition="!Skin.HasSetting(SkinHelper.View.Disabled.51)">View_51_BigList</include>
+
             <include condition="!Skin.HasSetting(SkinHelper.View.Disabled.504)">View_504_BigList2</include>
             <include condition="!Skin.HasSetting(SkinHelper.View.Disabled.515)">View_515_LowList</include>
             <include condition="!Skin.HasSetting(SkinHelper.View.Disabled.516)">View_516_SlimList</include>

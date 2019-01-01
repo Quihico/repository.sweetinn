@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!--Switan-->
+<!--Titan-->
 <window id="3300" type="dialog">
     <defaultcontrol always="true">3002</defaultcontrol>
     <controls>
@@ -47,7 +47,7 @@
             <width min="80" max="1400">auto</width>
             <height>100</height>
             <font>Bold45</font>
-			<label>-</label>
+			<label></label>
             <align>left</align>
             <textcolor>$INFO[Skin.String(HeaderTextColor)]</textcolor>
 			<shadowcolor>$INFO[Skin.String(HeaderTextShadowColor)]</shadowcolor>
@@ -57,7 +57,7 @@
 			<visible>!skin.hastheme(classic)</visible>
 			<posy>85</posy>
 			<posx>61</posx>
-			<label>-</label>
+			<label></label>
 			<width min="0" max="1100">auto</width>
 			<height>50</height>
 			<font>Reg30</font>
@@ -645,7 +645,7 @@
 						<onup>noop</onup>
 						<onclick>noop</onclick>
 						<font>-</font>
-						<label>-</label>
+						<label></label>
 						<textcolor>-</textcolor>
 						<focusedcolor>-</focusedcolor>
 						<disabledcolor>-</disabledcolor>

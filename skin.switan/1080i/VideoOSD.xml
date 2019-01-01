@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!--Switan-->
+<!--Titan-->
 <window>
     <zorder>2</zorder>
 	<onload condition="!VideoPlayer.Content(livetv)">SetFocus($INFO[Skin.String(defaultosdbutton_video)])</onload>

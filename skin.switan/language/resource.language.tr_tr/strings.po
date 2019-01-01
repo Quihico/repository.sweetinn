@@ -1,7 +1,7 @@
 # Kodi Media Center language file
-# Addon Name: Switan
-# Addon id: skin.switan
-# Addon Provider: InnKeeper
+# Addon Name: Titan
+# Addon id: skin.titan
+# Addon Provider: marcelveldt,mgonzales
 msgid ""
 msgstr ""
 "Project-Id-Version: KODI Skins\n"
@@ -85,7 +85,7 @@ msgid "Use default skin background"
 msgstr "Varsayılan dış görünüm arka planı kullan"
 
 msgctxt "#31024"
-msgid "Use original Mediaportal's Switan skin background"
+msgid "Use original Mediaportal's Titan skin background"
 msgstr "Mediaportal'ın orijinal dış görünüm arka planını kullanın."
 
 msgctxt "#31025"
@@ -113,16 +113,16 @@ msgid "Display weather"
 msgstr "Hava durumunu göster"
 
 msgctxt "#31031"
-msgid "Switan tiles (2 rows of large tiles)"
-msgstr "Switan döşemeleri (2 satır geniş döşeme)"
+msgid "Titan tiles (2 rows of large tiles)"
+msgstr "Titan döşemeleri (2 satır geniş döşeme)"
 
 msgctxt "#31032"
-msgid "Switan tiles (3 rows of large tiles)"
-msgstr "Switan döşemeleri (3 satır geniş döşeme)"
+msgid "Titan tiles (3 rows of large tiles)"
+msgstr "Titan döşemeleri (3 satır geniş döşeme)"
 
 msgctxt "#31033"
-msgid "Switan tiles (1 row of large tiles)"
-msgstr "Switan döşemeleri (1 satır geniş döşeme)"
+msgid "Titan tiles (1 row of large tiles)"
+msgstr "Titan döşemeleri (1 satır geniş döşeme)"
 
 msgctxt "#31034"
 msgid "items total"

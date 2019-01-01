@@ -33,7 +33,7 @@
 						<description>textarea</description>
 						<top>280</top>
 						<width>380</width>
-						<height>40</height>
+						<height>80</height>
 						<align>center</align>
 						<aligny>center</aligny>
 						<wrapmultiline>true</wrapmultiline>
@@ -55,8 +55,10 @@
 							<width>380</width>
 							<height>30</height>
 							<label>$LOCALIZE[31096]</label>
+							<font>font10</font>
 							<align>center</align>
 							<aligny>center</aligny>
+							<scroll>true</scroll>
 						</control>
 					</control>
 				</control>
@@ -129,7 +131,7 @@
 							<texture>windows/subtitles/icon_sync.png</texture>
 							<visible>ListItem.property(sync)</visible>
 						</control>
-						<control type="textbox">
+						<control type="label">
 							<left>130</left>
 							<width>645</width>
 							<height>100</height>
@@ -151,8 +153,16 @@
 							<left>0</left>
 							<right>0</right>
 							<bottom>0</bottom>
-							<texture colordiffuse="button_focus">lists/focus.png</texture>
+							<texture colordiffuse="$VAR[SkinColorVar]">lists/focus.png</texture>
 							<visible>Control.HasFocus(120)</visible>
+						</control>
+						<control type="image">
+							<left>0</left>
+							<right>0</right>
+							<bottom>0</bottom>
+							<texture colordiffuse="$VAR[GradientColorVar]">lists/focus-gradient.png</texture>
+							<visible>Control.HasFocus(120)</visible>
+							<visible>Skin.HasSetting(EnableGradientColor)</visible>
 						</control>
 						<control type="image">
 							<left>25</left>
@@ -168,10 +178,10 @@
 							<width>100</width>
 							<height>100</height>
 							<font>font12</font>
-							<textcolor>grey</textcolor>
 							<align>center</align>
 							<aligny>center</aligny>
 							<label>$INFO[ListItem.Label]</label>
+							<scroll>true</scroll>
 						</control>
 						<control type="image">
 							<left>810</left>
@@ -189,13 +199,14 @@
 							<texture>windows/subtitles/icon_sync.png</texture>
 							<visible>ListItem.property(sync)</visible>
 						</control>
-						<control type="textbox">
+						<control type="label">
 							<left>130</left>
 							<width>645</width>
 							<height>100</height>
 							<aligny>center</aligny>
 							<font>font12</font>
 							<label>$INFO[ListItem.Label2]</label>
+							<scroll>true</scroll>
 						</control>
 						<control type="image">
 							<left>810</left>
@@ -237,7 +248,7 @@
 					<align>center</align>
 					<font>font30_title</font>
 					<aligny>top</aligny>
-					<textcolor>button_focus</textcolor>
+					<textcolor>$VAR[SkinColorVar]</textcolor>
 					<shadowcolor>black</shadowcolor>
 					<wrapmultiline>true</wrapmultiline>
 				</control>

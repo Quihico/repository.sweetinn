@@ -1,35 +1,58 @@
-<?xml version='1.0' encoding='UTF-8'?>
 <shortcuts>
 	<shortcut>
-		<label>31051</label>
-		<label2>TV shows</label2>
-		<defaultID>369</defaultID>
+		<defaultID>575</defaultID>
+		<label>$LOCALIZE[575]</label>
+		<label2>$LOCALIZE[575]</label2>
 		<icon>$INFO[Window(Home).Property(SkinHelper.AllTvShowsBackground)]</icon>
-		<thumb />
-		<action>ActivateWindow(10025,videodb://tvshows/titles/,return)</action>
+		<thumb>$INFO[Window(Home).Property(SkinHelper.AllTvShowsBackground)]</thumb>
+		<action>ActivateWindow(10025,videodb://inprogresstvshows/,return)</action>
 	</shortcut>
 	<shortcut>
-		<label>20387</label>
-		<label2>Videos</label2>
-		<defaultID>20387</defaultID>
-		<icon>$INFO[Window(Home).Property(SkinHelper.RecentEpisodesBackground)]</icon>
-		<thumb />
-		<action>ActivateWindow(10025,library://video/recentlyaddedepisodes.xml/,return)</action>
+		<defaultID>20382</defaultID>
+		<label>$LOCALIZE[20382]</label>
+		<label2>$LOCALIZE[20382]</label2>
+		<icon>$INFO[Window(Home).Property(SkinHelper.AllTvShowsBackground)]</icon>
+		<thumb>$INFO[Window(Home).Property(SkinHelper.AllTvShowsBackground)]</thumb>
+		<action>ActivateWindow(10025,videodb://recentlyaddedepisodes/,return)</action>
 	</shortcut>
 	<shortcut>
-		<label>626</label>
-		<label2>Videos</label2>
-		<defaultID>626</defaultID>
-		<icon>$INFO[Window(Home).Property(SkinHelper.InProgressShowsBackground)]</icon>
-		<thumb />
-		<action>ActivateWindow(10025,library://video/inprogressshows.xml,return)</action>
-	</shortcut>
-	<shortcut>
-		<label>135</label>
-		<label2>TV shows</label2>
 		<defaultID>135</defaultID>
-		<icon>resource://resource.images.skinicons.wide/defaultgenre.png</icon>
-		<thumb />
+		<label>$LOCALIZE[135]</label>
+		<label2>$LOCALIZE[135]</label2>	
+		<icon>$INFO[Window(Home).Property(SkinHelper.AllTvShowsBackground)]</icon>
+		<thumb>$INFO[Window(Home).Property(SkinHelper.AllTvShowsBackground)]</thumb>
 		<action>ActivateWindow(10025,videodb://tvshows/genres/,return)</action>
+	</shortcut>
+	<shortcut>
+		<defaultID>652</defaultID>
+		<label>$LOCALIZE[652]</label>
+		<label2>$LOCALIZE[652]</label2>
+		<icon>$INFO[Window(Home).Property(SkinHelper.AllTvShowsBackground)]</icon>
+		<thumb>$INFO[Window(Home).Property(SkinHelper.AllTvShowsBackground)]</thumb>
+		<action>ActivateWindow(10025,videodb://tvshows/years/,return)</action>
+	</shortcut>
+	<shortcut>
+		<defaultID>344</defaultID>
+		<label>$LOCALIZE[344]</label>
+		<label2>$LOCALIZE[344]</label2>
+		<icon>$INFO[Window(Home).Property(SkinHelper.AllTvShowsBackground)]</icon>
+		<thumb>$INFO[Window(Home).Property(SkinHelper.AllTvShowsBackground)]</thumb>
+		<action>ActivateWindow(10025,videodb://tvshows/actors/,return)</action>
+	</shortcut>
+	<shortcut>
+		<defaultID>20388</defaultID>
+		<label>$LOCALIZE[20388]</label>
+		<label2>$LOCALIZE[20388]</label2>
+		<icon>$INFO[Window(Home).Property(SkinHelper.AllTvShowsBackground)]</icon>
+		<thumb>$INFO[Window(Home).Property(SkinHelper.AllTvShowsBackground)]</thumb>
+		<action>ActivateWindow(10025,videodb://tvshows/studios/,return)</action>
+	</shortcut>
+	<shortcut>
+		<defaultID>20434</defaultID>
+		<label>$LOCALIZE[20434]</label>
+		<label2>$LOCALIZE[20434]</label2>
+		<icon>$INFO[Window(Home).Property(SkinHelper.AllTvShowsBackground)]</icon>
+		<thumb>$INFO[Window(Home).Property(SkinHelper.AllTvShowsBackground)]</thumb>
+		<action>ActivateWindow(10025,videodb://movies/sets/,return)</action>
 	</shortcut>
 </shortcuts>

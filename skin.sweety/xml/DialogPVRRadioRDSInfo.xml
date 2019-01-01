@@ -14,7 +14,6 @@
 			<height>1080</height>
 			<centerleft>50%</centerleft>
 			<width>1920</width>
-
 			<control type="image">
 				<left>120</left>
 				<top>160</top>
@@ -27,7 +26,7 @@
 				<top>180</top>
 				<width>780</width>
 				<height>25</height>
-				<textcolor>button_focus</textcolor>
+				<textcolor>$VAR[SkinColorVar]</textcolor>
 				<font>font36_title</font>
 				<label>$LOCALIZE[179]</label>
 			</control>
@@ -66,7 +65,6 @@
 					<param name="value" value="RDS.Comment" />
 				</include>
 			</control>
-
 			<control type="image">
 				<left>120</left>
 				<top>575</top>
@@ -79,7 +77,7 @@
 				<top>595</top>
 				<width>780</width>
 				<height>25</height>
-				<textcolor>button_focus</textcolor>
+				<textcolor>$VAR[SkinColorVar]</textcolor>
 				<font>font36_title</font>
 				<label>$LOCALIZE[29909]</label>
 			</control>
@@ -102,7 +100,6 @@
 					<param name="value" value="RDS.SMSStudio" />
 				</include>
 			</control>
-
 			<control type="image">
 				<left>970</left>
 				<top>160</top>
@@ -115,7 +112,7 @@
 				<top>180</top>
 				<width>780</width>
 				<height>25</height>
-				<textcolor>button_focus</textcolor>
+				<textcolor>$VAR[SkinColorVar]</textcolor>
 				<font>font36_title</font>
 				<label>$LOCALIZE[29908]</label>
 			</control>
@@ -154,7 +151,6 @@
 					<param name="value" value="RDS.ProgHomepage" />
 				</include>
 			</control>
-
 			<control type="image">
 				<left>970</left>
 				<top>575</top>
@@ -167,7 +163,7 @@
 				<top>595</top>
 				<width>780</width>
 				<height>25</height>
-				<textcolor>button_focus</textcolor>
+				<textcolor>$VAR[SkinColorVar]</textcolor>
 				<font>font36_title</font>
 				<label>$LOCALIZE[29913]</label>
 			</control>
@@ -186,7 +182,6 @@
 					<param name="value" value="RDS.EmailHotline" />
 				</include>
 			</control>
-
 			<control type="image">
 				<left>120</left>
 				<top>810</top>
@@ -200,7 +195,7 @@
 				<control type="label">
 					<width>780</width>
 					<height>25</height>
-					<textcolor>button_focus</textcolor>
+					<textcolor>$VAR[SkinColorVar]</textcolor>
 					<font>font36_title</font>
 					<label>$LOCALIZE[29915]</label>
 				</control>
@@ -209,11 +204,11 @@
 					<width>780</width>
 					<height>170</height>
 					<align>justify</align>
-					<label>$INFO[RDS.InfoNews,[COLOR button_focus]$LOCALIZE[29916]:[/COLOR] ,[CR]]$INFO[RDS.InfoNewsLocal,[COLOR button_focus]$LOCALIZE[29917]:[/COLOR] ,[CR]]$INFO[RDS.InfoStock,[COLOR button_focus]$LOCALIZE[29920]:[/COLOR] ,[CR]]$INFO[RDS.InfoSport,[COLOR button_focus]$LOCALIZE[29918]:[/COLOR] ,[CR]]$INFO[RDS.Infolottery,[COLOR button_focus]$LOCALIZE[29919]:[/COLOR] ,[CR]]$INFO[RDS.InfoWeather,[COLOR button_focus]$LOCALIZE[400]:[/COLOR] ,[CR]]$INFO[RDS.InfoCinema,$[COLOR button_focus]LOCALIZE[19602]:[/COLOR] ,[CR]]$INFO[RDS.InfoHoroscope,[COLOR button_focus]$LOCALIZE[29922]:[/COLOR] ,[CR]]$INFO[RDS.InfoOther,[COLOR button_focus]$LOCALIZE[29921]:[/COLOR] ,[CR]]</label>
+					<textcolor>$VAR[SkinColorVar]</textcolor>
+					<label>$INFO[RDS.InfoNews,$LOCALIZE[29916] : [COLOR white],[/COLOR][CR]]$INFO[RDS.InfoNewsLocal,$LOCALIZE[29917] : [COLOR white],[/COLOR][CR]]$INFO[RDS.InfoStock,$LOCALIZE[29920] : [COLOR white],[/COLOR][CR]]$INFO[RDS.InfoSport,$LOCALIZE[29918] : [COLOR white],[/COLOR][CR]]$INFO[RDS.Infolottery,$LOCALIZE[29919] : [COLOR white],[/COLOR][CR]]$INFO[RDS.InfoWeather,$LOCALIZE[400] : [COLOR white],[/COLOR][CR]]$INFO[RDS.InfoCinema,$LOCALIZE[19602] : [COLOR white],[/COLOR][CR]]$INFO[RDS.InfoHoroscope,$LOCALIZE[29922] : [COLOR white],[/COLOR][CR]]$INFO[RDS.InfoOther,$LOCALIZE[29921] : [COLOR white],[/COLOR][CR]]</label>
 					<autoscroll delay="5000" time="3000" repeat="10000">true</autoscroll>
 				</control>
 			</control>
-
 			<control type="image">
 				<left>970</left>
 				<top>810</top>
@@ -264,10 +259,10 @@
 					<scroll>true</scroll>
 				</control>
 			</control>
-
 			<include content="InfoDialogTopBarInfo">
 				<param name="main_label" value="$LOCALIZE[29900]" />
-				<param name="sub_label" value="[COLOR grey]$VAR[RDSInfoSubTitle][/COLOR]" />
+				<param name="sub_label" value="[COLOR white]$VAR[RDSInfoSubTitle][/COLOR]" />
+				<param name="subtextcolor" value="$VAR[SkinColorVar]" />
 				<param name="posy" value="40" />
 			</include>
 		</control>

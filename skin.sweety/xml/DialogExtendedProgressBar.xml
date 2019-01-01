@@ -10,7 +10,8 @@
 			<width>80</width>
 			<top>0</top>
 			<animation effect="slide" end="0,-90" time="300" tween="sine" easing="inout" condition="$EXP[infodialog_active]">conditional</animation>
-			<animation effect="slide" end="0,-80" time="150" condition="Window.IsVisible(FullscreenVideo) | Window.IsVisible(FullscreenGame)">conditional</animation>
+			<animation effect="slide" end="0,-80" time="150" condition="Window.IsVisible(FullscreenVideo)">conditional</animation>
+			<visible>!Window.IsVisible(Startup.xml)</visible>
 			<control type="image">
 				<left>20</left>
 				<top>10</top>
@@ -26,7 +27,7 @@
 					<top>10</top>
 					<width>60</width>
 					<height>60</height>
-					<texture>$INFO[Control.GetLabel(32),dialogs/volume/progress/p,.png]</texture>
+					<texture colordiffuse="$VAR[SkinColorVar]">$INFO[Control.GetLabel(32),dialogs/volume/progress/p,.png]</texture>
 					<animation effect="fade" end="50" time="0" condition="true">Conditional</animation>
 				</control>
 				<control type="image">

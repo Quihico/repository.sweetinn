@@ -57,14 +57,14 @@
 					<label>$LOCALIZE[31046]</label>
 				</control>
 				<control type="togglebutton" id="34">
-					<description>TV/Radio toggle</description>
-					<width>370</width>
-					<include>SettingsItemCommon</include>
-					<font>font25_title</font>
-					<label>$LOCALIZE[19174]</label>
-					<altlabel>$LOCALIZE[19173]</altlabel>
-					<usealttexture>!String.IsEmpty(Window.Property(IsRadio))</usealttexture>
-				</control>
+ 					<description>TV/Radio toggle</description>
+ 					<width>370</width>
+ 					<include>SettingsItemCommon</include>
+ 					<font>font25_title</font>
+ 					<label>$LOCALIZE[19174]</label>
+ 					<altlabel>$LOCALIZE[19173]</altlabel>
+ 					<usealttexture>!String.IsEmpty(Window.Property(IsRadio))</usealttexture>
+ 				</control>
 				<control type="button" id="29">
 					<description>OK</description>
 					<width>370</width>
@@ -86,7 +86,7 @@
 					<align>center</align>
 					<aligny>center</aligny>
 					<font>font12</font>
-					<textcolor>button_focus</textcolor>
+					<textcolor>$VAR[SkinColorVar]</textcolor>
 				</control>
 				<control type="image">
 					<left>0</left>

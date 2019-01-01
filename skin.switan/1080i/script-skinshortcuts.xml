@@ -22,7 +22,7 @@
 		<control type="label" id="500"> 
 			<left>20</left>
 			<width>460</width>
-			<label>-</label>
+			<label></label>
 			<textcolor>black</textcolor>
 			<font>Reg26</font>
 			<scroll>false</scroll>
@@ -505,19 +505,19 @@
 				</control>
 
                 <control type="button" id="306"> 
-					<label>-</label>
+					<label></label>
 					<visible>false</visible>
 				</control>
 				<control type="button" id="309"> 
-					<label>-</label>
+					<label></label>
 					<visible>false</visible>
 				</control>
                 <control type="button" id="310"> 
-					<label>-</label>
+					<label></label>
 					<visible>false</visible>
 				</control>
                 <control type="button" id="311"> 
-					<label>-</label>
+					<label></label>
 					<visible>false</visible>
 				</control>
 				
@@ -530,7 +530,7 @@
 				<!--hidden button for properties-->
 				<control type="button" id="404"> 
 					<width>500</width>
-					<label>-</label>
+					<label></label>
 					<align>center</align>
 					<onclick>SetProperty(chooseProperty, true)</onclick>
 					<visible>false</visible>
@@ -816,8 +816,8 @@
     </control>
 	<!--Footer-->
         <include condition="!skin.hassetting(nofooterbar)">Footer</include>
-		<!--Switan Version-->
-        <include>SwitanVersion</include>
+		<!--Titan Version-->
+        <include>TitanVersion</include>
 		
 	</controls>
 	

@@ -4,13 +4,27 @@
 		<width>470</width>
 		<textoffsetx>20</textoffsetx>
 		<top>0</top>
-		<height>80</height>
+		<height>70</height>
 		<radioposx>370</radioposx>
 		<aligny>center</aligny>
 		<invalidcolor>invalid</invalidcolor>
-		<texturefocus colordiffuse="button_focus">lists/focus.png</texturefocus>
+		<texturefocus colordiffuse="$VAR[SkinColorVar]">lists/focus.png</texturefocus>
 		<texturenofocus />
-		<alttexturefocus colordiffuse="button_focus">lists/focus.png</alttexturefocus>
+		<alttexturefocus colordiffuse="$VAR[SkinColorVar]">lists/focus.png</alttexturefocus>
+		<alttexturenofocus></alttexturenofocus>
+	</include>
+	<include name="MediaMenuItemsCommonRadio">
+		<width>470</width>
+		<textoffsetx>20</textoffsetx>
+		<textwidth>370</textwidth>
+		<top>0</top>
+		<height>70</height>
+		<radioposx>370</radioposx>
+		<aligny>center</aligny>
+		<invalidcolor>invalid</invalidcolor>
+		<texturefocus colordiffuse="$VAR[SkinColorVar]">lists/focus.png</texturefocus>
+		<texturenofocus />
+		<alttexturefocus colordiffuse="$VAR[SkinColorVar]">lists/focus.png</alttexturefocus>
 		<alttexturenofocus></alttexturenofocus>
 	</include>
 	<include name="PVRQuickNavItemsCommon">
@@ -22,7 +36,7 @@
 				<align>center</align>
 				<aligny>center</aligny>
 				<font></font>
-				<texturefocus colordiffuse="button_focus">buttons/roundbutton-fo.png</texturefocus>
+				<texturefocus colordiffuse="$VAR[SkinColorVar]">buttons/roundbutton-fo.png</texturefocus>
 				<texturenofocus />
 				<radioposx>26</radioposx>
 				<radioposy>0</radioposy>
@@ -32,7 +46,7 @@
 				<textureradioonnofocus>$PARAM[icon]</textureradioonnofocus>
 				<textureradioofffocus>$PARAM[icon]</textureradioofffocus>
 				<textureradiooffnofocus>$PARAM[icon]</textureradiooffnofocus>
-				<textureradiooffdisabled colordiffuse="button_focus">$PARAM[icon]</textureradiooffdisabled>
+				<textureradiooffdisabled colordiffuse="$VAR[SkinColorVar]">$PARAM[icon]</textureradiooffdisabled>
 				<onclick condition="String.IsEmpty(Window.Property(IsRadio))">ActivateWindow(TV$PARAM[area])</onclick>
 				<onclick condition="!String.IsEmpty(Window.Property(IsRadio))">ActivateWindow(Radio$PARAM[area])</onclick>
 				<enable>!Window.IsActive(TV$PARAM[area]) + !Window.IsActive(Radio$PARAM[area])</enable>
@@ -43,11 +57,11 @@
 		<param name="group_label2">$INFO[Control.GetLabel(29)]</param>
 		<definition>
 			<control type="button" id="28">
-				<label></label>
+				<label/>
 				<include>HiddenObject</include>
 			</control>
 			<control type="grouplist" id="9000">
-				<top>50</top>
+				<top>80</top>
 				<left>0</left>
 				<width>470</width>
 				<height>100%</height>
@@ -123,12 +137,12 @@
 					<label>$LOCALIZE[14018]</label>
 				</control>
 				<control type="button" id="6051">
-					<include>MediaMenuItemsCommon</include>
-					<label>$LOCALIZE[31023]</label>
-					<label2>[B]$INFO[Container.Viewmode][/B]</label2>
-					<onclick>Container.NextViewMode</onclick>
-					<visible>Window.IsActive(MyPVRGuide.xml)</visible>
-				</control>
+ 					<include>MediaMenuItemsCommon</include>
+ 					<label>$LOCALIZE[31023]</label>
+ 					<label2>[B]$INFO[Container.Viewmode][/B]</label2>
+ 					<onclick>Container.NextViewMode</onclick>
+ 					<visible>Window.IsActive(MyPVRChannels.xml) | Window.IsActive(MyPVRGuide.xml)</visible>
+ 				</control>
 				<control type="button" id="6054">
 					<include>MediaMenuItemsCommon</include>
 					<label>$LOCALIZE[19141]</label>
@@ -137,11 +151,18 @@
 					<visible>Window.IsActive(MyPVRChannels.xml) | Window.IsActive(MyPVRGuide.xml)</visible>
 				</control>
 				<control type="radiobutton" id="6060">
-					<include>MediaMenuItemsCommon</include>
-					<label>$LOCALIZE[31127]</label>
-					<selected>Control.IsVisible(50)</selected>
-					<onclick>Container.NextViewMode</onclick>
-					<visible>Window.IsActive(MyPVRChannels.xml)</visible>
+					<include>MediaMenuItemsCommonRadio</include>
+					<label>$LOCALIZE[40273]</label>
+					<selected>!Skin.HasSetting(ShowPVRGroups)</selected>
+					<onclick>Skin.ToggleSetting(ShowPVRGroups)</onclick>
+					<visible>Window.IsActive(MyPVRGuide.xml)</visible>
+				</control>
+				<control type="radiobutton" id="6061">
+					<include>MediaMenuItemsCommonRadio</include>
+					<label>$LOCALIZE[40240]</label>
+					<selected>Skin.HasSetting(standard_PVRGenres)</selected>
+					<onclick>Skin.ToggleSetting(standard_PVRGenres)</onclick>
+					<visible>Window.IsActive(MyPVRGuide.xml)</visible>
 				</control>
 				<control type="button" id="6053">
 					<include>MediaMenuItemsCommon</include>
@@ -156,12 +177,11 @@
 					<onclick>Container.SetSortDirection</onclick>
 				</control>
 				<control type="button" id="10">
-					<description>Watched Toggle</description>
-					<include>MediaMenuItemsCommon</include>
-					<label>$LOCALIZE[20367]</label>
-					<label2>[B]$INFO[Container.NumNonFolderItems][/B]</label2>
-					<visible>Window.IsActive(MyPVRRecordings.xml)</visible>
-				</control>
+         			<include>MediaMenuItemsCommon</include>
+ 					<label>$LOCALIZE[20367]</label>
+ 					<label2>[B]$INFO[Container.NumNonFolderItems][/B]</label2>
+ 					<visible>Window.IsActive(MyPVRRecordings.xml)</visible>
+ 				</control>
 				<control type="label" id="300">
 					<label>$LOCALIZE[31021]</label>
 					<include>MediaMenuLabelCommon</include>
@@ -242,11 +262,11 @@
 		<width>470</width>
 		<textoffsetx>20</textoffsetx>
 		<textoffsety>15</textoffsety>
-		<height>50</height>
+		<height>60</height>
 		<radioposx>300</radioposx>
-		<font>font25_title</font>
+		<font>font28_title</font>
 		<aligny>top</aligny>
-		<textcolor>button_focus</textcolor>
+		<textcolor>$VAR[SkinColorVar]</textcolor>
 	</include>
 	<include name="MediaMenuCommon">
 		<include>OpenClose_Left</include>
@@ -275,10 +295,36 @@
 			<top>0</top>
 			<width>500</width>
 			<height>100%</height>
-			<label></label>
+			<label/>
 			<texturefocus />
 			<texturenofocus />
 		</control>
+		<control type="group">
+				<top>20</top>
+				<left>20</left>
+				<control type="image">
+					<aspectratio>keep</aspectratio>
+					<width>56</width>
+					<height>56</height>
+					<texture colordiffuse="$VAR[SkinColorVar]">icons/logo.png</texture>
+				</control>
+				<control type="image">
+					<left>40</left>
+					<top>10</top>
+					<aspectratio>keep</aspectratio>
+					<width>192</width>
+					<height>36</height>
+					<texture>icons/logo-text.png</texture>
+				</control>
+		</control>
+		<control type="image">
+            <left>66.5</left>
+            <bottom>20</bottom>
+            <width>337</width>
+            <height>100</height>
+            <texture>dialogs/logo.png</texture>
+            <animation effect="slide" end="0,-70" time="0" condition="Window.Isvisible(AddonBrowser.xml)">Conditional</animation>
+        </control>
 		<control type="button" id="3">
 			<description>Viewtype Toggle</description>
 			<include>HiddenObject</include>
@@ -289,45 +335,46 @@
 		</control>
 	</include>
 	<include name="MediaMenuNowPlaying">
-        <param name="left">5</param>
-		<definition>
-			<control type="grouplist" id="14100">
-				<animation effect="fade" start="0" end="100" time="400">WindowOpen</animation>
-				<animation effect="fade" start="100" end="0" time="300">WindowClose</animation>
-				<animation effect="fade" time="300">VisibleChange</animation>
-				<animation effect="slide" end="-10,0" time="0" condition ="Window.IsActive(MyPlaylist.xml)">Conditional</animation>
-				<orientation>horizontal</orientation>
-				<itemgap>-17</itemgap>
-				<left>$PARAM[left]</left>
-				<onleft>14100</onleft>
-				<width>450</width>
-				<visible>Player.HasMedia + [$EXP[sidebar_visible]]</visible>
-				<visible>!System.HasActiveModalDialog</visible>
-				<include content="BottomMainMenuToggleItem">
-					<param name="control_id" value="14101" />
-					<param name="onclick" value="PlayerControl(Play)" />
-					<param name="icon_on" value="icons/now-playing/play.png" />
-					<param name="icon_off" value="icons/now-playing/pause.png" />
-					<param name="selected" value="Player.Paused" />
-				</include>
-				<include content="IconButton">
-					<param name="control_id" value="14102" />
-					<param name="onclick" value="Stop" />
-					<param name="onclick_2" value="SetFocus(50)" />
-					<param name="icon" value="icons/now-playing/stop.png" />
-				</include>
-				<include content="IconButton">
-					<param name="control_id" value="14104" />
-					<param name="onclick" value="PlayerControl(Next)" />
-					<param name="icon" value="icons/now-playing/next.png" />
-				</include>
-				<include content="IconButton">
-					<param name="control_id" value="14105" />
+		<param name="left">5</param>
+		<param name="itemgap">-17</param>
+ 		<definition>
+ 			<control type="grouplist" id="14100">
+ 				<animation effect="fade" start="0" end="100" time="400">WindowOpen</animation>
+ 				<animation effect="fade" start="100" end="0" time="300">WindowClose</animation>
+ 				<animation effect="fade" time="300">VisibleChange</animation>
+ 				<animation effect="slide" end="-10,0" time="0" condition="Window.IsActive(MyPlaylist.xml)">Conditional</animation>
+ 				<orientation>horizontal</orientation>
+ 				<itemgap>$PARAM[itemgap]</itemgap>
+ 				<left>$PARAM[left]</left>
+ 				<onleft>14100</onleft>
+ 				<width>450</width>
+ 				<visible>Player.HasMedia + [$EXP[sidebar_visible]]</visible>
+ 				<visible>!System.HasActiveModalDialog</visible>
+ 				<include content="BottomMainMenuToggleItem">
+ 					<param name="control_id" value="14101" />
+ 					<param name="onclick" value="PlayerControl(Play)" />
+ 					<param name="icon_on" value="icons/now-playing/play.png" />
+ 					<param name="icon_off" value="icons/now-playing/pause.png" />
+ 					<param name="selected" value="Player.Paused" />
+ 				</include>
+ 				<include content="IconButton">
+ 					<param name="control_id" value="14102" />
+ 					<param name="onclick" value="Stop" />
+ 					<param name="onclick_2" value="SetFocus(50)" />
+ 					<param name="icon" value="icons/now-playing/stop.png" />
+ 				</include>
+ 				<include content="IconButton">
+ 					<param name="control_id" value="14104" />
+ 					<param name="onclick" value="PlayerControl(Next)" />
+ 					<param name="icon" value="icons/now-playing/next.png" />
+ 				</include>
+ 				<include content="IconButton">
+ 					<param name="control_id" value="14105" />
 					<param name="onclick" value="Fullscreen" />
 					<param name="icon" value="icons/now-playing/fullscreen.png" />
-				</include>
-			</control>
-		</definition>
+ 				</include>
+ 			</control>
+ 		</definition>
 	</include>
 	<include name="MediaMenuListCommon">
 		<definition>
@@ -337,7 +384,8 @@
 			<height>100%</height>
 			<onleft>9000</onleft>
 			<onup>9000</onup>
-			<onright>50</onright>
+			<onright condition="!Window.IsVisible(MyGames.xml)">50</onright>
+			<onright condition="Window.IsVisible(MyGames.xml)">55</onright>
 			<ondown>9000</ondown>
 			<onback>50</onback>
 			<control type="label" id="200">
@@ -346,10 +394,20 @@
 			</control>
 			<control type="button" id="6051">
 				<include>MediaMenuItemsCommon</include>
-				<label>$LOCALIZE[31023]</label>
+				<label>$LOCALIZE[40147]</label>
 				<label2>[B]$INFO[Container.Viewmode][/B]</label2>
 				<visible>Integer.IsGreater(Container.ViewCount,1)</visible>
 				<onclick>Container.NextViewMode</onclick>
+				<visible>!Container.Content(movies) + !Container.Content(sets) + !Container.Content(tvshows) + !Container.Content(seasons) + !Container.Content(episodes) + !Container.Content(musicvideos) + !Container.Content(artists) + !Container.Content(albums) + !Container.Content(images)</visible>
+			</control>
+			<control type="button" id="60511">
+				<include>MediaMenuItemsCommon</include>
+				<label>$LOCALIZE[40147]</label>
+				<label2>[B]$INFO[Container.Viewmode][/B]</label2>
+				<visible>Integer.IsGreater(Container.ViewCount,1)</visible>
+				<onclick>SetFocus(50)</onclick>
+				<onclick>ActivateWindow(1131)</onclick>
+				<visible>Container.Content(movies) | Container.Content(sets) | Container.Content(tvshows) | Container.Content(seasons) | Container.Content(episodes) | Container.Content(musicvideos) | Container.Content(artists) | Container.Content(albums) | Container.Content(images)</visible>
 			</control>
 			<control type="button" id="6053">
 				<include>MediaMenuItemsCommon</include>
@@ -382,7 +440,7 @@
 	</include>
 	<include name="MediaMenuMouseOverlay">
 		<control type="button" id="6130">
-			<label></label>
+			<label/>
 			<left>-50</left>
 			<top>200</top>
 			<bottom>0</bottom>

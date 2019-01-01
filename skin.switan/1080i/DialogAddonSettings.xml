@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!--Switan-->
+<!--Titan-->
 <window>
     <defaultcontrol always="true">9</defaultcontrol>
     <allowoverlay>no</allowoverlay>
@@ -44,7 +44,7 @@
                 <posx>560</posx>
                 <posy>205</posy>
                 <width>800</width>
-                <label>-</label>
+                <label></label>
                 <align>center</align>
                 <include>DialogHeader</include>
             </control>

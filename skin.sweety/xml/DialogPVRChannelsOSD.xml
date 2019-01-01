@@ -13,7 +13,7 @@
 				</include>
 				<control type="fixedlist" id="11">
 					<left>0</left>
-					<width>875</width>
+					<width>881</width>
 					<height>100%</height>
 					<onleft>PreviousChannelGroup</onleft>
 					<onright>60</onright>
@@ -23,16 +23,24 @@
 					<movement>4</movement>
 					<focusposition>5</focusposition>
 					<scrolltime tween="cubic" easing="out">500</scrolltime>
-					<focusedlayout height="90" width="875">
+					<focusedlayout height="90" width="881">
 						<control type="image">
 							<left>0</left>
 							<right>0</right>
 							<bottom>0</bottom>
-							<texture colordiffuse="button_focus">lists/focus.png</texture>
+							<texture colordiffuse="$VAR[SkinColorVar]">lists/focus.png</texture>
 							<visible>Control.hasFocus(11)</visible>
 						</control>
 						<control type="image">
-							<right>20</right>
+							<left>0</left>
+							<right>0</right>
+							<bottom>0</bottom>
+							<texture colordiffuse="$VAR[GradientColorVar]">lists/focus-gradient.png</texture>
+							<visible>Control.hasFocus(11)</visible>
+							<visible>Skin.HasSetting(EnableGradientColor)</visible>
+						</control>
+						<control type="image">
+							<right>26</right>
 							<top>10</top>
 							<width>80</width>
 							<height>70</height>
@@ -49,7 +57,7 @@
 							<info>ListItem.Progress</info>
 						</control>
 						<control type="image">
-							<right>110</right>
+							<right>116</right>
 							<top>25</top>
 							<width>40</width>
 							<height>40</height>
@@ -59,18 +67,18 @@
 							<left>105</left>
 							<top>8</top>
 							<height>90</height>
-							<right>120</right>
+							<right>126</right>
 							<aligny>top</aligny>
-							<font>font14</font>
 							<animation effect="slide" start="0,0" end="0,14" time="0" condition="String.IsEmpty(ListItem.Title)">Conditional</animation>
-							<label>$INFO[ListItem.Label]</label>
+ 							<label>$INFO[ListItem.Label]</label>
+							<font>font14</font>
 							<shadowcolor>text_shadow</shadowcolor>
 						</control>
 						<control type="label">
 							<left>165</left>
 							<top>46</top>
 							<height>90</height>
-							<right>120</right>
+							<right>126</right>
 							<aligny>top</aligny>
 							<font>font12</font>
 							<label>$INFO[ListItem.Title]</label>
@@ -88,9 +96,9 @@
 							<shadowcolor>text_shadow</shadowcolor>
 						</control>
 					</focusedlayout>
-					<itemlayout height="90" width="875">
+					<itemlayout height="90" width="881">
 						<control type="image">
-							<right>20</right>
+							<right>26</right>
 							<top>10</top>
 							<width>80</width>
 							<height>70</height>
@@ -117,23 +125,23 @@
 							<left>105</left>
 							<top>8</top>
 							<height>90</height>
-							<right>120</right>
+							<right>126</right>
 							<aligny>top</aligny>
 							<font>font14</font>
 							<label>$INFO[ListItem.Label]</label>
-							<animation effect="slide" start="0,0" end="0,14" time="0" condition="String.IsEmpty(ListItem.Title)">Conditional</animation>
+ 							<animation effect="slide" start="0,0" end="0,14" time="0" condition="String.IsEmpty(ListItem.Title)">Conditional</animation>
 							<shadowcolor>text_shadow</shadowcolor>
 						</control>
 						<control type="label">
 							<left>165</left>
 							<top>46</top>
 							<height>90</height>
-							<right>120</right>
+							<right>126</right>
 							<aligny>top</aligny>
 							<font>font12</font>
 							<label>$INFO[ListItem.Title]</label>
 							<shadowcolor>text_shadow</shadowcolor>
-							<textcolor>grey</textcolor>
+							<textcolor>$VAR[SkinColorVar]</textcolor>
 						</control>
 						<control type="label">
 							<left>12</left>
@@ -149,22 +157,10 @@
 						</control>
 					</itemlayout>
 				</control>
-				<control type="scrollbar" id="60">
-					<left>869</left>
-					<width>12</width>
-					<height>100%</height>
-					<onleft>11</onleft>
-					<texturesliderbackground />
-					<onright>NextChannelGroup</onright>
-					<ondown>61</ondown>
-					<onup>61</onup>
-					<animation effect="zoom" start="100,100" end="50,100" center="881,0" time="300" tween="sine" easing="inout" condition="!Control.HasFocus(60)">conditional</animation>
-					<orientation>vertical</orientation>
-				</control>
 				<control type="image">
 					<left>0</left>
 					<bottom>0</bottom>
-					<width>880</width>
+					<width>881</width>
 					<height>115</height>
 					<texture flipy="true">frame/InfoBar.png</texture>
 				</control>
@@ -174,20 +170,32 @@
 				<include>Animation_TopSlide</include>
 				<control type="image">
 					<left>0</left>
-					<width>880</width>
+					<width>881</width>
 					<height>110</height>
 					<texture>frame/InfoBar.png</texture>
 				</control>
 				<control type="label" id="2">
 					<description>header label</description>
 					<textoffsetx>40</textoffsetx>
-					<width>830</width>
+					<width>1300</width>
 					<height>70</height>
-					<font>font45</font>
+					<font>font37</font>
 					<aligny>center</aligny>
 					<label>&lt; $INFO[VideoPlayer.ChannelGroup] &gt;</label>
-					<shadowcolor>black</shadowcolor>
+					<shadowcolor>text_shadow</shadowcolor>
 				</control>
+			</control>
+			<control type="scrollbar" id="60">
+				<left>869</left>
+				<width>12</width>
+				<height>100%</height>
+				<onleft>11</onleft>
+				<texturesliderbackground />
+				<onright>NextChannelGroup</onright>
+				<ondown>61</ondown>
+				<onup>61</onup>
+				<animation effect="zoom" start="100,100" end="50,100" center="881,0" time="300" tween="sine" easing="inout" condition="!Control.HasFocus(60)">conditional</animation>
+				<orientation>vertical</orientation>
 			</control>
 		</control>
 	</controls>

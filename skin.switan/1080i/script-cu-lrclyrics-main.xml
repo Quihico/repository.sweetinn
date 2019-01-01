@@ -37,7 +37,7 @@
 				<align>center</align>
 				<aligny>center</aligny>
 				<font>Light28</font>
-				<label>-</label>
+				<label></label>
 				<textcolor>-</textcolor>
 				<focusedcolor>-</focusedcolor>
 				<disabledcolor>-</disabledcolor>
