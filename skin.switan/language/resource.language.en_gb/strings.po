@@ -1,7 +1,7 @@
 # Kodi Media Center language file
-# Addon Name: Switan
-# Addon id: skin.switan
-# Addon Provider: InnKeeper
+# Addon Name: Titan
+# Addon id: skin.titan
+# Addon Provider: marcelveldt,mgonzales
 msgid ""
 msgstr ""
 "Project-Id-Version: KODI Skins\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 ###############
-#Switan Strings#
+#Titan Strings#
 ###############
 
 msgctxt "#31001"
@@ -95,7 +95,7 @@ msgid "Use default skin background"
 msgstr ""
 
 msgctxt "#31024"
-msgid "Use original Mediaportal's Switan skin background"
+msgid "Use original Mediaportal's Titan skin background"
 msgstr ""
 
 msgctxt "#31025"
@@ -123,15 +123,15 @@ msgid "Display weather"
 msgstr ""
 
 msgctxt "#31031"
-msgid "Switan tiles (2 rows of large tiles)"
+msgid "Titan tiles (2 rows of large tiles)"
 msgstr ""
 
 msgctxt "#31032"
-msgid "Switan tiles (3 rows of large tiles)"
+msgid "Titan tiles (3 rows of large tiles)"
 msgstr ""
 
 msgctxt "#31033"
-msgid "Switan tiles (1 row of large tiles)"
+msgid "Titan tiles (1 row of large tiles)"
 msgstr ""
 
 msgctxt "#31034"
@@ -1123,7 +1123,7 @@ msgid "An error has occured while restoring the backup"
 msgstr ""
 
 msgctxt "#31282"
-msgid "Select Switan skin backup file"
+msgid "Select Titan skin backup file"
 msgstr ""
 
 msgctxt "#31283"
@@ -1231,7 +1231,7 @@ msgid "Close"
 msgstr ""
 
 msgctxt "#31309"
-msgid "Switan tiles"
+msgid "Titan tiles"
 msgstr ""
 
 msgctxt "#31310"
@@ -1413,7 +1413,7 @@ msgid "[B]CONFIGURE SYSTEM SETTINGS[/B][CR][CR]Setup and calibrate displays · C
 msgstr ""
 
 msgctxt "#31407"
-msgid "[B]CONFIGURE SKIN SETTINGS[/B][CR][CR]Setup the Switan skin · Add and remove home menu items · Change skin backgrounds"
+msgid "[B]CONFIGURE SKIN SETTINGS[/B][CR][CR]Setup the Titan skin · Add and remove home menu items · Change skin backgrounds"
 msgstr ""
 
 msgctxt "#31408"
@@ -2279,15 +2279,15 @@ msgid "Display tags/labels for episodes on posters"
 msgstr ""
 
 msgctxt "#31649"
-msgid "Switan tiles (1 row of small tiles)"
+msgid "Titan tiles (1 row of small tiles)"
 msgstr ""
 
 msgctxt "#31650"
-msgid "Switan tiles (2 rows of small tiles)"
+msgid "Titan tiles (2 rows of small tiles)"
 msgstr ""
 
 msgctxt "#31651"
-msgid "Switan tiles (3 rows of small tiles)"
+msgid "Titan tiles (3 rows of small tiles)"
 msgstr ""
 
 msgctxt "#31652"

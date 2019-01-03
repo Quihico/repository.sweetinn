@@ -2,9 +2,9 @@
 <includes>
     <include file="Defaults.xml" />
     <include file="IncludesVariables.xml" />
-    <include file="IncludesHomeSwitanTiles.xml" />
+    <include file="IncludesHomeTitanTiles.xml" />
     <include file="IncludesHomeWidgets.xml" />
-	<include file="IncludesHomeSwitanTilesSubMenu.xml" />
+	<include file="IncludesHomeTitanTilesSubMenu.xml" />
     <include file="IncludesNowPlaying.xml" />
     <include file="View_10_SimplePVR.xml" />
     <include file="View_50_List.xml" />
@@ -67,8 +67,8 @@
     <include file="script-skin_helper_service-includes.xml"/>
     <include file="IncludesDebugInfo.xml" condition="Skin.HasSetting(DebugGrid) | Skin.HasSetting(DebugInfo)" />
 
-	<!--Switan Version-->
-    <include name="SwitanVersion">
+	<!--Titan Version-->
+    <include name="TitanVersion">
         <control type="label">
             <right>60</right>
             <bottom>35</bottom>
@@ -89,7 +89,7 @@
         <posy>-20</posy>
         <width>1</width>
         <height>1</height>
-        <label>-</label>
+        <label></label>
         <texturenofocus>-</texturenofocus>
         <texturefocus>-</texturefocus>
     </include>

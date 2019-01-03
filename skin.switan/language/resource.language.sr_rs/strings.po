@@ -1,7 +1,7 @@
 # Kodi Media Center language file
-# Addon Name: Switan
-# Addon id: skin.switan
-# Addon Provider: InnKeeper
+# Addon Name: Titan
+# Addon id: skin.titan
+# Addon Provider: marcelveldt,mgonzales
 msgid ""
 msgstr ""
 "Project-Id-Version: KODI Skins\n"
@@ -85,8 +85,8 @@ msgid "Use default skin background"
 msgstr "Користи подразумевану позадину маске"
 
 msgctxt "#31024"
-msgid "Use original Mediaportal's Switan skin background"
-msgstr "Користи оригиналну позадину Switan маске Mediaportala"
+msgid "Use original Mediaportal's Titan skin background"
+msgstr "Користи оригиналну позадину Titan маске Mediaportala"
 
 msgctxt "#31025"
 msgid "Use dynamic weather background"
@@ -113,16 +113,16 @@ msgid "Display weather"
 msgstr "Прикажи време"
 
 msgctxt "#31031"
-msgid "Switan tiles (2 rows of large tiles)"
-msgstr "Switan плочице (2 реда великих плочица)"
+msgid "Titan tiles (2 rows of large tiles)"
+msgstr "Titan плочице (2 реда великих плочица)"
 
 msgctxt "#31032"
-msgid "Switan tiles (3 rows of large tiles)"
-msgstr "Switan плочице (3 реда великих плочица)"
+msgid "Titan tiles (3 rows of large tiles)"
+msgstr "Titan плочице (3 реда великих плочица)"
 
 msgctxt "#31033"
-msgid "Switan tiles (1 row of large tiles)"
-msgstr "Switan плочице (1 ред великих плочица)"
+msgid "Titan tiles (1 row of large tiles)"
+msgstr "Titan плочице (1 ред великих плочица)"
 
 msgctxt "#31034"
 msgid "items total"
@@ -1097,8 +1097,8 @@ msgid "An error has occured while restoring the backup"
 msgstr "Дошло је до грешке током рестаурације резервне копије"
 
 msgctxt "#31282"
-msgid "Select Switan skin backup file"
-msgstr "Одаберите датотеку резервне копије Switan маске"
+msgid "Select Titan skin backup file"
+msgstr "Одаберите датотеку резервне копије Titan маске"
 
 msgctxt "#31283"
 msgid "Select a folder to create the backupfile"
@@ -1205,8 +1205,8 @@ msgid "Close"
 msgstr "Затвори"
 
 msgctxt "#31309"
-msgid "Switan tiles"
-msgstr "Switan плочице"
+msgid "Titan tiles"
+msgstr "Titan плочице"
 
 msgctxt "#31310"
 msgid "Number of rows with tiles"
@@ -1385,8 +1385,8 @@ msgid "[B]CONFIGURE SYSTEM SETTINGS[/B][CR][CR]Setup and calibrate displays · C
 msgstr "[B]ПОДЕСИТЕ ПОДЕШАВАЊА СИСТЕМА[/B][CR][CR]Подесите и калибришите екране · Подесите звучни излаз - Подесите даљинско управљање - Поставите опције уштеде енергије - Омогућите евиденцију грешака · Подесите главну лозинку"
 
 msgctxt "#31407"
-msgid "[B]CONFIGURE SKIN SETTINGS[/B][CR][CR]Setup the Switan skin · Add and remove home menu items · Change skin backgrounds"
-msgstr "[B]ПОДЕСИТЕ ПОДЕШАВАЊА МАСКЕ[/B][CR][CR]Подесите Switan маску · Додајте и уклоните ставке главног менија · Промените позадине маске"
+msgid "[B]CONFIGURE SKIN SETTINGS[/B][CR][CR]Setup the Titan skin · Add and remove home menu items · Change skin backgrounds"
+msgstr "[B]ПОДЕСИТЕ ПОДЕШАВАЊА МАСКЕ[/B][CR][CR]Подесите Titan маску · Додајте и уклоните ставке главног менија · Промените позадине маске"
 
 msgctxt "#31408"
 msgid "[B]CONFIGURE ADD-ONS[/B][CR][CR]Manage your installed Add-ons · Browse for and install Add-ons from kodi.tv · Modify Add-on settings"
@@ -2221,16 +2221,16 @@ msgid "Allow override of global background on per-shortcut base"
 msgstr "Дозволи премошћавање глобалне позадине на основу пречице"
 
 msgctxt "#31649"
-msgid "Switan tiles (1 row of small tiles)"
-msgstr "Switan плочице (1 ред малих плочица)"
+msgid "Titan tiles (1 row of small tiles)"
+msgstr "Titan плочице (1 ред малих плочица)"
 
 msgctxt "#31650"
-msgid "Switan tiles (2 rows of small tiles)"
-msgstr "Switan плочице (2 реда малих плочица)"
+msgid "Titan tiles (2 rows of small tiles)"
+msgstr "Titan плочице (2 реда малих плочица)"
 
 msgctxt "#31651"
-msgid "Switan tiles (3 rows of small tiles)"
-msgstr "Switan плочице (3 реда малих плочица)"
+msgid "Titan tiles (3 rows of small tiles)"
+msgstr "Titan плочице (3 реда малих плочица)"
 
 msgctxt "#31652"
 msgid "Prefer ClearArt images over landscape images"

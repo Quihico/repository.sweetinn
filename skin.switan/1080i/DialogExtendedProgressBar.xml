@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!--Switan-->
+<!--Titan-->
 <window>
     <defaultcontrol always="true">401</defaultcontrol>
     <allowoverlay>no</allowoverlay>
@@ -70,7 +70,7 @@
 					<height>50</height>
 					<font>Bold38</font>
 					<textcolor>$INFO[Skin.String(GeneralHighlightTextColor)]</textcolor>
-					<label>-</label>
+					<label></label>
 					<scroll>false</scroll>
 				</control>
 				<control type="label" id="31">
@@ -81,7 +81,7 @@
 					<height>50</height>
 					<font>Reg30</font>
 					<textcolor>$INFO[Skin.String(GeneralTextColor)]</textcolor>
-					<label>-</label>
+					<label></label>
 					<scroll>false</scroll>
 				</control>
 			</control>

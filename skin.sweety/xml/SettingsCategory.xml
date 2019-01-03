@@ -4,26 +4,15 @@
 	<backgroundcolor>background</backgroundcolor>
 	<controls>
 		<include>DefaultBackground</include>
-		<control type="multiimage">
-			<depth>DepthBackground</depth>
-			<include>FullScreenDimensions</include>
-			<aspectratio>scale</aspectratio>
-			<animation effect="zoom" center="auto" end="102,102" time="0" condition="Integer.IsGreater(System.StereoscopicMode,0)">conditional</animation>
-			<animation effect="fade" start="0" end="100" time="400" reversible="true" condition="!Window.Previous(Settings)">WindowOpen</animation>
-			<animation effect="fade" start="100" end="0" time="300" reversible="true" condition="!Window.Next(Settings)">WindowClose</animation>
-			<animation effect="fade" time="400">VisibleChange</animation>
-			<imagepath colordiffuse="35FFFFFF">$INFO[Skin.String(HomeFanart.path)]settings$INFO[Skin.String(HomeFanart.ext)]</imagepath>
-			<visible>!Player.HasMedia + !String.IsEmpty(Skin.String(HomeFanart.path))</visible>
-		</control>
 		<control type="group">
 			<include>OpenClose_Right</include>
 			<control type="grouplist" id="5">
 				<description>control area</description>
-				<top>163</top>
+				<top>168</top>
 				<left>470</left>
 				<pagecontrol>60</pagecontrol>
 				<right>0</right>
-				<bottom>137</bottom>
+				<bottom>142</bottom>
 				<onleft>3</onleft>
 				<onright>60</onright>
 				<onup>5</onup>
@@ -34,14 +23,14 @@
 				<top>160</top>
 				<right>0</right>
 				<height>2</height>
-				<texture colordiffuse="button_focus" border="2">dialogs/separator-grey.png</texture>
+				<texture colordiffuse="$VAR[SkinColorVar]" border="2">dialogs/separator-grey.png</texture>
 			</control>
 			<control type="image">
 				<left>470</left>
-				<bottom>135</bottom>
+				<bottom>134</bottom>
 				<right>0</right>
 				<height>2</height>
-				<texture colordiffuse="button_focus" border="2">dialogs/separator-grey.png</texture>
+				<texture colordiffuse="$VAR[SkinColorVar]" border="2">dialogs/separator-grey.png</texture>
 			</control>
 		</control>
 		<control type="button" id="7">
@@ -62,21 +51,21 @@
 			<include>DefaultSettingButton</include>
 			<aligny>center</aligny>
 		</control>
-		<control type="image" id="11">
+		<!--<control type="image" id="11">
 			<description>separator image</description>
 			<height>3</height>
 			<texture colordiffuse="AAAAAAAA" border="3">dialogs/separator-grey.png</texture>
-		</control>
+		</control>-->
 		<control type="label" id="14">
 			<description>Default Label</description>
 			<width>1450</width>
 			<textoffsetx>45</textoffsetx>
 			<top>0</top>
-			<height>50</height>
-			<label></label>
+			<height>70</height>
+			<label/>
 			<align>center</align>
 			<aligny>center</aligny>
-			<font>font25_title</font>
+			<font>font28_title</font>
 			<textcolor>grey</textcolor>
 			<shadowcolor>black</shadowcolor>
 		</control>
@@ -89,9 +78,9 @@
 			<control type="grouplist" id="3">
 				<description>button area</description>
 				<left>0</left>
-				<top>160</top>
+				<top>168</top>
 				<width>470</width>
-				<height>720</height>
+				<height>700</height>
 				<usecontrolcoords>true</usecontrolcoords>
 				<onleft>5</onleft>
 				<onright>5</onright>
@@ -101,24 +90,24 @@
 			<control type="button" id="10">
 				<description>Default Category Button</description>
 				<left>0</left>
-				<height>90</height>
+				<height>70</height>
 				<width>470</width>
 				<textoffsetx>40</textoffsetx>
 				<aligny>center</aligny>
-				<font>font37</font>
-				<texturefocus colordiffuse="button_focus">lists/focus.png</texturefocus>
+				<font>font30_title</font>
+				<texturefocus colordiffuse="$VAR[SkinColorVar]">lists/focus.png</texturefocus>
 				<texturenofocus />
 			</control>
 			<control type="radiobutton" id="20">
 				<width>470</width>
 				<left>0</left>
 				<bottom>110</bottom>
-				<height>90</height>
+				<height>70</height>
 				<aligny>center</aligny>
 				<onclick>SettingsLevelChange</onclick>
 				<textoffsetx>100</textoffsetx>
 				<textoffsety>0</textoffsety>
-				<texturefocus colordiffuse="button_focus">colors/white.png</texturefocus>
+				<texturefocus colordiffuse="$VAR[SkinColorVar]">colors/white.png</texturefocus>
 				<texturenofocus />
 				<radioposx>40</radioposx>
 				<radioposy>0</radioposy>
@@ -170,7 +159,7 @@
 				<height>102</height>
 				<font>font12</font>
 				<align>justify</align>
-				<textcolor>button_focus</textcolor>
+				<textcolor>$VAR[SkinColorVar]</textcolor>
 				<autoscroll time="3000" delay="5000" repeat="5000">true</autoscroll>
 			</control>
 		</control>

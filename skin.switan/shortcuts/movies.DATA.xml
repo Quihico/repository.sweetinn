@@ -1,48 +1,82 @@
-<?xml version='1.0' encoding='UTF-8'?>
 <shortcuts>
-	<!-- all movies -->
 	<shortcut>
-		<label>31050</label>
-		<label2>Movies</label2>
-		<defaultID>135</defaultID>
+		<defaultID>20382</defaultID>
+		<label>$LOCALIZE[20382]</label>
+		<label2>$LOCALIZE[20382]</label2>
 		<icon>$INFO[Window(Home).Property(SkinHelper.AllMoviesBackground)]</icon>
-		<thumb />
-		<action>ActivateWindow(10025,videodb://movies/titles/,return)</action>
+		<thumb>$INFO[Window(Home).Property(SkinHelper.AllMoviesBackground)]</thumb>
+		<action>ActivateWindow(10025,videodb://recentlyaddedmovies/,return)</action>
 	</shortcut>
-	<!-- recenty added movies -->
 	<shortcut>
-		<label>31127</label>
-		<label2>Movies</label2>
 		<defaultID>135</defaultID>
-		<icon>$INFO[Window(Home).Property(SkinHelper.RecentMoviesBackground)]</icon>
-		<thumb />
-		<action>ActivateWindow(10025,plugin://script.skin.helper.widgets/?action=recent&amp;mediatype=movies&amp;limit=250,return)</action>
-	</shortcut>
-	<!-- movie genres -->
-	<shortcut>
-		<label>135</label>
-		<label2>Movies</label2>
-		<defaultID>135</defaultID>
+		<label>$LOCALIZE[135]</label>
+		<label2>$LOCALIZE[135]</label2>
 		<icon>$INFO[Window(Home).Property(SkinHelper.AllMoviesBackground)]</icon>
-		<thumb />
+		<thumb>$INFO[Window(Home).Property(SkinHelper.AllMoviesBackground)]</thumb>
 		<action>ActivateWindow(10025,videodb://movies/genres/,return)</action>
 	</shortcut>
-	<!-- movies in progress -->
 	<shortcut>
-		<label>31035</label>
-		<label2>Movies</label2>
-		<defaultID>135</defaultID>
-		<icon>$INFO[Window(Home).Property(SkinHelper.InProgressMoviesBackground)]</icon>
-		<thumb />
-		<action>ActivateWindow(10025,plugin://script.skin.helper.widgets/?action=inprogress&amp;mediatype=movies&amp;limit=250,return)</action>
+		<defaultID>652</defaultID>
+		<label>$LOCALIZE[652]</label>
+		<label2>$LOCALIZE[652]</label2>
+		<icon>$INFO[Window(Home).Property(SkinHelper.AllMoviesBackground)]</icon>
+		<thumb>$INFO[Window(Home).Property(SkinHelper.AllMoviesBackground)]</thumb>
+		<action>ActivateWindow(10025,videodb://movies/years/,return)</action>
 	</shortcut>
-	<!-- unwatched movies -->
 	<shortcut>
-		<label>16101</label>
-		<label2>Movies</label2>
-		<defaultID>135</defaultID>
-		<icon>$INFO[Window(Home).Property(SkinHelper.UnwatchedMoviesBackground)]</icon>
-		<thumb />
-		<action>ActivateWindow(10025,plugin://script.skin.helper.widgets/?action=unwatched&amp;mediatype=movies&amp;limit=2500,return)</action>
+		<defaultID>344</defaultID>
+		<label>$LOCALIZE[344]</label>
+		<label2>$LOCALIZE[344]</label2>
+		<icon>$INFO[Window(Home).Property(SkinHelper.AllMoviesBackground)]</icon>
+		<thumb>$INFO[Window(Home).Property(SkinHelper.AllMoviesBackground)]</thumb>
+		<action>ActivateWindow(10025,videodb://movies/actors/,return)</action>
+	</shortcut>
+	<shortcut>
+		<defaultID>20348</defaultID>
+		<label>$LOCALIZE[20348]</label>
+		<label2>$LOCALIZE[20348]</label2>
+		<icon>$INFO[Window(Home).Property(SkinHelper.AllMoviesBackground)]</icon>
+		<thumb>$INFO[Window(Home).Property(SkinHelper.AllMoviesBackground)]</thumb>
+		<action>ActivateWindow(10025,videodb://movies/directors/,return)</action>
+	</shortcut>
+	<shortcut>
+		<defaultID>20388</defaultID>
+		<label>$LOCALIZE[20388]</label>
+		<label2>$LOCALIZE[20388]</label2>
+		<icon>$INFO[Window(Home).Property(SkinHelper.AllMoviesBackground)]</icon>
+		<thumb>$INFO[Window(Home).Property(SkinHelper.AllMoviesBackground)]</thumb>
+		<action>ActivateWindow(10025,videodb://movies/studios/,return)</action>
+	</shortcut>
+	<shortcut>
+		<defaultID>20434</defaultID>
+		<label>$LOCALIZE[20434]</label>
+		<label2>$LOCALIZE[20434]</label2>
+		<icon>$INFO[Window(Home).Property(SkinHelper.AllMoviesBackground)]</icon>
+		<thumb>$INFO[Window(Home).Property(SkinHelper.AllMoviesBackground)]</thumb>
+		<action>ActivateWindow(10025,videodb://movies/sets/,return)</action>
+	</shortcut>
+	<shortcut>
+		<defaultID>20434</defaultID>
+		<label>$LOCALIZE[20434]</label>
+		<label2>$LOCALIZE[20434]</label2>
+		<icon>$INFO[Window(Home).Property(SkinHelper.AllMoviesBackground)]</icon>
+		<thumb>$INFO[Window(Home).Property(SkinHelper.AllMoviesBackground)]</thumb>
+		<action>ActivateWindow(10025,videodb://movies/sets/,return)</action>
+	</shortcut>
+	<shortcut>
+		<defaultID>20451</defaultID>
+		<label>$LOCALIZE[20451]</label>
+		<label2>$LOCALIZE[20451]</label2>
+		<icon>$INFO[Window(Home).Property(SkinHelper.AllMoviesBackground)]</icon>
+		<thumb>$INFO[Window(Home).Property(SkinHelper.AllMoviesBackground)]</thumb>
+		<action>ActivateWindow(10025,videodb://movies/countries/,return)</action>
+	</shortcut>
+	<shortcut>
+		<defaultID>20459</defaultID>
+		<label>$LOCALIZE[20459]</label>
+		<label2>$LOCALIZE[20459]</label2>
+		<icon>$INFO[Window(Home).Property(SkinHelper.AllMoviesBackground)]</icon>
+		<thumb>$INFO[Window(Home).Property(SkinHelper.AllMoviesBackground)]</thumb>
+		<action>ActivateWindow(10025,videodb://movies/tags/,return)</action>
 	</shortcut>
 </shortcuts>

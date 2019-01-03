@@ -4,6 +4,10 @@
 	<controls>
 		<control type="group">
 			<visible>!Window.IsActive(startup) + !Window.IsActive(GameVolume)</visible>
+			<animation effect="slide" end="0,140" time="0" condition="Window.IsActive(fullscreenvideo) + Skin.HasSetting(ScopeMode) + String.IsEqual(Skin.String(scope_mode),$LOCALIZE[40276])">Conditional</animation>
+			<animation effect="slide" end="0,135" time="0" condition="Window.IsActive(fullscreenvideo) + Skin.HasSetting(ScopeMode) + String.IsEqual(Skin.String(scope_mode),$LOCALIZE[40279])">Conditional</animation>
+			<animation effect="slide" end="0,131.5" time="0" condition="Window.IsActive(fullscreenvideo) + Skin.HasSetting(ScopeMode) + String.IsEqual(Skin.String(scope_mode),$LOCALIZE[40275])">Conditional</animation>
+			<animation effect="slide" end="0,21" time="0" condition="Window.IsActive(fullscreenvideo) + Skin.HasSetting(ScopeMode) + String.IsEqual(Skin.String(scope_mode),$LOCALIZE[40278])">Conditional</animation>
 			<centerleft>50%</centerleft>
 			<width>112</width>
 			<top>0</top>
@@ -15,35 +19,18 @@
 				<info>Player.Volume</info>
 			</control>
 			<control type="image">
-				<left>12</left>
-				<top>5</top>
-				<width>88</width>
-				<height>88</height>
-				<texture>osd/buffer-bg.png</texture>
-				<visible>Window.IsActive(fullscreenvideo) | Window.IsActive(FullscreenGame) | Window.IsActive(slideshow)</visible>
-			</control>
-			<control type="image">
-				<left>22</left>
+				<left>6</left>
 				<top>15</top>
-				<width>68</width>
-				<height>68</height>
-				<texture>dialogs/extendedprogress/loading-back.png</texture>
-				<animation effect="fade" start="100" end="0" delay="300" time="500" tween="sine" condition="Player.Muted">Conditional</animation>
+				<width>100</width>
+				<height>100</height>
+				<texture>dialogs/volume/progress2/back.png</texture>
 			</control>
 			<control type="image">
-				<left>22</left>
+				<left>6</left>
 				<top>15</top>
-				<width>68</width>
-				<height>68</height>
-				<texture>$INFO[Control.GetLabel(29999),dialogs/volume/progress/p,.png]</texture>
-				<animation effect="fade" start="100" end="0" delay="300" time="500" tween="sine" condition="Player.Muted">Conditional</animation>
-			</control>
-			<control type="image">
-				<left>36</left>
-				<top>29</top>
-				<width>40</width>
-				<height>40</height>
-				<texture colordiffuse="white">$VAR[VolumeIconVar]</texture>
+				<width>100</width>
+				<height>100</height>
+				<texture colordiffuse="$VAR[SkinColorVar]">$INFO[Control.GetLabel(29999),dialogs/volume/progress2/p,.png]</texture>
 			</control>
 		</control>
 	</controls>

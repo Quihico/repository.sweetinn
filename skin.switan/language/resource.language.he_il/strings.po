@@ -1,7 +1,7 @@
 # Kodi Media Center language file
-# Addon Name: Switan
-# Addon id: skin.switan
-# Addon Provider: InnKeeper
+# Addon Name: Titan
+# Addon id: skin.titan
+# Addon Provider: marcelveldt,mgonzales
 msgid ""
 msgstr ""
 "Project-Id-Version: KODI Skins\n"
@@ -85,7 +85,7 @@ msgid "Use default skin background"
 msgstr "תשתמש ברקע ברירת מחדל למעטפת"
 
 msgctxt "#31024"
-msgid "Use original Mediaportal's Switan skin background"
+msgid "Use original Mediaportal's Titan skin background"
 msgstr "תשתמש ברקע המעטפת המקורי של מדיה פורטל עבור טיטאן"
 
 msgctxt "#31025"
@@ -113,15 +113,15 @@ msgid "Display weather"
 msgstr "הצג מזג האוויר"
 
 msgctxt "#31031"
-msgid "Switan tiles (2 rows of large tiles)"
+msgid "Titan tiles (2 rows of large tiles)"
 msgstr "אריחי טיטאן (2 שורות של אריחים גדולים)"
 
 msgctxt "#31032"
-msgid "Switan tiles (3 rows of large tiles)"
+msgid "Titan tiles (3 rows of large tiles)"
 msgstr "אריחי טיטאן (3 שורות של אריחים גדולים)"
 
 msgctxt "#31033"
-msgid "Switan tiles (1 row of large tiles)"
+msgid "Titan tiles (1 row of large tiles)"
 msgstr "אריחי טיטאן (שורה אחת של אריחים גדולים)"
 
 msgctxt "#31034"
@@ -1109,7 +1109,7 @@ msgid "An error has occured while restoring the backup"
 msgstr "אירעה שגיאה בעת שחזור הגיבוי"
 
 msgctxt "#31282"
-msgid "Select Switan skin backup file"
+msgid "Select Titan skin backup file"
 msgstr "בחר קובץ גיבוי למעטפת טיטאן"
 
 msgctxt "#31283"
@@ -1217,7 +1217,7 @@ msgid "Close"
 msgstr "סגור"
 
 msgctxt "#31309"
-msgid "Switan tiles"
+msgid "Titan tiles"
 msgstr "אריחי טיטאן"
 
 msgctxt "#31310"
@@ -1397,7 +1397,7 @@ msgid "[B]CONFIGURE SYSTEM SETTINGS[/B][CR][CR]Setup and calibrate displays · C
 msgstr "[B]הגדרות מערכת[/B][CR][CR]הגדרות וכיול צגים · הגדרת יציאת שמע · הגדרת שלט רחוק · קבע העדפות חיסכון בחשמל · הפעל יומן אירועים · הגדר קוד נעילה ראשי"
 
 msgctxt "#31407"
-msgid "[B]CONFIGURE SKIN SETTINGS[/B][CR][CR]Setup the Switan skin · Add and remove home menu items · Change skin backgrounds"
+msgid "[B]CONFIGURE SKIN SETTINGS[/B][CR][CR]Setup the Titan skin · Add and remove home menu items · Change skin backgrounds"
 msgstr "[B]הגדרות המעטפת[/B][CR][CR]הגדר את מעטפת טיטאן · הוספה והסרה של פריטים בתפריט הבית · שנה רקע למעטפת"
 
 msgctxt "#31408"
@@ -2253,15 +2253,15 @@ msgid "Display tags/labels for episodes on posters"
 msgstr "הצת תגיות ותוויות עבור פרקים על פוסטרים"
 
 msgctxt "#31649"
-msgid "Switan tiles (1 row of small tiles)"
+msgid "Titan tiles (1 row of small tiles)"
 msgstr "אריחי טיטאן (שורה אחת של אריחים קטנים)"
 
 msgctxt "#31650"
-msgid "Switan tiles (2 rows of small tiles)"
+msgid "Titan tiles (2 rows of small tiles)"
 msgstr "אריחי טיטאן (2 שורות של אריחים קטנים)"
 
 msgctxt "#31651"
-msgid "Switan tiles (3 rows of small tiles)"
+msgid "Titan tiles (3 rows of small tiles)"
 msgstr "אריחי טיטאן (3 שורות של אריחים קטנים)"
 
 msgctxt "#31652"

@@ -1,0 +1,90 @@
+<shortcuts>
+	<shortcut>
+		<defaultID>resource.language.ar_sa</defaultID>
+		<label>$INFO[System.AddonTitle(resource.language.ar_sa)]</label>
+		<label2>$LOCALIZE[19141]</label2>
+		<icon>resource://resource.images.skinicons.wide/playlists.png</icon>
+		<thumb />
+		<action>ActivateWindow(10025,plugin://plugin.program.super.favourites/?folder=Groups/Arabic,return)</action>
+	</shortcut>
+	<shortcut>
+		<defaultID>resource.language.ca_es</defaultID>
+		<label>$INFO[System.AddonTitle(resource.language.ca_es)]</label>
+		<label2>$LOCALIZE[19141]</label2>
+		<icon>resource://resource.images.skinicons.wide/playlists.png</icon>
+		<thumb />
+		<action>ActivateWindow(10025,plugin://plugin.program.super.favourites/?folder=Groups/Catalan,return)</action>
+	</shortcut>
+	<shortcut>
+		<defaultID>resource.language.zh_cn</defaultID>
+		<label>$INFO[System.AddonTitle(resource.language.zh_cn)]</label>
+		<label2>$LOCALIZE[19141]</label2>
+		<icon>resource://resource.images.skinicons.wide/playlists.png</icon>
+		<thumb />
+		<action>ActivateWindow(10025,plugin://plugin.program.super.favourites/?folder=Groups/Chinese,return)</action>
+	</shortcut>
+	<shortcut>
+		<defaultID>resource.language.nl_nl</defaultID>
+		<label>$INFO[System.AddonTitle(resource.language.nl_nl)]</label>
+		<label2>$LOCALIZE[19141]</label2>
+		<icon>resource://resource.images.skinicons.wide/playlists.png</icon>
+		<thumb />
+		<action>ActivateWindow(10025,plugin://plugin.program.super.favourites/?folder=Groups/Dutch,return)</action>
+	</shortcut>
+	<shortcut>
+		<defaultID>resource.language.en_gb</defaultID>
+		<label>$INFO[System.AddonTitle(resource.language.en_gb)]</label>
+		<label2>$LOCALIZE[19141]</label2>
+		<icon>resource://resource.images.skinicons.wide/playlists.png</icon>
+		<thumb />
+		<action>ActivateWindow(10025,plugin://plugin.program.super.favourites/?folder=Groups/English,return)</action>
+	</shortcut>
+	<shortcut>
+		<defaultID>resource.language.fr_fr</defaultID>
+		<label>$INFO[System.AddonTitle(resource.language.fr_fr)]</label>
+		<label2>$LOCALIZE[19141]</label2>
+		<icon>resource://resource.images.skinicons.wide/playlists.png</icon>
+		<thumb />
+		<action>ActivateWindow(10025,plugin://plugin.program.super.favourites/?folder=Groups/French,return)</action>
+	</shortcut>
+	<shortcut>
+		<defaultID>resource.language.de_de</defaultID>
+		<label>$INFO[System.AddonTitle(resource.language.de_de)]</label>
+		<label2>$LOCALIZE[19141]</label2>
+		<icon>resource://resource.images.skinicons.wide/playlists.png</icon>
+		<thumb />
+		<action>ActivateWindow(10025,plugin://plugin.program.super.favourites/?folder=Groups/German,return)</action>
+	</shortcut>
+	<shortcut>
+		<defaultID>resource.language.it_it</defaultID>
+		<label>$INFO[System.AddonTitle(resource.language.it_it)]</label>
+		<label2>$LOCALIZE[19141]</label2>
+		<icon>resource://resource.images.skinicons.wide/playlists.png</icon>
+		<thumb />
+		<action>ActivateWindow(10025,plugin://plugin.program.super.favourites/?folder=Groups/Italian,return)</action>
+	</shortcut>
+	<shortcut>
+		<defaultID>resource.language.ru_ru</defaultID>
+		<label>$INFO[System.AddonTitle(resource.language.ru_ru)]</label>
+		<label2>$LOCALIZE[19141]</label2>
+		<icon>resource://resource.images.skinicons.wide/playlists.png</icon>
+		<thumb />
+		<action>ActivateWindow(10025,plugin://plugin.program.super.favourites/?folder=Groups/Russian,return)</action>
+	</shortcut>
+	<shortcut>
+		<defaultID>resource.language.es_es</defaultID>
+		<label>$INFO[System.AddonTitle(resource.language.es_es)]</label>
+		<label2>$LOCALIZE[19141]</label2>
+		<icon>resource://resource.images.skinicons.wide/playlists.png</icon>
+		<thumb />
+		<action>ActivateWindow(10025,plugin://plugin.program.super.favourites/?folder=Groups/Spanish,return)</action>
+	</shortcut>
+	<shortcut>
+		<defaultID>resource.language.vi_vn</defaultID>
+		<label>$INFO[System.AddonTitle(resource.language.vi_vn)]</label>
+		<label2>$LOCALIZE[19141]</label2>
+		<icon>resource://resource.images.skinicons.wide/playlists.png</icon>
+		<thumb />
+		<action>ActivateWindow(10025,plugin://plugin.program.super.favourites/?folder=Groups/Vietnamese,return)</action>
+	</shortcut>
+</shortcuts>

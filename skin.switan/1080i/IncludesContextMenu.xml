@@ -143,7 +143,7 @@
 			<align>center</align>
 			<aligny>center</aligny>
 			<font>Light28</font>
-			<label>-</label>
+			<label></label>
 			<textcolor>-</textcolor>
 			<focusedcolor>-</focusedcolor>
 			<disabledcolor>-</disabledcolor>
@@ -955,7 +955,7 @@
 					<right>40</right>
 					<textwidth>400</textwidth>
 					<include>SideBladeMenuButton</include>
-					<label>-</label>
+					<label></label>
 				</control>
 				<control type="radiobutton" id="5">
 					<description>Group recording items by folder structure</description>

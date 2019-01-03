@@ -1,7 +1,7 @@
 # Kodi Media Center language file
-# Addon Name: Switan
-# Addon id: skin.switan
-# Addon Provider: InnKeeper
+# Addon Name: Titan
+# Addon id: skin.titan
+# Addon Provider: marcelveldt,mgonzales
 msgid ""
 msgstr ""
 "Project-Id-Version: KODI Skins\n"
@@ -77,8 +77,8 @@ msgid "Use default skin background"
 msgstr "スキンのディフォルト背景を使用"
 
 msgctxt "#31024"
-msgid "Use original Mediaportal's Switan skin background"
-msgstr "Switanスキンの背景に独自のメディアポータルを使う"
+msgid "Use original Mediaportal's Titan skin background"
+msgstr "Titanスキンの背景に独自のメディアポータルを使う"
 
 msgctxt "#31025"
 msgid "Use dynamic weather background"
@@ -101,16 +101,16 @@ msgid "Do not show footer bar"
 msgstr "フッターバーを非表示"
 
 msgctxt "#31031"
-msgid "Switan tiles (2 rows of large tiles)"
-msgstr "Switanタイル (2行の大きなタイル)"
+msgid "Titan tiles (2 rows of large tiles)"
+msgstr "Titanタイル (2行の大きなタイル)"
 
 msgctxt "#31032"
-msgid "Switan tiles (3 rows of large tiles)"
-msgstr "Switanタイル (3行の大きなタイル)"
+msgid "Titan tiles (3 rows of large tiles)"
+msgstr "Titanタイル (3行の大きなタイル)"
 
 msgctxt "#31033"
-msgid "Switan tiles (1 row of large tiles)"
-msgstr "Switanタイル (1行の大きなタイル)"
+msgid "Titan tiles (1 row of large tiles)"
+msgstr "Titanタイル (1行の大きなタイル)"
 
 msgctxt "#31037"
 msgid "Trailers"

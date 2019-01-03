@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!--Switan-->
+<!--Titan-->
 <window>
     <defaultcontrol always="true">1000</defaultcontrol>
     <include>DefaultSkinSettings</include>
@@ -62,7 +62,7 @@
         <include condition="Skin.HasSetting(Home_RecordingIndicator)">NowRecordingIcon</include>
 	
 		<!-- Home Screen -->
-        <include condition="Skin.String(HomeLayout, 1) | Skin.String(HomeLayout, 2) | Skin.String(HomeLayout, 3) | Skin.String(HomeLayout, 1small) | Skin.String(HomeLayout, 2small) | Skin.String(HomeLayout, 3small)">HomeSwitanTiles</include>
+        <include condition="Skin.String(HomeLayout, 1) | Skin.String(HomeLayout, 2) | Skin.String(HomeLayout, 3) | Skin.String(HomeLayout, 1small) | Skin.String(HomeLayout, 2small) | Skin.String(HomeLayout, 3small)">HomeTitanTiles</include>
         <include condition="Skin.String(HomeLayout, simplehor) | String.Contains(Skin.String(HomeLayout), lowhorizontal)">HorizontalHome</include>
         <include condition="String.Contains(Skin.String(HomeLayout), ver)">VerticalHome</include>
         <include condition="Skin.String(HomeLayout, enhanced)">EnhancedHome</include>

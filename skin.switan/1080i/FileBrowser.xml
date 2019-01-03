@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!--Switan-->
+<!--Titan-->
 <window>
     <defaultcontrol always="true">450</defaultcontrol>
     <coordinates>
@@ -60,7 +60,7 @@
                 <posx>473</posx>
                 <posy>200</posy>
                 <width>974</width>
-                <label>-</label>
+                <label></label>
                 <include>DialogHeader</include>
                 <align>center</align>
             </control>

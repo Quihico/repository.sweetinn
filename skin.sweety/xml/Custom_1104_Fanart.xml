@@ -9,10 +9,14 @@
 			<aspectratio>scale</aspectratio>
 			<texture>colors/black.png</texture>
 		</control>
-		<control type="image">
+		<control type="multiimage">
 			<include>FullScreenDimensions</include>
-			<aspectratio>keep</aspectratio>
-			<texture>$INFO[Window(home).Property(fanart)]</texture>
+			<aspectratio>scale</aspectratio>
+			<fadetime>400</fadetime>
+			<animation effect="fade" time="400">VisibleChange</animation>
+			<imagepath background="true">$VAR[BackgroundInfoVar]</imagepath>
+			<timeperimage>3000</timeperimage>
+             <randomize>true</randomize>
 		</control>
 		<control type="button" id="3000">
 			<include>HiddenObject</include>

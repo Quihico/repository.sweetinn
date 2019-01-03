@@ -471,7 +471,7 @@
                         <scroll>true</scroll>
                     </control>
                     <control type="button">
-                        <label>-</label>
+                        <label></label>
                         <visible>false</visible>
                         <onfocus>SetProperty(submenu,show,home)</onfocus>
                     </control>
@@ -585,7 +585,7 @@
                         <animation effect="fade" time="200" start="100" end="60" reversible="true" condition="!Control.HasFocus(4444)">Conditional</animation>
                     </control>
                     <control type="button">
-                        <label>-</label>
+                        <label></label>
                         <visible>false</visible>
                         <onfocus>SetProperty(submenu,show,home)</onfocus>
                     </control>
@@ -776,7 +776,7 @@
                         <visible>!Control.HasFocus(4444)</visible>
                     </control>
                     <control type="button">
-                        <label>-</label>
+                        <label></label>
                         <visible>false</visible>
                         <onfocus>SetProperty(submenu,show,home)</onfocus>
                     </control>

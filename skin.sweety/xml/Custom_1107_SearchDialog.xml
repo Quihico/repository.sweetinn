@@ -2,14 +2,15 @@
 <window type="dialog" id="1107">
 	<defaultcontrol always="true">9000</defaultcontrol>
 	<include>Animation_DialogPopupOpenClose</include>
+	<onload>Skin.SetString(Query)</onload>
 	<controls>
 		<control type="group">
 			<centerleft>50%</centerleft>
-			<width>600</width>
+			<width>700</width>
 			<centertop>60%</centertop>
 			<height>700</height>
 			<include content="DialogBackgroundCommons">
-				<param name="width" value="600" />
+				<param name="width" value="700" />
 				<param name="height" value="80" />
 				<param name="header_label" value="$LOCALIZE[137]" />
 				<param name="header_id" value="" />
@@ -20,7 +21,7 @@
 					<item>
 						<label>$LOCALIZE[31113]</label>
 						<onclick>Dialog.Close(all)</onclick>
-						<onclick condition="System.hasAddon(script.globalsearch)">RunScript(script.globalsearch)</onclick>
+						<onclick condition="System.hasAddon(script.globalsearch)">RunScript(script.globalsearch,searchstring=$INFO[Skin.String(Query)])</onclick>
 						<onclick condition="!System.hasAddon(script.globalsearch)">InstallAddon(script.globalsearch)</onclick>
 					</item>
 					<item>

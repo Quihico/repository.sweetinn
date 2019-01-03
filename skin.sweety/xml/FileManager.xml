@@ -9,9 +9,20 @@
 			<centertop>50%</centertop>
 			<width>68</width>
 			<height>68</height>
-			<texture colordiffuse="button_focus" border="2">icons/file-manager/left-right.png</texture>
+			<texture colordiffuse="$VAR[SkinColorVar]" border="2">icons/file-manager/left-right.png</texture>
 			<animation effect="fade" start="0" end="100" time="300" delay="100">WindowOpen</animation>
 			<animation effect="fade" start="100" end="0" time="160">WindowClose</animation>
+		</control>
+		<control type="image">
+			<description>Dialog Header image</description>
+			<centerleft>50%</centerleft>
+			<centertop>50%</centertop>
+			<width>68</width>
+			<height>68</height>
+			<texture colordiffuse="$VAR[GradientColorVar]" border="2">icons/file-manager/left-right-gradient.png</texture>
+			<animation effect="fade" start="0" end="100" time="300" delay="100">WindowOpen</animation>
+			<animation effect="fade" start="100" end="0" time="160">WindowClose</animation>
+			<visible>Skin.HasSetting(EnableGradientColor)</visible>
 		</control>
 		<control type="group">
 			<left>0</left>
@@ -40,10 +51,10 @@
 		</control>
 		<control type="group">
 			<width>818</width>
-			<right>0</right>
+			<right>-6</right>
 			<include>OpenClose_Right</include>
 			<include content="ContentPanel">
-				<param name="width" value="878" />
+				<param name="width" value="872" />
 				<param name="flipx" value="true" />
 				<param name="left" value="-20" />
 			</include>
@@ -52,11 +63,10 @@
 				<param name="scrollbar_id" value="61" />
 				<param name="onleft_id" value="20" />
 				<param name="onright_id" value="61" />
-				<param name="width" value="817" />
+				<param name="width" value="812" />
 			</include>
 			<control type="scrollbar" id="61">
 				<left>800</left>
-				<animation effect="slide" end="5,0" time="0" condition="true">Conditional</animation>
 				<top>80</top>
 				<width>12</width>
 				<bottom>80</bottom>
@@ -77,11 +87,11 @@
 			<animation effect="fade" start="0" end="100" time="400">WindowOpen</animation>
 			<animation effect="fade" start="100" end="0" time="300">WindowClose</animation>
 			<control type="label">
-				<right>730</right>
-				<width>400</width>
+				<right>0</right>
+				<width>795</width>
 				<height>48</height>
 				<aligny>center</aligny>
-				<align>right</align>
+				<align>left</align>
 				<shadowcolor>text_shadow</shadowcolor>
 				<label>$INFO[Container(21).CurrentItem,, / ]$INFO[Container(21).NumItems]</label>
 			</control>
@@ -97,10 +107,11 @@
 				<shadowcolor>black</shadowcolor>
 			</control>
 			<control type="label">
-				<left>730</left>
-				<width>400</width>
+				<left>0</left>
+				<width>795</width>
 				<height>48</height>
 				<aligny>center</aligny>
+				<align>right</align>
 				<shadowcolor>text_shadow</shadowcolor>
 				<label>$INFO[Container(20).CurrentItem,, / ]$INFO[Container(20).NumItems]</label>
 			</control>

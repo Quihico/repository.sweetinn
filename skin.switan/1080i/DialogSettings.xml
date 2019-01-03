@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!--Switan-->
+<!--Titan-->
 <window>
     <defaultcontrol always="true">5</defaultcontrol>
     <allowoverlay>no</allowoverlay>
@@ -160,7 +160,7 @@
 				<control type="button" id="30">
                     <posx>740</posx>
                     <description>Clear</description>
-                    <label>-</label>
+                    <label></label>
 					<include>DialogButtonOther</include>
                     <animation effect="fade" start="100" end="75" time="0" condition="!Control.IsEnabled(6)">Conditional</animation>
                 </control>

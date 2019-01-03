@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!--Switan-->
+<!--Titan-->
 <window>
     <defaultcontrol>11</defaultcontrol>
     <controls>
@@ -33,7 +33,7 @@
                     <posy>80</posy>
                     <width>380</width>
                     <height>34</height>
-                    <label>-</label>
+                    <label></label>
                     <align>left</align>
                     <font>Reg30</font>
                     <textcolor>$INFO[Skin.String(GeneralTextColor)]</textcolor>
@@ -43,7 +43,7 @@
                     <description>Slider Value</description>
                     <posx>1520</posx>
                     <posy>80</posy>
-                    <label>-</label>
+                    <label></label>
                     <width>330</width>
                     <height>40</height>
                     <align>left</align>

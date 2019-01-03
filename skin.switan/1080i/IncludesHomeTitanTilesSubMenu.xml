@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!--Switan-->
+<!--Titan-->
 <includes>
 
 	<include name="HomeMenuSubMenuHorizontal">
@@ -106,7 +106,7 @@
 						<visible>!Control.HasFocus(4444)</visible>
 					</control>
                     <control type="button">
-                        <label>-</label>
+                        <label></label>
                         <visible>false</visible>
                         <onfocus>SetProperty(submenu,show,home)</onfocus>
                     </control>
@@ -475,7 +475,7 @@
                         <visible>!Control.HasFocus(4444)</visible>
                     </control>
                     <control type="button">
-                        <label>-</label>
+                        <label></label>
                         <visible>false</visible>
                         <onfocus>SetProperty(submenu,show,home)</onfocus>
                     </control>
@@ -547,7 +547,7 @@
                         </control>
 					</control>
                     <control type="button">
-                        <label>-</label>
+                        <label></label>
                         <visible>false</visible>
                         <onfocus>SetProperty(submenu,show,home)</onfocus>
                     </control>
@@ -609,7 +609,7 @@
 				<font>Reg28</font>
 			</control>
 			<control type="button">
-				<label>-</label>
+				<label></label>
 				<visible>false</visible>
 				<onfocus>SetProperty(submenu,show,home)</onfocus>
 			</control>

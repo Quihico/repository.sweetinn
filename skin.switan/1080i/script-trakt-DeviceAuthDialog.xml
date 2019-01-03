@@ -44,7 +44,7 @@
 					<posy>-48</posy>
 					<width>96</width>
 					<height>48</height>
-					<label>-</label>
+					<label></label>
 					<font>-</font>
 					<onclick>PreviousMenu</onclick>
 					<texturefocus>dialogs/trakt/close-fo.png</texturefocus>

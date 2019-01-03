@@ -1,7 +1,7 @@
 # Kodi Media Center language file
-# Addon Name: Switan
-# Addon id: skin.switan
-# Addon Provider: InnKeeper
+# Addon Name: Titan
+# Addon id: skin.titan
+# Addon Provider: marcelveldt,mgonzales
 msgid ""
 msgstr ""
 "Project-Id-Version: KODI Skins\n"
@@ -85,8 +85,8 @@ msgid "Use default skin background"
 msgstr "Koristi zadanu pozadinu presvlake"
 
 msgctxt "#31024"
-msgid "Use original Mediaportal's Switan skin background"
-msgstr "Koristi originalnu Mediaportal Switan pozadinu presvlake"
+msgid "Use original Mediaportal's Titan skin background"
+msgstr "Koristi originalnu Mediaportal Titan pozadinu presvlake"
 
 msgctxt "#31025"
 msgid "Use dynamic weather background"
@@ -113,16 +113,16 @@ msgid "Display weather"
 msgstr "Prikaži prognozu"
 
 msgctxt "#31031"
-msgid "Switan tiles (2 rows of large tiles)"
-msgstr "Switan pločice (2 reda velikih pločica)"
+msgid "Titan tiles (2 rows of large tiles)"
+msgstr "Titan pločice (2 reda velikih pločica)"
 
 msgctxt "#31032"
-msgid "Switan tiles (3 rows of large tiles)"
-msgstr "Switan pločice (3 reda velikih pločica)"
+msgid "Titan tiles (3 rows of large tiles)"
+msgstr "Titan pločice (3 reda velikih pločica)"
 
 msgctxt "#31033"
-msgid "Switan tiles (1 row of large tiles)"
-msgstr "Switan pločice (1 red velikih pločica)"
+msgid "Titan tiles (1 row of large tiles)"
+msgstr "Titan pločice (1 red velikih pločica)"
 
 msgctxt "#31034"
 msgid "items total"
@@ -1053,8 +1053,8 @@ msgid "An error has occured while restoring the backup"
 msgstr "Došlo je do greške prilikom vraćanja sigurnosne kopije!"
 
 msgctxt "#31282"
-msgid "Select Switan skin backup file"
-msgstr "Odaberite sigurnosnu kopiju Switan presvlake"
+msgid "Select Titan skin backup file"
+msgstr "Odaberite sigurnosnu kopiju Titan presvlake"
 
 msgctxt "#31283"
 msgid "Select a folder to create the backupfile"

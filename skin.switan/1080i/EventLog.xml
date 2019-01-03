@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!--Switan-->
+<!--Titan-->
 <window>
     <defaultcontrol always="true">570</defaultcontrol>
 	<menucontrol>9000</menucontrol>
@@ -183,7 +183,7 @@
                     <align>left</align>
                     <height>47</height>
                     <width>450</width>
-                    <label>-</label>
+                    <label></label>
                 </control>
                 <control type="radiobutton" id="22">
                     <description>Only show current level</description>
@@ -191,7 +191,7 @@
                     <align>left</align>
                     <height>47</height>
                     <width>450</width>
-                    <label>-</label>
+                    <label></label>
                 </control>
                 <control type="button" id="20">
                     <description>Clear button</description>
@@ -206,8 +206,8 @@
         </control>
 		<!--Footer-->
         <include condition="!skin.hassetting(nofooterbar)">Footer</include>
-		<!--Switan Version-->
-        <include>SwitanVersion</include>
+		<!--Titan Version-->
+        <include>TitanVersion</include>
 		
     </controls>
 </window>

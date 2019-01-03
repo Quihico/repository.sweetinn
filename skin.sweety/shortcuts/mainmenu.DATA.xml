@@ -1,0 +1,74 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<shortcuts>
+    <shortcut>
+        <label>$LOCALIZE[20342]</label>
+        <label2>Common Shortcut</label2>
+        <defaultID>movies</defaultID>
+        <icon>icons/sidemenu/movies.png</icon>
+        <action>ActivateWindow(Videos,videodb://movies/titles/,return)</action>
+        <background>special://skin/extras/home-images/video.jpg</background>
+        <visible>!Skin.HasSetting(hide_moviescategory)</visible>
+    </shortcut>
+    <shortcut>
+        <label>$LOCALIZE[20342]</label>
+        <label2>Common Shortcut</label2>
+        <defaultID>movies</defaultID>
+        <icon>icons/sidemenu/movies.png</icon>
+        <action>ActivateWindow(Videos,videodb://movies/,return)</action>
+        <background>special://skin/extras/home-images/video.jpg</background>
+        <visible>Skin.HasSetting(hide_moviescategory)</visible>
+    </shortcut>
+    <shortcut>
+        <label>$LOCALIZE[20343]</label>
+        <label2>Common Shortcut</label2>
+        <defaultID>tvshows</defaultID>
+        <icon>icons/sidemenu/tv.png</icon>
+        <action>ActivateWindow(Videos,videodb://tvshows/titles/,return)</action>
+        <visible>!Skin.HasSetting(hide_tvshowscategory)</visible>
+    </shortcut>
+    <shortcut>
+        <label>$LOCALIZE[20343]</label>
+        <label2>Common Shortcut</label2>
+        <defaultID>tvshows</defaultID>
+        <icon>icons/sidemenu/tv.png</icon>
+        <action>ActivateWindow(Videos,videodb://tvshows/,return)</action>
+        <visible>Skin.HasSetting(hide_tvshowscategory)</visible>
+    </shortcut>
+    <shortcut>
+        <label>$LOCALIZE[20389]</label>
+        <label2>Common Shortcut</label2>
+        <defaultID>musicvideos</defaultID>
+        <icon>icons/sidemenu/musicvideos.png</icon>
+        <action>ActivateWindow(Videos,videodb://musicvideos/titles/,return)</action>
+        <visible>!Skin.HasSetting(hide_musicvideocategory)</visible>
+    </shortcut>
+    <shortcut>
+        <label>$LOCALIZE[20389]</label>
+        <label2>Common Shortcut</label2>
+        <defaultID>musicvideos</defaultID>
+        <icon>icons/sidemenu/musicvideos.png</icon>
+        <action>ActivateWindow(Videos,videodb://musicvideos/,return)</action>
+        <visible>Skin.HasSetting(hide_musicvideocategory)</visible>
+    </shortcut>
+<!--    <shortcut>
+        <label>$LOCALIZE[19019]</label>
+        <label2>Common Shortcut</label2>
+        <defaultID>channels</defaultID>
+        <icon>icons/sidemenu/zap.png</icon>
+        <action>ActivateWindow(TVChannels)</action>
+    </shortcut>-->
+    <shortcut>
+        <label>$LOCALIZE[19019]</label>
+        <label2>Common Shortcut</label2>
+        <defaultID>livetv</defaultID>
+        <icon>icons/sidemenu/guide.png</icon>
+        <action>ActivateWindow(TVGuide,return)</action>
+    </shortcut>
+    <shortcut>
+        <label>$LOCALIZE[10134]</label>
+        <label2>Common Shortcut</label2>
+        <defaultID>favorites</defaultID>
+        <icon>icons/sidemenu/favourites.png</icon>
+        <action>ActivateWindow(Favourites)</action>
+    </shortcut>
+</shortcuts>

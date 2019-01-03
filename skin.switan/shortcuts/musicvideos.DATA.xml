@@ -1,2 +1,58 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<shortcuts />
+<shortcuts>
+	<shortcut>
+		<defaultID>20382</defaultID>
+		<label>$LOCALIZE[20382]</label>
+		<label2>$LOCALIZE[20382]</label2>
+		<icon>$INFO[Window(Home).Property(SkinHelper.AllMusicVideosBackground)]</icon>
+		<thumb />
+		<action>ActivateWindow(10025,videodb://recentlyaddedmusicvideos/,return)</action>
+	</shortcut>
+	<shortcut>
+		<defaultID>135</defaultID>
+		<label>$LOCALIZE[135]</label>
+		<label2>$LOCALIZE[135]</label2>
+		<icon>$INFO[Window(Home).Property(SkinHelper.AllMusicVideosBackground)]</icon>
+		<thumb />
+		<action>ActivateWindow(10025,videodb://musicvideos/genres/,return)</action>
+	</shortcut>
+	<shortcut>
+		<defaultID>652</defaultID>
+		<label>$LOCALIZE[652]</label>
+		<label2>$LOCALIZE[652]</label2>
+		<icon>$INFO[Window(Home).Property(SkinHelper.AllMusicVideosBackground)]</icon>
+		<thumb />
+		<action>ActivateWindow(10025,videodb://musicvideos/years/,return)</action>
+	</shortcut>
+	<shortcut>
+		<defaultID>133</defaultID>
+		<label>$LOCALIZE[133]</label>
+		<label2>$LOCALIZE[133]</label2>
+		<icon>$INFO[Window(Home).Property(SkinHelper.AllMusicVideosBackground)]</icon>
+		<thumb />
+		<action>ActivateWindow(10025,videodb://musicvideos/artists/,return)</action>
+	</shortcut>
+	<shortcut>
+		<defaultID>132</defaultID>
+		<label>$LOCALIZE[132]</label>
+		<label2>$LOCALIZE[132]</label2>
+		<icon>$INFO[Window(Home).Property(SkinHelper.AllMusicVideosBackground)]</icon>
+		<thumb />
+		<action>ActivateWindow(10025,videodb://musicvideos/albums/,return)</action>
+	</shortcut>
+	<shortcut>
+		<defaultID>20348</defaultID>
+		<label>$LOCALIZE[20348]</label>
+		<label2>$LOCALIZE[20348]</label2>
+		<icon>$INFO[Window(Home).Property(SkinHelper.AllMusicVideosBackground)]</icon>
+		<thumb />
+		<action>ActivateWindow(10025,videodb://musicvideos/directors/,return)</action>
+	</shortcut>
+	<shortcut>
+		<defaultID>20388</defaultID>
+		<label>$LOCALIZE[20388]</label>
+		<label2>$LOCALIZE[20388]</label2>
+		<icon>$INFO[Window(Home).Property(SkinHelper.AllMusicVideosBackground)]</icon>
+		<thumb />
+		<action>ActivateWindow(10025,videodb://musicvideos/studios/,return)</action>
+	</shortcut>
+</shortcuts>

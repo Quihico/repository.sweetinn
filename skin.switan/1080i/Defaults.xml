@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!--Switan-->
+<!--Titan-->
 <includes>
     <default type="label">
         <posx>0</posx>
         <posy>0</posy>
-        <label>-</label>
+        <label></label>
         <height>60</height>
         <align>left</align>
         <aligny>center</aligny>
@@ -19,7 +19,7 @@
     <default type="fadelabel">
         <posx>0</posx>
         <posy>0</posy>
-        <label>-</label>
+        <label></label>
         <height>60</height>
         <align>left</align>
         <aligny>center</aligny>
@@ -68,7 +68,7 @@
         <align>center</align>
         <aligny>center</aligny>
         <font>Light28</font>
-        <label>-</label>
+        <label></label>
         <textcolor>$INFO[Skin.String(ButtonTextColor)]</textcolor>
         <focusedcolor>$INFO[Skin.String(ButtonFocusTextColor)]</focusedcolor>
         <disabledcolor>aaffffff</disabledcolor>
@@ -83,7 +83,7 @@
         <posy>0</posy>
         <width>600</width>
         <height>60</height>
-        <label>-</label>
+        <label></label>
         <font>Light28</font>
         <textcolor>$INFO[Skin.String(ButtonTextColor)]</textcolor>
         <focusedcolor>$INFO[Skin.String(ButtonFocusTextColor)]</focusedcolor>
@@ -107,7 +107,7 @@
         <align>center</align>
         <aligny>center</aligny>
         <font>Light28</font>
-        <label>-</label>
+        <label></label>
         <textcolor>$INFO[Skin.String(ButtonTextColor)]</textcolor>
         <focusedcolor>$INFO[Skin.String(ButtonFocusTextColor)]</focusedcolor>
         <disabledcolor>aaffffff</disabledcolor>
@@ -126,7 +126,7 @@
         <posy>0</posy>
         <width>600</width>
         <height>60</height>
-        <label>-</label>
+        <label></label>
         <font>Light28</font>
         <textureup colordiffuse="$INFO[Skin.String(ButtonTextColor)]">common/spinctrl/arrow-up-nf.png</textureup>
         <texturedown colordiffuse="$INFO[Skin.String(ButtonTextColor)]">common/spinctrl/arrow-down-nf.png</texturedown>
@@ -231,7 +231,7 @@
         <visible>!Skin.HasSetting(DisableScrollbars)</visible>
     </default>
     <default type="textbox">
-        <label>-</label>
+        <label></label>
         <font>Light28</font>
         <textcolor fallback="white">$INFO[Skin.String(GeneralTextColor)]</textcolor>
         <shadowcolor>-</shadowcolor>

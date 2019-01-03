@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!--Switan-->
+<!--Titan-->
 <window>
     <defaultcontrol always="true">20</defaultcontrol>
     <allowoverlay>no</allowoverlay>
@@ -52,7 +52,7 @@
 					<posx>140</posx>
 					<width>700</width>
 					<align>left</align>
-					<label>-</label>
+					<label></label>
 					<textcolor>$INFO[Skin.String(GeneralHighlightTextColor)]</textcolor>
 					<font>Bold38</font>
 				</control>
@@ -225,7 +225,7 @@
 					<posx>140</posx>
 					<width>700</width>
 					<align>left</align>
-					<label>-</label>
+					<label></label>
 					<textcolor>$INFO[Skin.String(GeneralHighlightTextColor)]</textcolor>
 					<font>Bold38</font>
 				</control>
@@ -372,7 +372,7 @@
 					<posy>610</posy>
 					<width>480</width>
 					<align>left</align>
-					<label>-</label>
+					<label></label>
 					<font>Reg30</font>
 					<textcolor>$INFO[Skin.String(GeneralTextColor)]</textcolor>
 				</control>

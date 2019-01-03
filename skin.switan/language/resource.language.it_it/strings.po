@@ -1,7 +1,7 @@
 # Kodi Media Center language file
-# Addon Name: Switan
-# Addon id: skin.switan
-# Addon Provider: InnKeeper
+# Addon Name: Titan
+# Addon id: skin.titan
+# Addon Provider: marcelveldt,mgonzales
 msgid ""
 msgstr ""
 "Project-Id-Version: KODI Skins\n"
@@ -85,8 +85,8 @@ msgid "Use default skin background"
 msgstr "Usa sfondo skin predefinito"
 
 msgctxt "#31024"
-msgid "Use original Mediaportal's Switan skin background"
-msgstr "Usa sfondo originale della skin Switan per MediaPortal"
+msgid "Use original Mediaportal's Titan skin background"
+msgstr "Usa sfondo originale della skin Titan per MediaPortal"
 
 msgctxt "#31025"
 msgid "Use dynamic weather background"
@@ -113,16 +113,16 @@ msgid "Display weather"
 msgstr "Mostra Meteo"
 
 msgctxt "#31031"
-msgid "Switan tiles (2 rows of large tiles)"
-msgstr "Switan Tiles (2 righe di tiles larghe)"
+msgid "Titan tiles (2 rows of large tiles)"
+msgstr "Titan Tiles (2 righe di tiles larghe)"
 
 msgctxt "#31032"
-msgid "Switan tiles (3 rows of large tiles)"
-msgstr "Switan Tiles (3 righe di tiles larghe)"
+msgid "Titan tiles (3 rows of large tiles)"
+msgstr "Titan Tiles (3 righe di tiles larghe)"
 
 msgctxt "#31033"
-msgid "Switan tiles (1 row of large tiles)"
-msgstr "Switan Tiles (1 riga di tiles larghe)"
+msgid "Titan tiles (1 row of large tiles)"
+msgstr "Titan Tiles (1 riga di tiles larghe)"
 
 msgctxt "#31034"
 msgid "items total"
@@ -1109,8 +1109,8 @@ msgid "An error has occured while restoring the backup"
 msgstr "C'è stato un errore mentre ripristinavo il backup"
 
 msgctxt "#31282"
-msgid "Select Switan skin backup file"
-msgstr "Scegli file di backup della skin Switan"
+msgid "Select Titan skin backup file"
+msgstr "Scegli file di backup della skin Titan"
 
 msgctxt "#31283"
 msgid "Select a folder to create the backupfile"
@@ -1217,8 +1217,8 @@ msgid "Close"
 msgstr "Chiudi"
 
 msgctxt "#31309"
-msgid "Switan tiles"
-msgstr "Switan Tiles"
+msgid "Titan tiles"
+msgstr "Titan Tiles"
 
 msgctxt "#31310"
 msgid "Number of rows with tiles"
@@ -1397,8 +1397,8 @@ msgid "[B]CONFIGURE SYSTEM SETTINGS[/B][CR][CR]Setup and calibrate displays · C
 msgstr "[B]CONFIGURA IMPOSTAZIONI SISTEMA[/B][CR][CR]Imposta e calibra i display · Configura output audio · Imposta telecomandi · Definisci opzioni risparmio energetico · Abilita debug · Imposta Master Lock"
 
 msgctxt "#31407"
-msgid "[B]CONFIGURE SKIN SETTINGS[/B][CR][CR]Setup the Switan skin · Add and remove home menu items · Change skin backgrounds"
-msgstr "[B]CONFIGURA IMPOSTAZIONI SKIN[/B][CR][CR]Configura la skin Switan · Aggiungi e rimuovi oggetti Menù Home · Cambia sfondi skin"
+msgid "[B]CONFIGURE SKIN SETTINGS[/B][CR][CR]Setup the Titan skin · Add and remove home menu items · Change skin backgrounds"
+msgstr "[B]CONFIGURA IMPOSTAZIONI SKIN[/B][CR][CR]Configura la skin Titan · Aggiungi e rimuovi oggetti Menù Home · Cambia sfondi skin"
 
 msgctxt "#31408"
 msgid "[B]CONFIGURE ADD-ONS[/B][CR][CR]Manage your installed Add-ons · Browse for and install Add-ons from kodi.tv · Modify Add-on settings"
@@ -2253,16 +2253,16 @@ msgid "Display tags/labels for episodes on posters"
 msgstr "Mostra Tag/Etichette per gli Episodi sui Poster"
 
 msgctxt "#31649"
-msgid "Switan tiles (1 row of small tiles)"
-msgstr "Switan Tiles (1 riga di tiles piccole)"
+msgid "Titan tiles (1 row of small tiles)"
+msgstr "Titan Tiles (1 riga di tiles piccole)"
 
 msgctxt "#31650"
-msgid "Switan tiles (2 rows of small tiles)"
-msgstr "Switan Tiles (2 righe di tiles piccole)"
+msgid "Titan tiles (2 rows of small tiles)"
+msgstr "Titan Tiles (2 righe di tiles piccole)"
 
 msgctxt "#31651"
-msgid "Switan tiles (3 rows of small tiles)"
-msgstr "Switan Tiles (3 righe di tiles piccole)"
+msgid "Titan tiles (3 rows of small tiles)"
+msgstr "Titan Tiles (3 righe di tiles piccole)"
 
 msgctxt "#31652"
 msgid "Prefer ClearArt images over landscape images"

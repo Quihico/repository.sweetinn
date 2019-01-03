@@ -1,7 +1,7 @@
 # Kodi Media Center language file
-# Addon Name: Switan
-# Addon id: skin.switan
-# Addon Provider: InnKeeper
+# Addon Name: Titan
+# Addon id: skin.titan
+# Addon Provider: marcelveldt,mgonzales
 msgid ""
 msgstr ""
 "Project-Id-Version: KODI Skins\n"
@@ -77,8 +77,8 @@ msgid "Use default skin background"
 msgstr "Utilizar fundo do tema predefinido"
 
 msgctxt "#31024"
-msgid "Use original Mediaportal's Switan skin background"
-msgstr "Utilizar fundo do tema Switan original da MediaPortal"
+msgid "Use original Mediaportal's Titan skin background"
+msgstr "Utilizar fundo do tema Titan original da MediaPortal"
 
 msgctxt "#31025"
 msgid "Use dynamic weather background"
@@ -105,16 +105,16 @@ msgid "Display weather"
 msgstr "Exibir o tempo"
 
 msgctxt "#31031"
-msgid "Switan tiles (2 rows of large tiles)"
-msgstr "Blocos do Switan (2 linhas com blocos grandes)"
+msgid "Titan tiles (2 rows of large tiles)"
+msgstr "Blocos do Titan (2 linhas com blocos grandes)"
 
 msgctxt "#31032"
-msgid "Switan tiles (3 rows of large tiles)"
-msgstr "Blocos do Switan (3 linhas com blocos grandes)"
+msgid "Titan tiles (3 rows of large tiles)"
+msgstr "Blocos do Titan (3 linhas com blocos grandes)"
 
 msgctxt "#31033"
-msgid "Switan tiles (1 row of large tiles)"
-msgstr "Blocos do Switan (1 linha com blocos grandes)"
+msgid "Titan tiles (1 row of large tiles)"
+msgstr "Blocos do Titan (1 linha com blocos grandes)"
 
 msgctxt "#31034"
 msgid "items total"

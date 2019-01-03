@@ -1,0 +1,42 @@
+<shortcuts>
+	<shortcut>
+		<defaultID>19023</defaultID>
+		<label>$LOCALIZE[19023]</label>
+		<label2>$LOCALIZE[19023]</label2>
+		<icon>resource://resource.images.skinicons.wide/DefaultTVShows.png</icon>
+		<thumb />
+		<action>ActivateWindow(TVChannels,return)</action>
+	</shortcut>
+	<shortcut>
+		<defaultID>19024</defaultID>
+		<label>$LOCALIZE[19024]</label>
+		<label2>$LOCALIZE[19024]</label2>
+		<icon>resource://resource.images.skinicons.wide/DefaultTVShows.png</icon>
+		<thumb />
+		<action>ActivateWindow(RadioChannels,return)</action>
+	</shortcut>
+	<shortcut>
+		<defaultID>19163</defaultID>
+		<label>$LOCALIZE[19163]</label>
+		<label2>$LOCALIZE[19163]</label2>
+		<icon>resource://resource.images.skinicons.wide/DefaultTVShows.png</icon>
+		<thumb />
+		<action>ActivateWindow(TVRecordings,return)</action>
+	</shortcut>
+	<shortcut>
+		<defaultID>19040</defaultID>
+		<label>$LOCALIZE[19040]</label>
+		<label2>$LOCALIZE[19040]</label2>
+		<icon>resource://resource.images.skinicons.wide/DefaultTVShows.png</icon>
+		<thumb />
+		<action>ActivateWindow(TVTimers,return)</action>
+	</shortcut>
+	<shortcut>
+		<defaultID>137</defaultID>
+		<label>$LOCALIZE[137]</label>
+		<label2>$LOCALIZE[137]</label2>
+		<icon>resource://resource.images.skinicons.wide/DefaultTVShows.png</icon>
+		<thumb />
+		<action>ActivateWindow(TVSearch,return)</action>
+	</shortcut>
+</shortcuts>

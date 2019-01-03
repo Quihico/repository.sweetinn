@@ -35,7 +35,7 @@
 		<onload condition="!Skin.HasSetting(HomeMenuDefaults46)">Skin.SetBool(GuideShowInfo)</onload>
 		<onload condition="!Skin.HasSetting(HomeMenuDefaults46)">Skin.SetBool(ShowWeatherVideoInfoOSD)</onload>
 		<onload condition="!Skin.HasSetting(HomeMenuDefaults46)">Skin.SetBool(HideWatchedRecentlyAdded)</onload>
-		<onload condition="!Skin.HasSetting(HomeMenuDefaults46)">Skin.SetBool(IsSwitanSkin)</onload>
+		<onload condition="!Skin.HasSetting(HomeMenuDefaults46)">Skin.SetBool(IsTitanSkin)</onload>
 		<onload condition="!Skin.HasSetting(HomeMenuDefaults46)">Skin.SetBool(SmartShortcuts.playlists)</onload>
 		<onload condition="!Skin.HasSetting(HomeMenuDefaults46)">Skin.SetBool(OSDShowInfoOnPause)</onload>
 		<onload condition="!Skin.HasSetting(HomeMenuDefaults46)">Skin.SetBool(PVRShowPreview)</onload>

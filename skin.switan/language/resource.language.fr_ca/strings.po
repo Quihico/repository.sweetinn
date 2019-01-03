@@ -1,7 +1,7 @@
 # Kodi Media Center language file
-# Addon Name: Switan
-# Addon id: skin.switan
-# Addon Provider: InnKeeper
+# Addon Name: Titan
+# Addon id: skin.titan
+# Addon Provider: marcelveldt,mgonzales
 msgid ""
 msgstr ""
 "Project-Id-Version: KODI Skins\n"
@@ -81,8 +81,8 @@ msgid "Use default skin background"
 msgstr "Utiliser l’arrière-plan par défaut de l’habillage"
 
 msgctxt "#31024"
-msgid "Use original Mediaportal's Switan skin background"
-msgstr "Utiliser l’arrière-plan orignal de l’habillage Switan de MediaPortal"
+msgid "Use original Mediaportal's Titan skin background"
+msgstr "Utiliser l’arrière-plan orignal de l’habillage Titan de MediaPortal"
 
 msgctxt "#31025"
 msgid "Use dynamic weather background"
@@ -109,16 +109,16 @@ msgid "Display weather"
 msgstr "Afficher la météo"
 
 msgctxt "#31031"
-msgid "Switan tiles (2 rows of large tiles)"
-msgstr "Carreaux de Switan (2 rangées de grands carreaux)"
+msgid "Titan tiles (2 rows of large tiles)"
+msgstr "Carreaux de Titan (2 rangées de grands carreaux)"
 
 msgctxt "#31032"
-msgid "Switan tiles (3 rows of large tiles)"
-msgstr "Carreaux de Switan (3 rangées de grands carreaux)"
+msgid "Titan tiles (3 rows of large tiles)"
+msgstr "Carreaux de Titan (3 rangées de grands carreaux)"
 
 msgctxt "#31033"
-msgid "Switan tiles (1 row of large tiles)"
-msgstr "Carreaux de Switan (1 rangée de grands carreaux)"
+msgid "Titan tiles (1 row of large tiles)"
+msgstr "Carreaux de Titan (1 rangée de grands carreaux)"
 
 msgctxt "#31034"
 msgid "items total"
@@ -1045,8 +1045,8 @@ msgid "An error has occured while restoring the backup"
 msgstr "Une erreur est survenue lors de la restauration de la sauvegarde"
 
 msgctxt "#31282"
-msgid "Select Switan skin backup file"
-msgstr "Choisir le fichier de sauvegarde de l’habillage Switan"
+msgid "Select Titan skin backup file"
+msgstr "Choisir le fichier de sauvegarde de l’habillage Titan"
 
 msgctxt "#31283"
 msgid "Select a folder to create the backupfile"
@@ -1149,8 +1149,8 @@ msgid "Close"
 msgstr "Fermer"
 
 msgctxt "#31309"
-msgid "Switan tiles"
-msgstr "Carreaux Switan"
+msgid "Titan tiles"
+msgstr "Carreaux Titan"
 
 msgctxt "#31312"
 msgid "Submenu layout"
@@ -1837,16 +1837,16 @@ msgid "Big list 2"
 msgstr "Grande liste 2"
 
 msgctxt "#31649"
-msgid "Switan tiles (1 row of small tiles)"
-msgstr "Carreaux Switan (1 rangée de petits carreaux)"
+msgid "Titan tiles (1 row of small tiles)"
+msgstr "Carreaux Titan (1 rangée de petits carreaux)"
 
 msgctxt "#31650"
-msgid "Switan tiles (2 rows of small tiles)"
-msgstr "Carreaux Switan (2 rangées de petits carreaux)"
+msgid "Titan tiles (2 rows of small tiles)"
+msgstr "Carreaux Titan (2 rangées de petits carreaux)"
 
 msgctxt "#31651"
-msgid "Switan tiles (3 rows of small tiles)"
-msgstr "Carreaux Switan (3 rangées de petits carreaux)"
+msgid "Titan tiles (3 rows of small tiles)"
+msgstr "Carreaux Titan (3 rangées de petits carreaux)"
 
 msgctxt "#31654"
 msgid "Back..."
