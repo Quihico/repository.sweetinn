@@ -44,13 +44,13 @@
 						<enable>!Skin.HasSetting(hide_recentlytvshows)</enable>
 					</control>
 					<control type="radiobutton" id="11120">
-						<label>$LOCALIZE[40097] : $LOCALIZE[40012]</label>
+						<label>$LOCALIZE[40097] : $LOCALIZE[209] $LOCALIZE[36907]</label>
 						<include>DefaultSettingButton</include>
 						<selected>Skin.HasSetting(hide_nextepisodes)</selected>
 						<onclick>Skin.ToggleSetting(hide_nextepisodes)</onclick>
 					</control>
 					<control type="radiobutton" id="11115">
-						<label>$LOCALIZE[40097] : $LOCALIZE[626]</label>
+						<label>$LOCALIZE[40097] : $LOCALIZE[575]</label>
 						<include>DefaultSettingButton</include>
 						<selected>Skin.HasSetting(hide_inprogresstvshows)</selected>
 						<onclick>Skin.ToggleSetting(hide_inprogresstvshows)</onclick>
@@ -78,7 +78,7 @@
 						<include>DefaultSettingButton</include>
 						<selected>Skin.HasSetting(hide_studiotvshows)</selected>
 						<onclick>Skin.ToggleSetting(hide_studiotvshows)</onclick>
-					</control>			
+					</control>
 				</control>
 			</control>
 		</control>

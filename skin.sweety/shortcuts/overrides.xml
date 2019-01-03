@@ -31,6 +31,8 @@
     <widgetdefault labelID="video">VideoWidget</widgetdefault>
     <widgetdefault labelID="favorites">FavoritesWidget</widgetdefault>
     <widgetdefault labelID="weather">WeatherWidget</widgetdefault>
+    <widgetdefault labelID="guide">LiveTVWidget</widgetdefault>
+    <widgetdefault labelID="channels">ChannelWidget</widgetdefault>
     
     <!-- Additionnal Widgets -->
     <widget label="427" icon="icons/sidemenu/disc.png">DiscWidget</widget>
@@ -51,10 +53,10 @@
     
     <!-- Default Backgrounds -->
     <backgrounddefault labelID="disc">special://skin/extras/home-images/disc.jpg</backgrounddefault>
-    <backgrounddefault labelID="movies">special://skin/extras/home-images/movies.jpg</backgrounddefault>
+    <backgrounddefault labelID="movies">special://skin/extras/home-images/video.jpg</backgrounddefault>
     <backgrounddefault labelID="tvshows">special://skin/extras/home-images/tvshows.jpg</backgrounddefault>
     <backgrounddefault labelID="music">special://skin/extras/home-images/music.jpg</backgrounddefault>
-    <backgrounddefault labelID="musicvideos">special://skin/extras/home-images/musicvideos.jpg</backgrounddefault>
+    <backgrounddefault labelID="musicvideos">special://skin/extras/home-images/music.jpg</backgrounddefault>
     <backgrounddefault labelID="livetv">special://skin/extras/home-images/livetv.jpg</backgrounddefault>
     <backgrounddefault labelID="radio">special://skin/extras/home-images/radio.jpg</backgrounddefault>
     <backgrounddefault labelID="games">special://skin/extras/home-images/games.jpg</backgrounddefault>
@@ -65,6 +67,8 @@
     <backgrounddefault labelID="weather">special://skin/extras/home-images/weather.jpg</backgrounddefault>
     <backgrounddefault labelID="libreelec">special://skin/extras/home-images/libreelec.png</backgrounddefault>
     <backgrounddefault labelID="coreelec">special://skin/extras/home-images/coreelec.png</backgrounddefault>
+    <backgrounddefault labelID="guide">special://skin/extras/home-images/livetv.jpg</backgrounddefault>
+    <backgrounddefault labelID="channels">special://skin/extras/home-images/channels.jpg</backgrounddefault>
     
     <!-- Background -->
     <background label="smartshortcuts">||BROWSE||plugin://script.skin.helper.service/?action=backgrounds</background>

@@ -716,6 +716,18 @@ msgctxt "#31163"
 msgid "Show Fanart background"
 msgstr ""
 
+#. Label for the Welcome Screen
+#: /xml/Custom_1149_Welcome.xml
+msgctxt "#31965"
+msgid "Welcome to your Sweet Inn apartment![CR]We hope you'll enjoy your stay."
+msgstr ""
+
+#. Additional font
+#: /xml/font.xml
+msgctxt "#31966"
+msgid "Bodoni"
+msgstr ""
+
 #: /xml/SkinSettings.xml
 msgctxt "#40000"
 msgid "Main menu"
@@ -2291,4 +2303,11 @@ msgstr ""
 #: /xml/Variables.xml
 msgctxt "#40314"
 msgid "Crew member in TV show"
+msgstr ""
+
+
+#. Label for the Welcome Screen
+#: /1080i/SkinSettings.xml
+msgctxt "#31965"
+msgid "Welcome to your Sweet Inn apartment![CR]We hope you'll enjoy your stay."
 msgstr ""

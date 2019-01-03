@@ -263,7 +263,7 @@
 		<value condition="Skin.HasSetting(standard_PVRGenres)">$INFO[ListItem.Property(GenreType),windows/pvr/epg-genres/,.png]</value>
 		<value>$INFO[ListItem.Genre,special://skin/extras/epg-genres/,.png]</value>
 	</variable>
-	<!--<variable name="OscarsVar">
+	<variable name="OscarsVar">
         <value condition="String.Contains(Window(Home).Property(SkinHelper.ListItem.Awards),20 Oscar)">20 $LOCALIZE[40235]</value>
         <value condition="String.Contains(Window(Home).Property(SkinHelper.ListItem.Awards),19 Oscar)">19 $LOCALIZE[40235]</value>
         <value condition="String.Contains(Window(Home).Property(SkinHelper.ListItem.Awards),18 Oscar)">18 $LOCALIZE[40235]</value>
@@ -284,7 +284,7 @@
         <value condition="String.Contains(Window(Home).Property(SkinHelper.ListItem.Awards),3 Oscar)">3 $LOCALIZE[40235]</value>
         <value condition="String.Contains(Window(Home).Property(SkinHelper.ListItem.Awards),2 Oscar)">2 $LOCALIZE[40235]</value>
         <value condition="String.Contains(Window(Home).Property(SkinHelper.ListItem.Awards),1 Oscar)">1 $LOCALIZE[40234]</value>
-    </variable>-->
+    </variable>
     <variable name="PlayerInfoOscarsVar">
         <value condition="String.Contains(Window(Home).Property(SkinHelper.Player.Awards),20 Oscar)">20 $LOCALIZE[40235]</value>
         <value condition="String.Contains(Window(Home).Property(SkinHelper.Player.Awards),19 Oscar)">19 $LOCALIZE[40235]</value>
@@ -3680,12 +3680,16 @@
 		<value>CCFFFFFF</value>
 	</variable>
 	<variable name="HideWatchedMoviesFromRecentlyVar">
-		<value condition="Skin.HasSetting(HideWatchedMoviesFromRecently)">special://skin/playlists/recent_unwatched_movies.xsp</value>
-		<value>special://skin/playlists/recent_movies.xsp</value>
+		<value condition="Skin.HasSetting(HideWatchedMoviesFromRecently)">special://skin/playlists/movies_recentlyadded_unwatched_friendly.xsp</value>
+		<value>special://skin/playlists/movies_recentlyadded_friendly.xsp</value>
+	</variable>
+	<variable name="HideWatchedMoviesFromRecentlyVarLabel">
+		<value condition="Skin.HasSetting(HideWatchedMoviesFromRecently)">$LOCALIZE[20382] $LOCALIZE[1397] [LOWERCASE]$LOCALIZE[16101][/LOWERCASE]</value>
+		<value>$LOCALIZE[20382]</value>
 	</variable>
 	<variable name="HideWatchedEpisodesFromRecentlyVar">
-		<value condition="Skin.HasSetting(HideWatchedEpisodesFromRecently)">special://skin/playlists/recent_unwatched_episodes.xsp</value>
-		<value>special://skin/playlists/recent_episodes.xsp</value>
+		<value condition="Skin.HasSetting(HideWatchedEpisodesFromRecently)">special://skin/playlists/episodes_recentlyadded_unwatched_friendly.xsp</value>
+		<value>special://skin/playlists/episodes_recentlyadded_friendly.xsp</value>
 	</variable>
 	<variable name="PVRStatusImageVar">
 		<value condition="ListItem.IsRecording">windows/pvr/record.png</value>

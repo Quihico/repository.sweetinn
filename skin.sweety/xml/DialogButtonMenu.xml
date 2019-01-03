@@ -99,19 +99,20 @@
 					</control>
 				</focusedlayout>
 				<content>
-					<item>
+<!--					<item>
 						<label>$LOCALIZE[13012]</label>
 						<icon>special://skin/extras/icons/Power menu/exit.png</icon> 
 						<onclick>Quit()</onclick>
 						<visible>System.ShowExitButton</visible>
-					</item>
+					</item>-->
 					<item>
 						<label>$LOCALIZE[13016]</label>
-						<icon>special://skin/extras/icons/Power menu/powerdown.png</icon> 
+						<icon>special://skin/extras/icons/Power menu/powerdown.png</icon>
+						<onclick>Skin.Reset(WelcomeDone)</onclick>
 						<onclick>Powerdown()</onclick>
 						<visible>System.CanPowerDown</visible>
 					</item>
-					<item>
+<!--					<item>
 						<label>$LOCALIZE[20150]</label>
 						<icon>special://skin/extras/icons/Power menu/shutdowntimer.png</icon> 
 						<onclick>AlarmClock(shutdowntimer,Shutdown())</onclick>
@@ -135,14 +136,15 @@
 						<icon>special://skin/extras/icons/Power menu/suspend.png</icon> 
 						<onclick>Hibernate()</onclick>
 						<visible>System.CanHibernate</visible>
-					</item>
+					</item>-->
 					<item>
 						<label>$LOCALIZE[13013]</label>
 						<icon>special://skin/extras/icons/Power menu/reboot.png</icon>
+						<onclick>Skin.Reset(WelcomeDone)</onclick>
 						<onclick>Reset()</onclick>
 						<visible>System.CanReboot</visible>
 					</item>
-					<item>
+<!--					<item>
 						<label>$LOCALIZE[20126] $INFO[system.profilename]</label>
 						<icon>special://skin/extras/icons/Power menu/logoff.png</icon>
 						<onclick>dialog.close(all,true)</onclick>
@@ -191,12 +193,24 @@
 						<icon>special://skin/extras/icons/Power menu/cancel.png</icon>
 						<onclick>UpdateLibrary(music)</onclick>
 						<visible>Library.IsScanningMusic + Library.HasContent(music)</visible>
+					</item>-->
+					<item>
+						<label>$LOCALIZE[20183]</label>
+						<icon>special://skin/extras/icons/Power menu/reload.png</icon>
+						<onclick>ReloadSkin()</onclick>
 					</item>
-    				<item>
-        				<label>$LOCALIZE[20183]</label>
-        				<icon>special://skin/extras/icons/Power menu/reload.png</icon>
-        				<onclick>ReloadSkin()</onclick>       
-    				</item>
+					<item>
+						<label>AirPlay</label>
+						<icon>AirPlay.png</icon>
+						<onclick>Dialog.Close(All, True)</onclick>
+						<onclick>ActivateWindowAndFocus(ServiceSettings, -97,0, -79,0)</onclick>
+					</item>
+					<item>
+						<label>BlueTooth</label>
+						<icon>BlueTooth.png</icon>
+						<onclick>Dialog.Close(All, True)</onclick>
+						<onclick>RunAddon(service.libreelec.settings)</onclick>
+					</item>
 				</content>
 			</control>
 		</control>
@@ -296,19 +310,20 @@
 					</control>
 				</focusedlayout>
 				<content>
-					<item>
+<!--					<item>
 						<label>$LOCALIZE[13012]</label>
 						<icon>special://skin/extras/icons/Power menu/exit.png</icon> 
 						<onclick>Quit()</onclick>
 						<visible>System.ShowExitButton</visible>
-					</item>
+					</item>-->
 					<item>
 						<label>$LOCALIZE[13016]</label>
-						<icon>special://skin/extras/icons/Power menu/powerdown.png</icon> 
+						<icon>special://skin/extras/icons/Power menu/powerdown.png</icon>
+						<onclick>Skin.Reset(WelcomeDone)</onclick>
 						<onclick>Powerdown()</onclick>
 						<visible>System.CanPowerDown</visible>
 					</item>
-					<item>
+<!--					<item>
 						<label>$LOCALIZE[20150]</label>
 						<icon>special://skin/extras/icons/Power menu/shutdowntimer.png</icon> 
 						<onclick>AlarmClock(shutdowntimer,Shutdown())</onclick>
@@ -332,14 +347,15 @@
 						<icon>special://skin/extras/icons/Power menu/suspend.png</icon> 
 						<onclick>Hibernate()</onclick>
 						<visible>System.CanHibernate</visible>
-					</item>
+					</item>-->
 					<item>
 						<label>$LOCALIZE[13013]</label>
 						<icon>special://skin/extras/icons/Power menu/reboot.png</icon>
+						<onclick>Skin.Reset(WelcomeDone)</onclick>
 						<onclick>Reset()</onclick>
 						<visible>System.CanReboot</visible>
 					</item>
-					<item>
+<!--					<item>
 						<label>$LOCALIZE[20126] $INFO[system.profilename]</label>
 						<icon>special://skin/extras/icons/Power menu/logoff.png</icon>
 						<onclick>dialog.close(all,true)</onclick>
@@ -388,12 +404,24 @@
 						<icon>special://skin/extras/icons/Power menu/cancel.png</icon>
 						<onclick>UpdateLibrary(music)</onclick>
 						<visible>Library.IsScanningMusic + Library.HasContent(music)</visible>
+					</item>-->
+					<item>
+						<label>$LOCALIZE[20183]</label>
+						<icon>special://skin/extras/icons/Power menu/reload.png</icon>
+						<onclick>ReloadSkin()</onclick>
 					</item>
-    				<item>
-        				<label>$LOCALIZE[20183]</label>
-        				<icon>special://skin/extras/icons/Power menu/reload.png</icon>
-        				<onclick>ReloadSkin()</onclick>       
-    				</item>
+					<item>
+						<label>AirPlay</label>
+						<icon>AirPlay.png</icon>
+						<onclick>Dialog.Close(All, True)</onclick>
+						<onclick>ActivateWindowAndFocus(ServiceSettings, -97,0, -79,0)</onclick>
+					</item>
+					<item>
+						<label>BlueTooth</label>
+						<icon>BlueTooth.png</icon>
+						<onclick>Dialog.Close(All, True)</onclick>
+						<onclick>RunAddon(service.libreelec.settings)</onclick>
+					</item>
 				</content>
 			</control>
 		</control>
@@ -412,19 +440,20 @@
 			<control type="panel" id="9000">
 				<include>ButtonMenuList</include>
 				<content>
-					<item>
+<!--					<item>
 						<label>$LOCALIZE[13012]</label>
 						<icon>special://skin/extras/icons/Power menu/exit.png</icon> 
 						<onclick>Quit()</onclick>
 						<visible>System.ShowExitButton</visible>
-					</item>
+					</item>-->
 					<item>
 						<label>$LOCALIZE[13016]</label>
-						<icon>special://skin/extras/icons/Power menu/powerdown.png</icon> 
+						<icon>special://skin/extras/icons/Power menu/powerdown.png</icon>
+						<onclick>Skin.Reset(WelcomeDone)</onclick>
 						<onclick>Powerdown()</onclick>
 						<visible>System.CanPowerDown</visible>
 					</item>
-					<item>
+<!--					<item>
 						<label>$LOCALIZE[20150]</label>
 						<icon>special://skin/extras/icons/Power menu/shutdowntimer.png</icon> 
 						<onclick>AlarmClock(shutdowntimer,Shutdown())</onclick>
@@ -448,14 +477,15 @@
 						<icon>special://skin/extras/icons/Power menu/suspend.png</icon> 
 						<onclick>Hibernate()</onclick>
 						<visible>System.CanHibernate</visible>
-					</item>
+					</item>-->
 					<item>
 						<label>$LOCALIZE[13013]</label>
 						<icon>special://skin/extras/icons/Power menu/reboot.png</icon>
+						<onclick>Skin.Reset(WelcomeDone)</onclick>
 						<onclick>Reset()</onclick>
 						<visible>System.CanReboot</visible>
 					</item>
-					<item>
+<!--					<item>
 						<label>$LOCALIZE[20126] $INFO[system.profilename]</label>
 						<icon>special://skin/extras/icons/Power menu/logoff.png</icon>
 						<onclick>dialog.close(all,true)</onclick>
@@ -504,12 +534,24 @@
 						<icon>special://skin/extras/icons/Power menu/cancel.png</icon>
 						<onclick>UpdateLibrary(music)</onclick>
 						<visible>Library.IsScanningMusic + Library.HasContent(music)</visible>
+					</item>-->
+					<item>
+						<label>$LOCALIZE[20183]</label>
+						<icon>special://skin/extras/icons/Power menu/reload.png</icon>
+						<onclick>ReloadSkin()</onclick>
 					</item>
-    				<item>
-        				<label>$LOCALIZE[20183]</label>
-        				<icon>special://skin/extras/icons/Power menu/reload.png</icon>
-        				<onclick>ReloadSkin()</onclick>       
-    				</item>
+					<item>
+						<label>AirPlay</label>
+						<icon>AirPlay.png</icon>
+						<onclick>Dialog.Close(All, True)</onclick>
+						<onclick>ActivateWindowAndFocus(ServiceSettings, -97,0, -79,0)</onclick>
+					</item>
+					<item>
+						<label>BlueTooth</label>
+						<icon>BlueTooth.png</icon>
+						<onclick>Dialog.Close(All, True)</onclick>
+						<onclick>RunAddon(service.libreelec.settings)</onclick>
+					</item>
 				</content>
 			</control>
 		</control>

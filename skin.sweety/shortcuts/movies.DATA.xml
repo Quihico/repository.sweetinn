@@ -7,16 +7,16 @@
         <action>ActivateWindow(Videos,videodb://recentlyaddedmovies/,return)</action>
     </shortcut>
     <shortcut>
-        <label>10024</label>
-        <label2>Common Shortcut</label2>
-        <icon>DefaultMovieTitle.png</icon>
-        <action>ActivateWindow(Videos,videodb://movies/titles/,return)</action>
-    </shortcut>
-    <shortcut>
         <label>20434</label>
         <label2>Common Shortcut</label2>
         <icon>DefaultSets.png</icon>
         <action>ActivateWindow(Videos,videodb://movies/sets/,return)</action>
+    </shortcut>
+    <shortcut>
+        <label>10024</label>
+        <label2>Common Shortcut</label2>
+        <icon>DefaultMovieTitle.png</icon>
+        <action>ActivateWindow(Videos,videodb://movies/titles/,return)</action>
     </shortcut>
     <shortcut>
         <label>652</label>
@@ -60,7 +60,7 @@
         <icon>DefaultTags.png</icon>
         <action>ActivateWindow(Videos,videodb://movies/tags/,return)</action>
     </shortcut>
-    <shortcut>
+<!--    <shortcut>
         <label>20314</label>
         <label2>Common Shortcut</label2>
         <icon>LibrarySettings.png</icon>
@@ -72,4 +72,10 @@
         <icon>$VAR[VideoLibraryScanIcon]</icon>
         <action>UpdateLibrary(video)</action>
     </shortcut>
+    <shortcut>
+        <label>14247</label>
+        <label2>Common Shortcut</label2>
+        <icon>CleanVideoLibrary.png</icon>
+        <action>CleanLibrary(video)</action>
+    </shortcut>-->
 </shortcuts>

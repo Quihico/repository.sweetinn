@@ -6439,6 +6439,7 @@
 		<param name="icon">$INFO[ListItem.Icon]</param>
 		<param name="label">$INFO[ListItem.Label]</param>
 		<param name="label2">$INFO[ListItem.Title]</param>
+		<param name="Description">$INFO[ListItem.Plot]</param>
 		<definition>
 			<include content="CategoryLabel">
 				<param name="label">$PARAM[widget_header]</param>
@@ -6488,7 +6489,7 @@
 							<visible>!Skin.HasSetting(show_borders)</visible>
 						</control>
 						<control type="image">
-							<top>43</top>
+							<top>-20</top>
 							<left>38</left>
 							<width>245</width>
 							<height>200</height>
@@ -6496,29 +6497,46 @@
 							<aspectratio>keep</aspectratio>
 							<animation effect="slide" end="0,27" time="0" condition="[!Skin.HasSetting(HideWidgetLabels) + Window.IsVisible(Home)]">Conditional</animation>
 						</control>
-						<control type="label">
-							<left>42</left>
-							<top>247</top>
+						<control type="image">
+							<left>38</left>
+							<top>38</top>
 							<width>245</width>
-							<height>70</height>
-							<label>$PARAM[label]</label>
-							<font>font12</font>
-							<shadowcolor>text_shadow</shadowcolor>
-							<align>center</align>
-							<aligny>top</aligny>
-							<visible>![!Skin.HasSetting(HideWidgetLabels) + Window.IsVisible(Home)]</visible>
+							<height>30</height>
+							<texture>dialogs/dialog-bg-nobo.png</texture>
 						</control>
 						<control type="label">
 							<left>42</left>
-							<top>277</top>
+							<top>35</top>
+							<width>245</width>
+							<height>65</height>
+							<label>$PARAM[label]</label>
+							<font>font13</font>
+							<shadowcolor>text_shadow</shadowcolor>
+							<align>center</align>
+							<scroll>true</scroll>
+							<aligny>top</aligny>
+						</control>
+						<control type="label">
+							<left>42</left>
+							<top>180</top>
 							<width>245</width>
 							<height>65</height>
 							<label>$PARAM[label2]</label>
+							<font>font13</font>
+							<shadowcolor>text_shadow</shadowcolor>
+							<align>center</align>
+							<aligny>top</aligny>
+						</control>
+						<control type="textbox">
+							<left>42</left>
+							<top>210</top>
+							<width>245</width>
+							<height>105</height>
+							<label>$PARAM[Description]</label>
 							<font>font12</font>
 							<shadowcolor>text_shadow</shadowcolor>
 							<align>center</align>
 							<aligny>top</aligny>
-							<visible>![!Skin.HasSetting(HideWidgetLabels) + Window.IsVisible(Home)]</visible>
 						</control>
 						<control type="image">
 							<left>260</left>
@@ -6600,7 +6618,7 @@
 							<visible>Skin.HasSetting(EnableGradientColor)</visible>
 						</control>
 						<control type="image">
-							<top>43</top>
+							<top>-20</top>
 							<left>38</left>
 							<width>245</width>
 							<height>200</height>
@@ -6608,31 +6626,46 @@
 							<aspectratio>keep</aspectratio>
 							<animation effect="slide" end="0,27" time="0" condition="[!Skin.HasSetting(HideWidgetLabels) + Window.IsVisible(Home)]">Conditional</animation>
 						</control>
-						<control type="label">
-							<left>42</left>
-							<top>247</top>
+						<control type="image">
+							<left>38</left>
+							<top>38</top>
 							<width>245</width>
-							<height>70</height>
-							<label>$PARAM[label]</label>
-							<font>font12</font>
-							<shadowcolor>text_shadow</shadowcolor>
-							<align>center</align>
-							<scroll>true</scroll>
-							<aligny>top</aligny>
-							<visible>![!Skin.HasSetting(HideWidgetLabels) + Window.IsVisible(Home)]</visible>
+							<height>30</height>
+							<texture>dialogs/dialog-bg-nobo.png</texture>
 						</control>
 						<control type="label">
 							<left>42</left>
-							<top>277</top>
+							<top>35</top>
 							<width>245</width>
 							<height>65</height>
-							<label>$PARAM[label2]</label>
-							<font>font12</font>
+							<label>$PARAM[label]</label>
+							<font>font13</font>
 							<shadowcolor>text_shadow</shadowcolor>
 							<align>center</align>
 							<scroll>true</scroll>
 							<aligny>top</aligny>
-							<visible>![!Skin.HasSetting(HideWidgetLabels) + Window.IsVisible(Home)]</visible>
+						</control>
+						<control type="label">
+							<left>42</left>
+							<top>180</top>
+							<width>245</width>
+							<height>65</height>
+							<label>$PARAM[label2]</label>
+							<font>font13</font>
+							<shadowcolor>text_shadow</shadowcolor>
+							<align>center</align>
+							<aligny>top</aligny>
+						</control>
+						<control type="textbox">
+							<left>42</left>
+							<top>210</top>
+							<width>245</width>
+							<height>105</height>
+							<label>$PARAM[Description]</label>
+							<font>font12</font>
+							<shadowcolor>text_shadow</shadowcolor>
+							<align>center</align>
+							<aligny>top</aligny>
 						</control>
 						<control type="image">
 							<left>260</left>

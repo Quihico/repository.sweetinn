@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <shortcuts>
-    <shortcut>
+<!--    <shortcut>
         <label>19019</label>
         <label2>Common Shortcut</label2>
         <icon>DefaultAddonPeripheral.png</icon>
@@ -35,5 +35,5 @@
         <label2>Common Shortcut</label2>
         <icon>DefaultAddonsSearch.png</icon>
         <action>ActivateWindow(TVSearch)</action>
-    </shortcut>
+    </shortcut>-->
 </shortcuts>

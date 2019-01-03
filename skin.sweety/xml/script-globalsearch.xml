@@ -496,13 +496,6 @@
 				<texture colordiffuse="$VAR[SkinColorVar]">icons/logo.png</texture>
 			</control>
 			<control type="image">
-				<aspectratio>keep</aspectratio>
-				<width>56</width>
-				<height>56</height>
-				<texture colordiffuse="$VAR[GradientColorVar]">icons/logo-gradient.png</texture>
-				<visible>Skin.HasSetting(EnableGradientColor)</visible>
-			</control>
-			<control type="image">
 				<left>80</left>
 				<top>17</top>
 				<aspectratio>keep</aspectratio>

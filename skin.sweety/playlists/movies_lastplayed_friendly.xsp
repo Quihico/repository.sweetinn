@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<smartplaylist type="movies">
+	<name>Friendly, last played movies</name>
+	<match>all</match>
+	<rule field="playcount" operator="greaterthan">
+		<value>0</value>
+	</rule>
+	<rule field="genre" operator="doesnotcontain">
+		<value>Horror</value>
+		<value>Thriller</value>
+	</rule>
+	<order direction="descending">lastplayed</order>
+	<limit>20</limit>
+</smartplaylist>

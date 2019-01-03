@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<smartplaylist type="movies">
+	<name>Friendly, recently added movies</name>
+	<match>all</match>
+	<rule field="genre" operator="doesnotcontain">
+		<value>Horror</value>
+		<value>Thriller</value>
+	</rule>
+	<order direction="descending">dateadded</order>
+	<limit>20</limit>
+</smartplaylist>

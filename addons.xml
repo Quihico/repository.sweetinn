@@ -176,7 +176,7 @@
 	</extension>
 </addon>
 
-<addon id="skin.sweety" version="0.0.2" name="Sweety" provider-name="InnKeeper">
+<addon id="skin.sweety" version="0.0.3" name="Sweety" provider-name="InnKeeper">
 	<requires>
 		<import addon="xbmc.gui" version="5.14.0"/>
 		<import addon="script.skinshortcuts" version="0.6.5"/>

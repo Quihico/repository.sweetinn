@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<smartplaylist type="tvshows">
+	<name>Recently added TV shows</name>
+	<match>all</match>
+	<order direction="descending">dateadded</order>
+	<limit>20</limit>
+</smartplaylist>

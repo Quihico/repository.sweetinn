@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<smartplaylist type="movies">
+	<name>Unwatched movie sets</name>
+	<match>all</match>
+	<rule field="set" operator="contains">
+		<value>a</value>
+		<value>b</value>
+		<value>c</value>
+		<value>d</value>
+		<value>e</value>
+		<value>f</value>
+		<value>g</value>
+		<value>h</value>
+		<value>i</value>
+		<value>j</value>
+		<value>k</value>
+		<value>l</value>
+		<value>m</value>
+		<value>n</value>
+		<value>o</value>
+		<value>p</value>
+		<value>q</value>
+		<value>r</value>
+		<value>s</value>
+		<value>t</value>
+		<value>u</value>
+		<value>v</value>
+		<value>w</value>
+		<value>x</value>
+		<value>y</value>
+		<value>z</value>
+	</rule>
+	<rule field="playcount" operator="lessthan">
+		<value>1</value>
+	</rule>
+	<group>sets</group>
+</smartplaylist>
