@@ -147,6 +147,7 @@
                     <icon>common/shutdown1.png</icon>
                     <visible>System.CanPowerDown + Window.IsActive(loginscreen)</visible>
                     <onclick condition="Window.IsActive(shutdownmenu)">Close</onclick>
+                    <onclick>Skin.Reset(WelcomeDone)</onclick>
                     <onclick>PowerDown</onclick>
                 </item>
                 <item id="999">
@@ -154,7 +155,26 @@
                     <icon>common/reboot1.png</icon>
                     <visible>System.CanReboot + Window.IsActive(loginscreen)</visible>
                     <onclick condition="Window.IsActive(shutdownmenu)">Close</onclick>
+                    <onclick>Skin.Reset(WelcomeDone)</onclick>
                     <onclick>Reboot</onclick>
+                </item>
+                <item id="994">
+                    <label>AirPlay</label>
+                    <icon>common/airplay1.png</icon>
+                    <onclick>Dialog.Close(All, True)</onclick>
+                    <onclick>ActivateWindowAndFocus(ServiceSettings, -97,0, -79,0)</onclick>
+                </item>
+                <item id="995">
+                    <label>BleuTooth</label>
+                    <icon>common/bleutooth1.png</icon>
+                    <onclick>Dialog.Close(All, True)</onclick>
+                    <onclick>RunAddon(service.libreelec.settings)</onclick>
+                </item>
+                <item id="996">
+                    <label>SkinSwitch</label>
+                    <icon>common/switch1.png</icon>
+                    <onclick>Dialog.Close(All, True)</onclick>
+                    <onclick>RunPlugin(plugin://plugin.video.metalliq/toggle/skin)</onclick>
                 </item>
             </content>
         </control>

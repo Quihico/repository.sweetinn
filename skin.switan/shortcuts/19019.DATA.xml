@@ -5,7 +5,7 @@
 		<label2>$LOCALIZE[19141]</label2>
 		<icon>resource://resource.images.skinicons.wide/playlists.png</icon>
 		<thumb />
-		<action>ActivateWindow(10025,plugin://plugin.program.super.favourites/?folder=Groups/Arabic,return)</action>
+		<action>ActivateWindow(tvchannels,pvr://channels/tv/Arabic/)</action>
 	</shortcut>
 	<shortcut>
 		<defaultID>resource.language.ca_es</defaultID>
@@ -13,7 +13,7 @@
 		<label2>$LOCALIZE[19141]</label2>
 		<icon>resource://resource.images.skinicons.wide/playlists.png</icon>
 		<thumb />
-		<action>ActivateWindow(10025,plugin://plugin.program.super.favourites/?folder=Groups/Catalan,return)</action>
+		<action>ActivateWindow(tvchannels,pvr://channels/tv/Catalan/)</action>
 	</shortcut>
 	<shortcut>
 		<defaultID>resource.language.zh_cn</defaultID>

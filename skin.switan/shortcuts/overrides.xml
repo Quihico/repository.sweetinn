@@ -243,10 +243,10 @@
     <widget label="$INFO[System.AddonTitle(plugin.service.gto)]" name="$INFO[System.AddonTitle(plugin.service.gto)]" condition="System.HasAddon(plugin.service.gto)" type="pvr" target="pvr" path="plugin://plugin.service.gto?action=getcontent&amp;ts=$INFO[Window(Home).Property(GTO.timestamp)]">gto</widget>
 
 	<!-- default widgets -->
-	<widgetdefaultnode defaultID="movies" group="mainmenu" label="$LOCALIZE[342] - $LOCALIZE[271]" type="movies" path="special://skin/extras/moviestopratedandunwatched.xsp" target="video">top100movies</widgetdefaultnode>
-	<widgetdefaultnode defaultID="tvshows" group="mainmenu" label="$LOCALIZE[20343] - $LOCALIZE[271]" type="tvshows" path="special://skin/extras/tvshowstopratedandunwatched.xsp" target="video">top100tvshows</widgetdefaultnode>
+	<widgetdefaultnode defaultID="movies" group="mainmenu" label="$LOCALIZE[342] - $LOCALIZE[271]" type="movies" path="special://skin/extras/moviestopratedandunwatchedfriendly.xsp" target="video">top100movies</widgetdefaultnode>
+	<widgetdefaultnode defaultID="tvshows" group="mainmenu" label="$LOCALIZE[20343] - $LOCALIZE[271]" type="tvshows" path="special://skin/extras/tvshowstopratedandunwatchedfriendly.xsp" target="video">top100tvshows</widgetdefaultnode>
 	<widgetdefaultnode defaultID="music" group="mainmenu" label="$LOCALIZE[359]" type="albums" path="plugin://script.skin.helper.widgets/?action=recent&amp;mediatype=albums&amp;limit=25&amp;reload=$INFO[Window(Home).Property(widgetreload-music)]" target="music">recentalbums</widgetdefaultnode>
-	<widgetdefaultnode defaultID="musicvideos" group="mainmenu" label="$LOCALIZE[20389] - $LOCALIZE[20382]" type="musicvideos" path="special://skin/extras/musicvideosrecentlyaddedandunwatched.xsp" target="video">recentmusicvideos</widgetdefaultnode>
+	<widgetdefaultnode defaultID="musicvideos" group="mainmenu" label="$LOCALIZE[20389] - $LOCALIZE[20382]" type="musicvideos" path="special://skin/extras/musicvideosrecentlyaddedandunwatchedfriendly.xsp" target="video">recentmusicvideos</widgetdefaultnode>
 	<widgetdefaultnode defaultID="livetv" group="mainmenu" label="$LOCALIZE[14301] - $LOCALIZE[19146]" type="channels" path="plugin://plugin.program.super.favourites/?folder=Groups" target="video">channelgroups</widgetdefaultnode>
 	<widgetdefaultnode defaultID="weather" group="mainmenu" label="$LOCALIZE[8]" type="static" path="$INCLUDE[WeatherWidget]" target="static">weather</widgetdefaultnode>
 	<widgetdefaultnode defaultID="settings" group="mainmenu" label="$LOCALIZE[130]" type="static" path="$INCLUDE[SystemInfoWidget]" target="static">systeminfo</widgetdefaultnode>
@@ -255,20 +255,20 @@
     <propertydefault defaultID="movies" property="widget.1">recentmovies</propertydefault>
     <propertydefault defaultID="movies" property="widgetTarget.1">video</propertydefault>
     <propertydefault defaultID="movies" property="widgetType.1">movies</propertydefault>
-    <propertydefault defaultID="movies" property="widgetPath.1">special://skin/extras/moviesrecentlyaddedandunwatched.xsp</propertydefault>
+    <propertydefault defaultID="movies" property="widgetPath.1">special://skin/extras/moviesrecentlyaddedandunwatchedfriendly.xsp</propertydefault>
     <propertydefault defaultID="movies" property="widgetName.1">$LOCALIZE[342] - $LOCALIZE[20382]</propertydefault>
     
     <propertydefault defaultID="tvshows" property="widget.1">recentepisodes</propertydefault>
     <propertydefault defaultID="tvshows" property="widgetTarget.1">video</propertydefault>
     <propertydefault defaultID="tvshows" property="widgetType.1">episodes</propertydefault>
-    <propertydefault defaultID="tvshows" property="widgetPath.1">special://skin/extras/episodesrecentlyaddedandunwatched.xsp</propertydefault>
+    <propertydefault defaultID="tvshows" property="widgetPath.1">special://skin/extras/episodesrecentlyaddedandunwatchedfriendly.xsp</propertydefault>
     <propertydefault defaultID="tvshows" property="widgetName.1">$LOCALIZE[20360] - $LOCALIZE[20382]</propertydefault>
     
     <propertydefault defaultID="musicvideos" property="widget.1">lastplayedmusicvideos</propertydefault>
     <propertydefault defaultID="musicvideos" property="widgetTarget.1">video</propertydefault>
     <propertydefault defaultID="musicvideos" property="widgetType.1">musicvideos</propertydefault>
-    <propertydefault defaultID="musicvideos" property="widgetPath.1">special://skin/extras/musicvideoslastplayed.xsp</propertydefault>
-    <propertydefault defaultID="musicvideos" property="widgetName.1">$LOCALIZE[20389] - $LOCALIZE[568]</propertydefault>
+    <propertydefault defaultID="musicvideos" property="widgetPath.1">special://skin/extras/musicvideosrandomandunwatchedfriendly.xsp</propertydefault>
+    <propertydefault defaultID="musicvideos" property="widgetName.1">$LOCALIZE[20389] - $LOCALIZE[590]</propertydefault>
     
     <propertydefault defaultID="music" property="widget.1">recentsongs</propertydefault>
     <propertydefault defaultID="music" property="widgetTarget.1">music</propertydefault>
@@ -286,13 +286,13 @@
     <propertydefault defaultID="movies" property="widget.99">randommovies</propertydefault>
     <propertydefault defaultID="movies" property="widgetTarget.99">video</propertydefault>
     <propertydefault defaultID="movies" property="widgetType.99">movies</propertydefault>
-    <propertydefault defaultID="movies" property="widgetPath.99">special://skin/extras/moviesrandomandunwatched.xsp</propertydefault>
+    <propertydefault defaultID="movies" property="widgetPath.99">special://skin/extras/moviesrandomandunwatchedfriendly.xsp</propertydefault>
     <propertydefault defaultID="movies" property="widgetName.99">$LOCALIZE[342] - Spotlight</propertydefault>
     
     <propertydefault defaultID="tvshows" property="widget.99">randomtvshows</propertydefault>
     <propertydefault defaultID="tvshows" property="widgetTarget.99">video</propertydefault>
     <propertydefault defaultID="tvshows" property="widgetType.99">tvshows</propertydefault>
-    <propertydefault defaultID="tvshows" property="widgetPath.99">special://skin/extras/tvshowsrandomandunwatched.xsp</propertydefault>
+    <propertydefault defaultID="tvshows" property="widgetPath.99">special://skin/extras/tvshowsrandomandunwatchedfriendly.xsp</propertydefault>
     <propertydefault defaultID="tvshows" property="widgetName.99">$LOCALIZE[20343] - Spotlight</propertydefault>
     
     <!-- widget style -->

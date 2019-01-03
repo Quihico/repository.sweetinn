@@ -200,6 +200,12 @@
 						<onclick>ReloadSkin()</onclick>
 					</item>
 					<item>
+						<label>Switch skins</label>
+						<icon>Switch.png</icon>
+						<onclick>Dialog.Close(All, True)</onclick>
+						<onclick>RunPlugin(plugin://plugin.video.metalliq/toggle/skin)</onclick>
+					</item>
+					<item>
 						<label>AirPlay</label>
 						<icon>AirPlay.png</icon>
 						<onclick>Dialog.Close(All, True)</onclick>
