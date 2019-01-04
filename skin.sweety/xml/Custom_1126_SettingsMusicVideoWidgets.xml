@@ -25,19 +25,19 @@
 					<ondown>11100</ondown>
 					<orientation>vertical</orientation>
 					<control type="radiobutton" id="11111">
-						<label>$LOCALIZE[40097] : $LOCALIZE[31148]</label>
+						<label>$LOCALIZE[40097] : $LOCALIZE[14022]</label>
 						<include>DefaultSettingButton</include>
 						<selected>Skin.HasSetting(hide_musicvideocategory)</selected>
 						<onclick>Skin.ToggleSetting(hide_musicvideocategory)</onclick>
 					</control>
 					<control type="radiobutton" id="11112">
-						<label>$LOCALIZE[40097] : $LOCALIZE[20390]</label>
+						<label>$LOCALIZE[40097] : $LOCALIZE[20382]</label>
 						<include>DefaultSettingButton</include>
 						<selected>Skin.HasSetting(hide_recentlyaddedmusicvideos)</selected>
 						<onclick>Skin.ToggleSetting(hide_recentlyaddedmusicvideos)</onclick>
 					</control>
 					<control type="radiobutton" id="11113">
-						<label>$LOCALIZE[40097] : $LOCALIZE[31151]</label>
+						<label>$LOCALIZE[40097] : $LOCALIZE[16101]</label>
 						<include>DefaultSettingButton</include>
 						<selected>Skin.HasSetting(hide_unwatchedmusicvideos)</selected>
 						<onclick>Skin.ToggleSetting(hide_unwatchedmusicvideos)</onclick>
@@ -49,7 +49,7 @@
 						<onclick>Skin.ToggleSetting(hide_mostplayemusicvideos)</onclick>
 					</control>
 					<control type="radiobutton" id="11115">
-						<label>$LOCALIZE[40097] : $LOCALIZE[31013]</label>
+						<label>$LOCALIZE[40097] : $LOCALIZE[590]</label>
 						<include>DefaultSettingButton</include>
 						<selected>Skin.HasSetting(hide_randommusicvideoartists)</selected>
 						<onclick>Skin.ToggleSetting(hide_randommusicvideoartists)</onclick>
@@ -65,7 +65,7 @@
 						<include>DefaultSettingButton</include>
 						<selected>Skin.HasSetting(hide_musicvideostudios)</selected>
 						<onclick>Skin.ToggleSetting(hide_musicvideostudios)</onclick>
-					</control>		
+					</control>
 				</control>
 			</control>
 		</control>
